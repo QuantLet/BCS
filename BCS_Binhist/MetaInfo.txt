@@ -1,0 +1,15 @@
+
+Name of Quantlet: 'BCS_Binhist'
+
+Published in: 'Basic Elements of Computational Statistics'
+
+Description: 'Probability Mass Function of the binomial distribution with
+              number of trials n = 10 and probability of success p = 0.2'
+
+Keywords: 'probability mass function, binomial'
+
+Author: 'Johannes Haupt'
+
+Submitted: '2016-01-28, Christoph Schult'
+
+Output: 'Diagram of the probability mass function.'
