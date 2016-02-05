@@ -9,9 +9,9 @@ Description:            'Two plots of the probability functions of the hypergeom
                          for sample sizes much smaller than population size. In that case, the binomial
                          distribution can be used to approximate the hypergeometric distribution.'
 
-Keywords:               'pdf, binomial, hypergeometric'
+Keywords:               'approximation, binomial, distribution, plot, visualization'
 
-See also:               'BCSbincdf.r, BCSbinpdfnp.r'
+See also:               'BCS_Bincdf, BCS_Binhist, BCS_Binompdf'
 
 Author:                 'Johannes Haupt'
 

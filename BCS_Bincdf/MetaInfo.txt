@@ -7,7 +7,9 @@ Description:             'Graphic of the binomial cumulative distribution functi
                           with observations n = 10 and two different probabilities for the event,
                           p = 0.2 (black) and p = 0.6 (red).'
  
-Keywords:                'BCSbinhist.r, discrete, distribution, plot, visualization'
+Keywords:                'binomial, cdf, distribution, plot, visualization'
+
+See also:                'BCS_Binhist, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf
 
 Author:                  'Johannes Haupt'
          

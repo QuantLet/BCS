@@ -9,7 +9,8 @@ Description:           'Bar diagram and plot of relative frequencies of the R da
                         over time.'
   
 Keywords:              'data visualization, distribution, graphical representation, plot, visualization'
-  
+     
+See also:              'BCS_Barp, BCS_Boxplot, BCS_Boxplot2, BCS_ECDF, BCS_Hist1, BCS_Hist2'
 
 Author:                'Gunawan'
 

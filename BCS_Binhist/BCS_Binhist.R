@@ -7,6 +7,7 @@ par(cex=1.3, mar=c(5, 4, 4, 2) + 0.3)
          x = 0:n
          p = dbinom(x,n,p)
    names(p)= as.character(0:n)
+   
    barplot(p, space = 0, ylim = c(0,0.35),
            xlim = c(0,n), lwd = 2,col = "grey",
            xlab = "x", ylab = "Probability")
