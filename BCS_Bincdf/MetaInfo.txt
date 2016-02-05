@@ -1,17 +1,17 @@
 
-Name of Quantlet: 'BCS_Bincdf'
+Name of Quantlet:        'BCS_Bincdf'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:            'Basic Elements of Computational Statistics'
+   
+Description:             'Graphic of the binomial cumulative distribution function
+                          with observations n = 10 and two different probabilities for the event,
+                          p = 0.2 (black) and p = 0.6 (red).'
+ 
+Keywords:                'BCSbinhist.r, discrete, distribution, plot, visualization'
 
-Description: 'Graphic of the binomial cumulative distribution function
-              with observations n = 10 and two different probabilities for the event,
-              p = 0.2 (black) and p = 0.6 (red).'
+Author:                  'Johannes Haupt'
+         
 
-Keywords: 'BCSbinhist.r'
+Submitted:               '2016-01-28, Christoph Schult'
 
-Author: 'Johannes Haupt
-         '
-
-Submitted: '2016-01-28, Christoph Schult'
-
-Output: 'Graphic of the binomial cdf with n = 10, p = 0.2 (black) and p = 0.6 (red)'
+Output:                  'Graphic of the binomial cdf with n = 10, p = 0.2 (black) and p = 0.6 (red)'

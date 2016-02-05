@@ -1,17 +1,19 @@
 
-Name of Quantlet: 'BCS_BarGraphs'
+Name of Quantlet:      'BCS_BarGraphs'
+ 
+Published in:          'Basic Elements of Computational Statistics'
 
-Published in: 'Basic Elements of Computational Statistics'
+Description:           'Bar diagram and plot of relative frequencies of the R data subset
+                       "chickwts$feed". It is an efficient way of plotting the frequencies of
+                        discreet variables, particularly useful to illustrate the behaviour (variation)
+                        over time.'
+  
+Keywords:              'data visualization, distribution, graphical representation, plot, visualization'
+  
 
-Description: 'Bar diagram and plot of relative frequencies of the R data subset
-              "chickwts$feed". It is an efficient way of plotting the frequencies of
-              discreet variables, particularly useful to illustrate the behaviour (variation)
-              over time.'
+Author:                'Gunawan'
 
-Keywords: ''
+Submitted:             '2016-01-28, Christoph Schult'
+     
+Output:                'Bar diagram and plot of chickwts in .pdf format.'
 
-Author: 'Gunawan'
-
-Submitted: '2016-01-28, Christoph Schult'
-
-Output: 'Bar diagram and plot of chickwts in .pdf format.'
