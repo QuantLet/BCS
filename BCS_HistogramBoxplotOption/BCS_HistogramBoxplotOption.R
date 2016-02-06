@@ -7,10 +7,10 @@ attach(trees)
 
 # Define action function that is later called by the control panel
 data.plotfn = function(panel){
-if (panel$plot.type == "histogram")     # if the variable plot.type equals "histogram"
-hist(panel$y)                           # then plot histogram of the variable panel$y
-else if (panel$plot.type == "boxplot")  # if the variable plot.type equals "boxplot"
-boxplot(panel$y)                        # plot boxplot of the variable panel$y
+if (panel$plot.type == "histogram")     
+hist(panel$y)                           
+else if (panel$plot.type == "boxplot")  
+boxplot(panel$y)                        
 panel
 }
 

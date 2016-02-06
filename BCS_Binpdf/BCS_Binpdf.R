@@ -27,7 +27,7 @@ n = 10
 s = 0:n
 p = 0.1
 f = dbinom(x = s, n, p)
-plot(s, f, type = "h", main = "n=10   p=0.1", xlab = "x", ylab = Pr"ob.")
+plot(s, f, type = "h", main = "n=10   p=0.1", xlab = "x", ylab = "Prob.")
 
 n = 10
 s = 0:n
