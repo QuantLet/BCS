@@ -1,0 +1,19 @@
+
+Name of Quantlet: 'BCS_Conf1Sidedleft'
+
+Published in: 'Basic Elements of Computational Statistics'
+
+Description: 'Graphic of a normal distribution N(0,1) with a right-tailed
+              (1-alpha)-confidence interval'
+
+Keywords: 'normal distribution, visualization, testing, confidence interval, plot'
+
+See also: ''
+
+Author: 'Gunawan'
+
+Submitted: '2016-01-28, Christoph Schult'
+
+Input: ''
+
+Output: 'Graphic of a normal distribution function in .pdf format.'
