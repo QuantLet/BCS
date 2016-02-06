@@ -1,0 +1,25 @@
+
+Name of Quantlet: 'BCS_FourDimensional'
+
+Published in: 'Basic Elements of Computational Statistics'
+
+Description: 'The datset barley contains yield data from Minnesota. Average
+              yield is plotted depnding on where it is planted (site) and
+              which variety is used. The third conditioning variable is time
+              creating two panels. Higher average yield is associated with
+              greater and lighter rectangles. Therefore four variables are
+              illustrated in one graph (yield, time, variety, site).'
+
+Keywords: 'trellis,lattice,rgl,four dimensional,plot,conditional,variable,
+           conditional variable,4D plot,factor,variable
+           '
+
+See also: ''
+
+Author: 'Polina Marchenko'
+
+Submitted: '2016-01-28, Christoph Schult'
+
+
+Output: 'One plot for the dataset barley with time, variety and site as
+         conditioning variables.'
