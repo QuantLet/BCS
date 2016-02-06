@@ -1,0 +1,25 @@
+
+Name of Quantlet: 'BCS_NormPdfCdf'
+
+Published in: 'Basic Computational Statistics'
+
+Description: 'The normal distribution is very often applied in statisitics.
+              It is a stable distribution, which is symmetric around its
+              mean. The standard normal distribution has an expectaion of
+              zero and variance equals one. Higher variance leads to flatter
+              pdfs and cdfs.'
+
+Keywords: 'continuous,standard,univariate,distribution,normal,pdf,cdf,
+           stable,gauss,CLT,gaussian'
+
+See also: 'BCS_StablePdfCdf, BCS_ExpPdfCdf,
+           BCS_StablePdfCdfSpecial, BCS_ChiPdfCdf,
+           BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_tPdfCdf'
+
+Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
+
+Submitted: '2016-01-28, Christoph Schult'
+
+
+Output: 'Plots pdfs and cdfs for normal distribution with different
+         standard deviations and zero expectation.'

@@ -1,0 +1,28 @@
+
+Name of Quantlet: 'BCS_FPdfCdf'
+
+Published in: 'Basic Computational Statistics'
+
+Description: 'The F-distribution, also called the Fisher-Snedecor
+              distribution, is the ratio of two independent chisquared
+              distributed random variables. The degrees of freedom of the
+              numerator and denominatoer determine how the pdf and cdf
+              behave. If n=1 the pdf is monotonically decreasing and the
+              ordinate is the asymptote. For n=2 the pdf intersects the
+              ordinate at 1 and monotically decreases. Only if n>=3 the pdf
+              is assymetrically bell shaped.'
+
+Keywords: 'univariate,distribution,f,pdf,cdf,continuous,analysis,variance
+           ,scale,chisquare,regression'
+
+See also: 'BCS_StablePdfCdf, BCS_ChiPdfCdf,
+           BCS_StablePdfCdfSpecial, BCS_CauchyPdfCdf,
+           BCS_ExpPdfCdf, BCS_Norm_PdfCdf, BCS_tPdfCdf'
+
+Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
+
+Submitted: '2016-01-28, Christoph Schult'
+
+
+Output: 'Plots pdfs and cdfs for F-distribution with different
+         degrees of freedom.'
