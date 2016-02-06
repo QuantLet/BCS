@@ -1,0 +1,16 @@
+
+Name of Quantlet: 'BCS_NPCAbiplot.r'
+
+Published in: 'Basic Elements of Computational Statistics'
+
+Description: 'Perform normal principal component analysis (PCA) on the data "banknotes"
+              from package "ncomplete". Plot that correlation of the NPCs and the originial
+              variable including the unit circle in the plot for reference.'
+
+Keywords: 'principal component analysis, banknotes, correlation, unit circle, plot'           '
+
+Author: 'Anastasija Tetereva'
+
+Submitted: '2016-01-28, Christoph Schult'
+
+Output: 'Plot of the correlation between NPC and original variable on a unit circle.'

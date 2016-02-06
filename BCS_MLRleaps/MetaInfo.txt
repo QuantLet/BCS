@@ -1,0 +1,19 @@
+Name of Quantlet: 'BCS_MLRleap'
+
+Published in: 'Basic Elements of Computational Statistics'
+
+
+Description: 'Perform stepwise regression on all subsets to compare the values
+              of R squared for all combinations of explanatory variables. All combinations
+              with R squared >0.7 are shown in a plot of R squared against subsample size.
+              '
+
+Keywords: 'stepwise regression, R-squared, subsamples, explanatory variables, regression analysis'
+
+Description: 'Perform stepwise regression on all subsets to compare the values
+              of R squared for all combinations of explanatory variables. All combinations
+              with R squared >0.7 are shown in a plot of R squared against subsample size.
+              '
+
+Submitted: '2016-01-28, Christoph Schult'
+Output: 'Plot for R-squared vs. size of subsamples'
