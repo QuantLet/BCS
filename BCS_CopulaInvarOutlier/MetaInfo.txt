@@ -1,0 +1,24 @@
+
+Name of Quantlet: 'BCS_CopulaInvarOutlier'
+
+Published in: 'Basic Elements of Computational Statistics'
+
+Description: 'Two random variables are created. One is normally distributed
+              and one is uniformly distributed. Their correlations are
+              calculated with different methods. Kendall and Spearman's
+              methods are superior to Pearson's correlation measure. Both
+              are less variant due to monotone increasing transformations
+              and outliers.'
+
+Keywords: 'distribution,correlation,extreme,value,multivariate,linear,
+           approximation,uniform,transformation,normal,polynomial'
+
+See also: ''
+
+Author: 'Ostap Okhrin'
+
+Submitted: '2016-01-28, Christoph Schult'
+
+
+Output: 'Two plots for the approximation of a uniformly distributed  rv by
+         a normally distributed rv. One with no outlier and one with outlier.'
