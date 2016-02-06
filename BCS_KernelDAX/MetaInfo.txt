@@ -1,0 +1,22 @@
+
+Name of Quantlet: 'BCS_KernelDAX'
+
+Published in: 'Basic Elements of Computational Statistics'
+
+Description: 'A simple density estimation with the epanechnikov kernel for
+              the DAX log-returns. The plot states the number of obervations
+              N = 1859 and the auto-selected bandwidth, optimally chosen by
+              the function density equal to 0.001645.'
+
+Keywords: 'kernel,bandwidth,weights,density estimation,plot,nonparametric,
+           kernel density estimation,DAX,log-returns,epanechnikov'
+
+See also: ''
+
+Author: 'Christoph Schult'
+
+Submitted: '2016-01-28, Christoph Schult'
+
+
+Output: 'One plot for a kernel density estimation of the DAX log-returns by
+         the density function with the epachenikov kernel.'
