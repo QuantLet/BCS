@@ -1,3 +1,4 @@
+require(stabledist)
 par(mfrow = c(1, 2))
 
 z = seq(-6, 6, length = 300)
@@ -24,4 +25,3 @@ plot(z, pstable(z, n[1], n[2], n[3], n[4], 1), col = "red", type = "l", xlim = c
 lines(z, pstable(z, ch[1], ch[2], ch[3], ch[4], 1), col = "green")
 # Levy cdf
 lines(z, pstable(z, l[1], l[2], l[3], l[4], 1), col = "blue") 
- TRUE

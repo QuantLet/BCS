@@ -18,5 +18,4 @@ contour(norm.2d.cop, pCopula, cex.axis = 1.5, cex.lab = 1.5, xlab = "x", ylab = 
 persp(norm.2d.cop, dCopula, xlab = "x", ylab = "y", zlab = "f(x,y)")
 
 # isodensity lines for the two rv
-contour(norm.2d.cop, dCopula, cex.axis = 1.5, cex.lab = 1.5, xlab = "x", ylab = "y") 
- TRUE
+contour(norm.2d.cop, dCopula, cex.axis = 1.5, cex.lab = 1.5, xlab = "x", ylab = "y")

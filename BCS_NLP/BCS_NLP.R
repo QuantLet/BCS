@@ -42,5 +42,4 @@ wireframe(z ~ x * y, pts = pts, shade = F, aspect = 1, scales = list(col = "blac
         panel.3dscatter(x = pts[length(pts[, 1]), 1], y = pts[length(pts[, 1]), 2], z = pts[length(pts[, 1]), 3], xlim = xlim, 
             ylim = ylim, zlim = zlim, xlim.scaled = xlim.scaled, ylim.scaled = ylim.scaled, zlim.scaled = zlim.scaled, 
             type = "p", pch = 19, col = "blue", cex = 2, .scale = TRUE, ...)
-    }) 
- TRUE
+    })

@@ -72,5 +72,4 @@ contour(copulaX2X3, dMvdc, xlim = c(min(X1, X2), max(X1, X2)), ylim = c(min(X2, 
 
 # plot 9 (empty)
 plot(0, xaxt = "n", yaxt = "n", pch = "", ylab = "", xlab = "", xlim = c(-1, 1), ylim = c(-1, 1))
-text(0, 0, "X3", cex = 2) 
- TRUE
+text(0, 0, "X3", cex = 2)

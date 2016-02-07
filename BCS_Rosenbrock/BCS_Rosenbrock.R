@@ -39,5 +39,4 @@ wireframe(mygrid$z ~ mygrid$x * mygrid$y, pts = pts, aspect = 1, scales = list(c
         panel.3dscatter(x = pts[1], y = pts[2], z = pts[3], xlim = xlim, ylim = ylim, zlim = zlim, xlim.scaled = xlim.scaled, 
             ylim.scaled = ylim.scaled, zlim.scaled = zlim.scaled, type = "p", pch = 19, col = "red", cex = 2, .scale = TRUE, 
             ...)
-    }) 
- TRUE
+    })

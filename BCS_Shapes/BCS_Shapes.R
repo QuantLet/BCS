@@ -33,6 +33,3 @@ aspect3d(1, 1, 1)
 # Spheres
 
 Spheres = rgl.spheres(x = 1, y = 3, z = 3, radius = 1, col = "red3", smooth = T)
-
-# remove(list=ls()) 
- TRUE

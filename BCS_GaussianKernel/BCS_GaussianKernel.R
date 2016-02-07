@@ -19,5 +19,4 @@ plot(r.ftse, r.dax, xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), xlab = "FTSE l
     col = rgb(0.1, 0.8, 0.9, alpha = 0.7))
 lines(np.reg.b1, col = "red", lwd = 2)  # regression line with h = 0.1
 lines(np.reg.b2, col = "green", lwd = 2)  # regression line with h = 1/n
-lines(np.reg.b3, col = "blue", lwd = 2)  # regression line with h = 1/n^0.5 
- TRUE
+lines(np.reg.b3, col = "blue", lwd = 2)  # regression line with h = 1/n^0.5

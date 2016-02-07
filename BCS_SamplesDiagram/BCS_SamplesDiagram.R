@@ -23,5 +23,4 @@ for (i in 1:nt) {
 
 for (i in 1:nr) {
     text(arrpos[i, 1] - 0, arrpos[i, 2] + 0.025, textarrow[i], cex = 1.5)
-} 
- TRUE
+}

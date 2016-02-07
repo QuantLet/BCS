@@ -31,5 +31,4 @@ x = 0:n
 lambda = 25
 
 prob = dpois(x, lambda)
-plot(x, prob, type = "h", main = expression(paste(lambda, " = 25"))) 
- TRUE
+plot(x, prob, type = "h", main = expression(paste(lambda, " = 25")))

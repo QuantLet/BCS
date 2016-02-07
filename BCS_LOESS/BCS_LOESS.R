@@ -25,8 +25,3 @@ plot(r.ftse, r.dax, xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), xlab = "FTSE l
 lines(loess.predict.a1, col = "red", lwd = 2)  # regression line with lambda = 0.2
 lines(loess.predict.a2, col = "blue", lwd = 2)  # regression line with lambda = 1
 lines(loess.predict.a3, col = "green", lwd = 2)  # regression line with lambda = 2
-
-
-
- 
- TRUE

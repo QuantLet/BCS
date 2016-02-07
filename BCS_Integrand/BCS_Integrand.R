@@ -9,5 +9,4 @@ names(par.set) = c("axis.line", "clip")  # assigning names to each element of th
 require("lattice")  # required lattice package
 wireframe(z ~ x * y, shade = F, aspect = 1, scales = list(col = "black", arrows = FALSE), drape = T, colorkey = T, screen = list(z = 30, 
     x = -80), par.settings = par.set, xlab = list("x", cex = 1.2), ylab = list("y", cex = 1.2), zlab = list("f(x,y)", 
-    cex = 1.2)) 
- TRUE
+    cex = 1.2))

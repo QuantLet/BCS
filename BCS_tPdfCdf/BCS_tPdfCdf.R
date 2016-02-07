@@ -19,5 +19,4 @@ plot(t, pnorm(t, 0, 1), xlab = "z", ylab = "cdf", type = "l", lwd = 2)
 # order of df as above
 lines(t, pt(t, df[1]), col = "red")
 lines(t, pt(t, df[2]), col = "green")
-lines(t, pt(t, df[3]), col = "blue") 
- TRUE
+lines(t, pt(t, df[3]), col = "blue")

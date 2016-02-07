@@ -28,5 +28,4 @@ plot(r.ftse, r.dax, xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), xlab = "FTSE l
     col = rgb(0.1, 0.8, 0.9, alpha = 0.7), cex = 1)
 plot(knn.reg.k1, add = TRUE, col = "red", xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), type = "l", lwd = 2)
 plot(knn.reg.k2, add = TRUE, col = "green", xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), type = "l", lwd = 2)
-plot(knn.reg.k3, add = TRUE, col = "blue", xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), type = "l", lwd = 2) 
- TRUE
+plot(knn.reg.k3, add = TRUE, col = "blue", xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), type = "l", lwd = 2)

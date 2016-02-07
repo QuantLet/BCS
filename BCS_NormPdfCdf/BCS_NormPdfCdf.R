@@ -14,5 +14,4 @@ lines(z, dnorm(z, 0, s[3]), col = "blue")
 # same order of s as above standard normal cdf
 plot(z, pnorm(z, 0, 1), xlab = "z", ylab = "cdf", type = "l", lwd = 2, col = "red")
 lines(z, pnorm(z, 0, s[2]), col = "green")
-lines(z, pnorm(z, 0, s[3]), col = "blue") 
- TRUE
+lines(z, pnorm(z, 0, s[3]), col = "blue")

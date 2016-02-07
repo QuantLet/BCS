@@ -12,5 +12,3 @@ abline(h = 0, v = 0)
 label = c("X1", "X2", "X3", "X4", "X5", "X6")
 text(cor(mydata, fit$scores), label, cex = 1.5)
 text(cor(mydata, fit$scores), label, cex = 1.5)
- 
- TRUE

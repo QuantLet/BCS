@@ -13,7 +13,3 @@ plot(fit[, 1], fit[, 2], xlab = "x", ylab = "y", type = "n")  # 3 plot the model
 segments(-1000, -0, 1500, 0, lty = "dotted")  # horizontal line
 segments(0, -500, 0, 500, lty = "dotted")  # vertical line
 text(fit[, 1], fit[, 2], rownames(mydata), cex = 0.8)  # add text to the plot
-
-
- 
- TRUE

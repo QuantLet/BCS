@@ -1,3 +1,5 @@
+require(rgl)
+
 # Define variables to plot
 x = rnorm(3)
 y = rnorm(3)
@@ -16,5 +18,4 @@ rgl.light(theta = -90, phi = 50, ambient = "white", diffuse = "#dddddd", specula
 
 # rgl.spheres with two light sources
 rgl.spheres(x, y, z, radius = runif(5), col = "red3", smooth = T)
-rgl.light(theta = 45, phi = 30, ambient = "#dddddd", diffuse = "#dddddd", specular = "white") 
- TRUE
+rgl.light(theta = 45, phi = 30, ambient = "#dddddd", diffuse = "#dddddd", specular = "white")

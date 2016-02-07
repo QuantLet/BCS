@@ -35,5 +35,4 @@ for (i in 1:length(kernel_names)) {
     y = kernel.wfunc(x, xzero = 0, kernel = kernel_names[i])
     plot(x, y, type = "l", xlim = c(-2, 2), ylim = c(0, 1), col = "red", xlab = "", ylab = "", main = paste(kernel_names[i], 
         "kernel"))
-} 
- TRUE
+}

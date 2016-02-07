@@ -46,5 +46,3 @@ k = 1:49
 
 par(cex.axis = 1.5, cex.lab = 1.5, pch = 19, cex = 1)
 plot(k, MSEkNN, type = "l", xlab = "k", ylab = "Mean Squared Error", col = rgb(0.1, 0.8, 0.9, alpha = 0.7), lwd = 2)
- 
- TRUE

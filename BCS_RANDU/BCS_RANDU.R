@@ -14,5 +14,4 @@ RANDU <- function(n, seed = 1) {
 }
 
 # Run the generator four times for 4 (insufficiently) random numbers
-RANDU(4) 
- TRUE
+RANDU(4)

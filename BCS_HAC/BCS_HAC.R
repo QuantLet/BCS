@@ -28,5 +28,4 @@ graph <- scatterplot3d(Y, xlim = c(-3, 3), ylim = c(-3, 3), zlim = c(-3, 3), pch
 graph$points3d(Y12, pch = 20, col = rgb(0.3, 0.75, 1))
 
 # plots the bivariate distribution of y2 and y3
-graph$points3d(Y23, pch = 20, col = rgb(0.3, 0.75, 1)) 
- TRUE
+graph$points3d(Y23, pch = 20, col = rgb(0.3, 0.75, 1))

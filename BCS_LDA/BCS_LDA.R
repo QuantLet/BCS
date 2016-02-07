@@ -27,5 +27,4 @@ partimat(as.factor(mydata_test[, 3]) ~ mydata_test[, 1:2], method = "lda", name 
 pred.class = predict(fit, mydata_test[, 1:2])$class  # predicted class
 pred.table = table(mydata_test[, 3], pred.class)  # gives table of predicted and true values
 pred.correct = diag(prop.table(pred.table, 1))  # gives percentage of correct prediction in each group
-1 - sum(diag(prop.table(pred.table)))  # gives prediction error for all dataset  
- TRUE
+1 - sum(diag(prop.table(pred.table)))  # gives prediction error for all dataset

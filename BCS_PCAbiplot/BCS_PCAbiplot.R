@@ -13,5 +13,4 @@ plot(ucircle, type = "l", lty = "solid", xlab = "First PC", ylab = "Second PC", 
 abline(h = 0, v = 0)
 label = c("X1", "X2", "X3", "X4", "X5", "X6")
 text(cor(mydata, fit$scores), label, cex = 0.8)
-text(cor(mydata, fit$scores), label, cex = 0.8) 
- TRUE
+text(cor(mydata, fit$scores), label, cex = 0.8)

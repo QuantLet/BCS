@@ -6,5 +6,4 @@ newt = newton.method(FUN = function(x) x^2 - 4, init = 10, rg = c(-1, 10), tol =
     "red", "red"))
 # added points
 newt$root  # root
-newt$value  # function value at the root 
- TRUE
+newt$value  # function value at the root

@@ -17,5 +17,4 @@ data.plotfn = function(panel) {
 panel <- rp.control(y = Height)  # define Height to be the variable used by action function
 
 # Add a listbox to the control panel
-rp.listbox(panel, plot.type, c("histogram", "boxplot"), action = data.plotfn, title = "Plot type")  # add a title to the listbox 
- TRUE
+rp.listbox(panel, plot.type, c("histogram", "boxplot"), action = data.plotfn, title = "Plot type")  # add a title to the listbox

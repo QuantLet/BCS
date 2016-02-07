@@ -21,5 +21,4 @@ lines(h, Var, type = "l", col = "blue", lwd = 2)
 points(MSE_min[1], MSE_min[2], col = "black", pch = 19, cex = 1.5)
 legend(x = "topleft", legend = c("MSE", "Bias^2", "Variance", "h_MSE"), col = c("black", "red", "blue", "black"), lwd = 2, 
     lty = c(1, 1, 1, NA), pch = c(NA, NA, NA, 19), bty = "n", merge = F, y.intersp = 1, x.intersp = 0.5, seg.len = 0.5, 
-    cex = 1.5) 
- TRUE
+    cex = 1.5)

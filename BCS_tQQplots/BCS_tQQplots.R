@@ -12,5 +12,4 @@ y <- rt(100, df = 100)
 # quantiles of t with 100 degrees of freedom
 qqnorm(y, col = "red", pch = 20, asp = 1)
 # line of perfect fit
-qqline(y) 
- TRUE
+qqline(y)

@@ -16,5 +16,4 @@ xlabels = "log-returns"
 par(mar = par()$mar + c(0, 1.5, -1, 0.1), mfrow = c(3, 1), cex.lab = 2, cex.axis = 2, no.readonly = T)
 hist(r.dax, breaks = 5, main = NULL, xlab = NULL)
 hist(r.dax, breaks = 20, main = NULL, xlab = NULL)
-hist(r.dax, breaks = 100, main = NULL, xlab = xlabels) 
- TRUE
+hist(r.dax, breaks = 100, main = NULL, xlab = xlabels)

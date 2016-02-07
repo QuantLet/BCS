@@ -44,6 +44,3 @@ plot(Xis, Yis, xlim = c(-3, 3), col = rgb(0.1, 0.8, 0.9, alpha = 0.7), xlab = "x
 plot(kernel.reg.example, add = TRUE, col = 2, xlim = c(-3, 3))
 plot(kNN.reg.example, add = TRUE, col = 3, xlim = c(-3, 3))
 lines(spline.reg.example, col = 4, xlim = c(-3, 3))
-
- 
- TRUE

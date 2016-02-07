@@ -11,4 +11,3 @@ Wind = equal.count(environmental$wind, number = 4, overlap = 0)
 # plot with 12 panels for the two conditioning variables
 xyplot(ozone ~ radiation | Temperature * Wind, data = environmental, as.table = T, par.strip.text = list(cex = 0.75), 
     par.settings = simpleTheme(pch = 20, col = "red3"), xlab = "Solar radiation in langley", ylab = "Average ozone concentration in ppb") 
- TRUE

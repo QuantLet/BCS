@@ -1,5 +1,5 @@
 data(banknote, package = "mclust")  # load the data
-mydata = banknote[, -ncol(banknote)]  # remove the last column indicating genuine/not genuine
+mydata = banknote[, -ncol(banknote)] # remove the last column indicating genuine/not genuine
 fit = princomp(mydata)  # fit PCA model
 summary(fit, loadings = TRUE)  # display the result
 
@@ -11,5 +11,3 @@ plot(fit$scores[, c(1, 3)], col = group, pch = 19, ylab = "PC3", xlab = "PC1", m
 plot(fit$scores[, 2:3], col = group, pch = 19, ylab = "PC3", xlab = "PC2", main = "Second vs. Third PC")  # plot 2 vs 3 factor
 plot(cumsum(fit$sdev^2)/sum(fit$sdev^2), xlab = "Number of components", ylab = "Cumulative percentage variance", pch = 19)
 # plot cumlulative explained variance vs number of PC
- 
- TRUE

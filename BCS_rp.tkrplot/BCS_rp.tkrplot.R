@@ -25,5 +25,4 @@ if (interactive()) {
     rp.tkrplot(rpplot, density, draw)  # specify the function to be called to draw the plot
     
     rp.doublebutton(rpplot, sp, 1.03, log = T, range = c(r/50, NA), title = "Bandwidth", action = redraw)  # call the function redraw if widget is used
-} 
- TRUE
+}

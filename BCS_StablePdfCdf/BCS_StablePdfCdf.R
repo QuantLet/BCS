@@ -53,5 +53,4 @@ beta = c(0, -0.8, 0.8)
 plot(z, pstable(z, alpha, beta[1], sigma, mu, 1), col = "red", type = "l", xlim = c(-5, 5), ylim = c(0, 1), xlab = "z", 
     ylab = "cdf")
 lines(z, pstable(z, alpha, beta[2], sigma, mu, 1), col = "green")
-lines(z, pstable(z, alpha, beta[3], sigma, mu, 1), col = "blue") 
- TRUE
+lines(z, pstable(z, alpha, beta[3], sigma, mu, 1), col = "blue")
