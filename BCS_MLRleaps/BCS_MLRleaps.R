@@ -11,4 +11,5 @@ subset = regsubsets(calories ~ protein + fat + carbo + sugars, data = UScereal, 
 install.packages("car")  # install package to plot the result
 library("car")  # load package to plot the result
 dev.new()
-subsets(subset, statistic = "rsq")  # display result (R^2) for all regression subsets 
+subsets(subset, statistic = "rsq")  # display result (R^2) for all regression subsets  
+ TRUE

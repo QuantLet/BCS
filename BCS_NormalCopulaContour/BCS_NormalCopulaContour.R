@@ -51,7 +51,7 @@ axis(4)
 # plot 4: contour plot for x1 and x2
 plot(X1, X2, xlab = "", ylab = "", xaxt = "n")
 contour(copulaX1X2, dMvdc, xlim = c(min(X1, X2), max(X1, X2)), ylim = c(min(X1, X2), max(X1, X2)), col = "darkblue", 
-        lwd = 1.75, add = TRUE)
+    lwd = 1.75, add = TRUE)
 
 # plot 5 (empty)
 plot(0, xaxt = "n", yaxt = "n", pch = "", ylab = "", xlab = "", xlim = c(-1, 1), ylim = c(-1, 1))
@@ -63,13 +63,14 @@ axis(4)
 # plot 7: contour plot for x1 and x3
 plot(X1, X3, xlab = "", ylab = "")
 contour(copulaX1X3, dMvdc, xlim = c(min(X1, X2), max(X1, X2)), ylim = c(min(X1, X3), max(X1, X3)), col = "darkblue", 
-        lwd = 1.75, add = TRUE)
+    lwd = 1.75, add = TRUE)
 
 # plot 8: contour plot for x2 and x3
 plot(X2, X3, xlab = "", ylab = "", yaxt = "n")
 contour(copulaX2X3, dMvdc, xlim = c(min(X1, X2), max(X1, X2)), ylim = c(min(X2, X3), max(X2, X3)), col = "darkblue", 
-        lwd = 1.75, add = TRUE)
+    lwd = 1.75, add = TRUE)
 
 # plot 9 (empty)
 plot(0, xaxt = "n", yaxt = "n", pch = "", ylab = "", xlab = "", xlim = c(-1, 1), ylim = c(-1, 1))
 text(0, 0, "X3", cex = 2) 
+ TRUE

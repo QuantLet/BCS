@@ -6,14 +6,13 @@ require(lattice)
 
 
 # function for kNN regression
-knn.reg = function (x, xis, yis, k) {
-  knn.reg = rep(0,times=length(x))
-  for (i in 1:length(x))
-  {
-    distances = abs(x[i]-xis)
-    knn.reg[i] = mean(yis[order(distances)][1:k])
-  }
-  knn.reg
+knn.reg = function(x, xis, yis, k) {
+    knn.reg = rep(0, times = length(x))
+    for (i in 1:length(x)) {
+        distances = abs(x[i] - xis)
+        knn.reg[i] = mean(yis[order(distances)][1:k])
+    }
+    knn.reg
 }
 
 
@@ -26,25 +25,25 @@ k_CV = 5
 n = 50
 Xis = rnorm(n)
 Epsilon = rnorm(n)
-RegressionCurve = function(x) sin(2*pi*x)-x^2
+RegressionCurve = function(x) sin(2 * pi * x) - x^2
 Yis = RegressionCurve(Xis) + Epsilon
 
 # regressions
-kernel.reg.example=function(new_x) {
-  ksmooth(x=Xis,y=Yis,kernel="normal",
-          bandwidth=1.06*n^(-1/5),
-          x.points=new_x)$y}
-kNN.reg.example=function (x) knn.reg(x,Xis,Yis,k_CV)
-spline.reg.example=smooth.spline(x=Xis,y=Yis)
+kernel.reg.example = function(new_x) {
+    ksmooth(x = Xis, y = Yis, kernel = "normal", bandwidth = 1.06 * n^(-1/5), x.points = new_x)$y
+}
+kNN.reg.example = function(x) knn.reg(x, Xis, Yis, k_CV)
+spline.reg.example = smooth.spline(x = Xis, y = Yis)
 
 nameChart = "BCS_NonparametricRegressions.pdf"
 
 # plot regression results
-pdf(file=nameChart,paper="special",width=8,height=8)
-par(cex=1, cex.axis=1.5, cex.lab=1.5, lwd=2, lty="solid", pch=19)
-plot(Xis,Yis,xlim=c(-3,3), col=rgb(0.1,0.8,0.9,alpha=0.7), xlab="x", ylab="f(x)")
-plot(kernel.reg.example,add=TRUE,col=2,xlim=c(-3,3))
-plot(kNN.reg.example,add=TRUE,col=3,xlim=c(-3,3))
-lines(spline.reg.example,col=4,xlim=c(-3,3))
+pdf(file = nameChart, paper = "special", width = 8, height = 8)
+par(cex = 1, cex.axis = 1.5, cex.lab = 1.5, lwd = 2, lty = "solid", pch = 19)
+plot(Xis, Yis, xlim = c(-3, 3), col = rgb(0.1, 0.8, 0.9, alpha = 0.7), xlab = "x", ylab = "f(x)")
+plot(kernel.reg.example, add = TRUE, col = 2, xlim = c(-3, 3))
+plot(kNN.reg.example, add = TRUE, col = 3, xlim = c(-3, 3))
+lines(spline.reg.example, col = 4, xlim = c(-3, 3))
 
-
+ 
+ TRUE

@@ -16,4 +16,4 @@ axis(1, at = -1.5, labels = expression(z[alpha]))
 # Filling LEFT
 polygon(x = c(-1.5, a[1:151]), y = c(0, 0, b[2:151]), col = "gray94")
 # write alpha in the area of interest
-text(-1.8, 0.03, expression(alpha), cex = 1.2) 
+text(-1.8, 0.03, expression(alpha), cex = 1.2)

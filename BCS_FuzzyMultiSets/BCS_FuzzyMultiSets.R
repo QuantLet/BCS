@@ -16,4 +16,5 @@ gset_cardinality(multi2)  # cardinality of multi2
 # create multiset directly via gset
 multi3 = gset(c("x", "y", "z"), membership = c(2, 1, 3))
 gset_cardinality(multi3)
-plot(multi3, col = "lightblue")  # right plot in Figure 3.1 
+plot(multi3, col = "lightblue")  # right plot in Figure 3.1  
+ TRUE

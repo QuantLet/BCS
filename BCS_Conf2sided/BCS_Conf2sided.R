@@ -13,11 +13,11 @@ abline(v = -1.5, lty = 2)
 abline(v = 1.5, lty = 2)
 # Create and the x-axis, cex for text size
 axis(1, at = c(-1.5, 1.5), labels = expression(-z[1 - frac(alpha, 2)] == z[frac(alpha, 2)], z[1 - frac(alpha, 2)]), font = 2, 
-     cex = 2)
+    cex = 2)
 # Filling LEFT
 polygon(x = c(-1.5, a[1:151]), y = c(0, 0, b[2:151]), col = "gray94")
 # Filling RIGHT
 polygon(x = c(1.5, rev(a[451:601])), y = c(0, 0, rev(b[452:601])), col = "gray94")
 # Write alphas in the area of interest
 text(-1.8, 0.03, expression(frac(alpha, 2)), cex = 1.1)
-text(1.8, 0.03, expression(frac(alpha, 2)), cex = 1.1) 
+text(1.8, 0.03, expression(frac(alpha, 2)), cex = 1.1)

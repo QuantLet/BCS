@@ -10,3 +10,4 @@ abline(lm(GNP ~ Employed), col = "blue")
 
 # using a grid ; specifying strength of grid with 'lwd= '
 grid(lwd = 2) 
+ TRUE
