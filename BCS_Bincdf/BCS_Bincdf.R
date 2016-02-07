@@ -25,4 +25,3 @@ create.binomial.cdf = function(N, p, colour = "black", pch = 16) {
 par(cex.lab = 1.3, mai = c(b = 1.2, l = 1.2, t = 0.7, r = 0.5))
 # run the function
 create.binomial.cdf(c(10, 10), c(0.2, 0.6), c("red", "black"))
-# create.binomial.cdf(c(10,10), c(0.2,0.6), c('black','black'))

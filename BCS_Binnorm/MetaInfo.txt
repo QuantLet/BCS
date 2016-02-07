@@ -1,5 +1,5 @@
 
-Name of Quantlet:        'BCS_Binnom'
+Name of Quantlet:        'BCS_Binnorm'
  
 Published in:            'Basic Elements of Computational Statistics'
 

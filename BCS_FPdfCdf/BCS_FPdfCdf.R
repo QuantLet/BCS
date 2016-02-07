@@ -21,5 +21,4 @@ z = seq(0, 10, length = 300)
 plot(z, pf(z, n[1], m[1]), type = "l", xlab = "z", ylab = "cdf", ylim = c(0, 1))
 lines(z, pf(z, n[2], m[2]), col = "red")
 lines(z, pf(z, n[3], m[3]), col = "green")
-lines(z, pf(z, n[4], m[4]), col = "blue") 
- TRUE
+lines(z, pf(z, n[4], m[4]), col = "blue")
