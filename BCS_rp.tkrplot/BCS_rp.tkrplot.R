@@ -1,7 +1,7 @@
 # Load tkrplot, tcltk and rpanel packages (have to be installed)
-library(tkrplot)
-library(tcltk)
-library(rpanel)
+require(tkrplot)
+require(tcltk)
+require(rpanel)
 
 # Load the trees data (included in R)
 attach(trees)
