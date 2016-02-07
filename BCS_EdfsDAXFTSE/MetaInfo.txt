@@ -16,7 +16,7 @@ Keywords: 'edf,empirical cumulative distribution function,DAX,FTSE,
 
 See also: ''
 
-Author: 'Christoph Schult'
+Author: '[New] Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

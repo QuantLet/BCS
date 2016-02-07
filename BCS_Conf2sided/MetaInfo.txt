@@ -10,9 +10,9 @@ Description: 'Graphic of a normal distribution N(0,1), also called standard
 
 Keywords: 'normal distribution, visualization, testing, confidence interval, plot'
 
-See also: 'BCSnorm2.r, BCSnorm3.r, BCS_ecdf.r'
+See also: 'BCS_ecdf'
 
-Author: 'Gunawan'
+Author: '[New]Gunawan'
 
 Submitted: '2016-01-28, Christoph Schult'
 

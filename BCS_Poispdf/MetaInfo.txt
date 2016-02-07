@@ -12,6 +12,6 @@ Keywords:                  'distribution, normal approximation, plot, poisson, v
 
 See also:                  'BCS_Binompdf, BCS_Binpois, BCS_ChiPdf, BCS_NormPdfCdf, BCS_tPdfCdf'
 
-Author:                    'Johannes Haupt'
+Author:                    '[New] Johannes Haupt'
 
 Submitted:                 '2016-01-28, Christoph Schult'

@@ -8,6 +8,6 @@ Description: 'The membership grade of a fuzzy set with elements x, y, z is plott
 
 Keywords: 'fuzzy, multisets, membership, grade, plot, bar plot'
 
-Author: 'Christoph Schult'
+Author: '[New] Christoph Schult'
 
 Submitted: '2016-02-06, Christoph Schult'

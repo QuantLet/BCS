@@ -11,7 +11,7 @@ Keywords: 'regression,curve,regression curve,log-returns,estimation,plot,
 
 See also: ''
 
-Author: 'Christoph Schult'
+Author: '[New] Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

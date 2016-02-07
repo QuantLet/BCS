@@ -11,3 +11,5 @@ Description: 'Perform normal principal component analysis (PCA) on the data "ban
 Submitted: '2016-01-28, Christoph Schult'
 
 Output: 'Plot of the correlation between NPC and original variable on a unit circle.'
+
+Author: '[New] Johannes Haupt'

@@ -9,6 +9,6 @@ Description: 'This Name of Quantlet produces a plot showing the acceptance
 
 Keywords: 'accepatence region, pseudo generated, random, plot, distribution'
 
-Author: 'Martin Schelisch'
+Author: '[New] Martin Schelisch'
 
 Submitted: '2016-01-28, Christoph Schult'

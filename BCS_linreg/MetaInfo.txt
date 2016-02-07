@@ -10,7 +10,7 @@ Keywords: 'plot, visualization, regression, linear, univariate'
 
 See also: ''
 
-Author: 'Benjamin'
+Author: '[New] Benjamin'
 
 Submitted: '2016-01-28, Christoph Schult'
 

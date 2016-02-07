@@ -8,8 +8,9 @@ Description: 'Perform multiple linear regression (MLR) on the dataset
               show first the residual errors plotted against their fitted values to check
               for a distinct trend. The second plot shows spread-location to detect skewness.
               The third plot is a QQ plot to check the deviation from the theoretical distribution
-              of the errors. The fourth plot shows each points leverage.
-              '
+              of the errors. The fourth plot shows each points leverage.'
+              
+Author: '[New] Johannes Haupt'
 
 Keywords: 'regression, linear, multiple, diagnostic, residual, skewness, QQ plot'           '
 

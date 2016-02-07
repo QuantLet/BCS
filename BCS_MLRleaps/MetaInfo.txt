@@ -5,8 +5,9 @@ Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'Perform stepwise regression on all subsets to compare the values
               of R squared for all combinations of explanatory variables. All combinations
-              with R squared >0.7 are shown in a plot of R squared against subsample size.
-              '
+              with R squared >0.7 are shown in a plot of R squared against subsample size.'
+              
+Author: '[New] Johannes Haupt'
 
 Keywords: 'stepwise regression, R-squared, subsamples, explanatory variables, regression analysis'
 

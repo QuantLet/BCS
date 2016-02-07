@@ -9,7 +9,7 @@ Description: 'Perform normal principal component analysis (PCA) on the data "ban
 
 Keywords: 'principal component analysis, banknotes, correlation, unit circle, plot'           '
 
-Author: 'Anastasija Tetereva'
+Author: '[New] Anastasija Tetereva'
 
 Submitted: '2016-01-28, Christoph Schult'
 

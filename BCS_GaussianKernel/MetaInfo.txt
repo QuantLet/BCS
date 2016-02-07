@@ -15,7 +15,7 @@ Keywords: 'kernel,regression,DAX,FTSE,log-returns,estimation,plot,
 
 See also: 'BCS_KernelSmoother'
 
-Author: 'Christoph Schult'
+Author: '[New] Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

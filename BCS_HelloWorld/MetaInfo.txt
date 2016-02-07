@@ -10,7 +10,7 @@ Keywords: 'plot, worldmap, data, colorsheme, Hello World'
 
 See also: ' '
 
-Author: 'Johannes, Haupt'
+Author: '[New] Johannes, Haupt'
 
 Submitted: '2016-01-28, Christoph Schult'
 

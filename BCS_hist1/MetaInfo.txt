@@ -8,7 +8,7 @@ Description: 'Histogram with default choice of grids based on R example data
 
 Keywords:    'histogram, graphical, visualization, frequencies, data, grid'
 
-Author: 'Gunawan'
+Author: '[New] Gunawan'
 
 Submitted: '2016-01-28, Christoph Schult'
 

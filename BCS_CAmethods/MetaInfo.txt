@@ -10,7 +10,7 @@ Description: 'Perform a cluster analysis using single, complete and average link
 
 Keywords: 'plot, cluster, analysis, average linkage, dendrograms'
 
-Author: 'Anastasija Tetereva'
+Author: '[New] Anastasija Tetereva'
 
 Submitted: '2016-01-28, Christoph Schult'
 

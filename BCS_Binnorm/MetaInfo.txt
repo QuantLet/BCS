@@ -12,7 +12,7 @@ Keywords:                'approximation, binomial, normal, normal approximation,
 
 See also:                'BCS_Bincdf, BCS_Binhist, BCS_Binompdf, BCS_Binpois, BCS_NormPdfCdf'
 
-Author:                  'Johannes Haupt'
+Author:                  '[New] Johannes Haupt'
 
 Submitted:               '2016-01-28, Christoph Schult'
 

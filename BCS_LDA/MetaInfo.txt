@@ -16,5 +16,7 @@ Description: 'Example of Linear Discriminant analysis using the data
 
 Submitted: '2016-01-28, Christoph Schult'
 
+Author: '[New] Johannes Haupt'
+
 Output: 'Plot of observations and discrimination borders.'
 

@@ -11,12 +11,11 @@ Description: 'Implementation of the Lagged Fibonacci Generator (LFG) for
 
 Keywords: 'Fibonacci, lagged, generator, random, plot'
 
-Author: 'Martin Schelisch'
+Author: '[New] Martin Schelisch'
 
 Submitted: '2016-01-28, Christoph Schult'
 
-Input: '
-        l - value of the modulus 2^l
+Input: '1 - value of the modulus 2^l
         j, k - number of lags'
 
 Output: 'A vector and plot of pseudorandom numbers'

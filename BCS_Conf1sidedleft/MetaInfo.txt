@@ -8,12 +8,8 @@ Description: 'Graphic of a normal distribution N(0,1) with a right-tailed
 
 Keywords: 'normal distribution, visualization, testing, confidence interval, plot'
 
-See also: ''
-
-Author: 'Gunawan'
+Author: '[New] Gunawan'
 
 Submitted: '2016-01-28, Christoph Schult'
-
-Input: ''
 
 Output: 'Graphic of a normal distribution function in .pdf format.'

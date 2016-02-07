@@ -12,7 +12,7 @@ Description: 'Boxplot of R example dataset Nile and manual calculation and
 
 Keywords: 'boxplot, Nile, data visualization, outlier detection, histogram'
 
-Author: 'Gunawan'
+Author: '[New] Gunawan'
 
 Submitted: '2016-01-28, Christoph Schult'
 

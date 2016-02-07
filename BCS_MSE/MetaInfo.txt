@@ -12,7 +12,7 @@ Keywords: 'mse, mean squared error, bias, variance, nonparametric, plot,
 
 See also: ''
 
-Author: 'Christoph Schult'
+Author: '[New] Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

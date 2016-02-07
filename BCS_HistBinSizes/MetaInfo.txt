@@ -8,7 +8,7 @@ Description: 'This Quantlet produces plots to show the effect of the bin
 
 Keywords: 'histogram, bins, size, bin size, smoothness'
 
-Author: 'Christoph Schult'
+Author: '[New] Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

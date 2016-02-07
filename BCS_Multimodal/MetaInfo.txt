@@ -15,7 +15,7 @@ Keywords:                 'root finding,3D,plot,multivariate,root,bivariate,nume
                            methods,BFGS'
 
    
-Author:                   'Christoph, Schult'
+Author:                   '[New] Christoph, Schult'
 
 Submitted:                '2016-01-28, Christoph Schult'
 

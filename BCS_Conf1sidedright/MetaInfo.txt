@@ -11,7 +11,7 @@ Keywords: 'normal distribution, visualization, testing,
 
 See also: 'BCSnorm1.r, BCSnorm2.r'
 
-Author: 'Gunawan'
+Author: '[New] Gunawan'
 
 Submitted: '2016-01-28, Christoph Schult'
 

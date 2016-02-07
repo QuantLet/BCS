@@ -6,6 +6,8 @@ Description: 'Multidimensional Scaling is performed on a subset of the data "car
               package "MASS". First, the subset is selected, then the MDS model is fitted
               using Euclidean distance. The result is shown in a plot.
               '
+Author: '[New] Johannes Haupt'
+
 
 Keywords:     'multidimensional, MASS, MDS, euclidean distance, plot'    
 
