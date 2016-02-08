@@ -14,8 +14,6 @@ Description: 'Nine Plots are created for three different archimedean
 Keywords: 'multivariate,copula,archimedean,frank,gumbel,clayton,normal,
            student,distribution'
 
-See also: ''
-
 Author: 'Ostap Okhrin'
 
 Submitted: '2016-01-28, Christoph Schult'

@@ -15,7 +15,7 @@ Keywords:              'Numerical integration,Integration,3D,plot,multivariate,
 See also:              'BCS_BinormalDensity, BCS_NormalProbability, BCS_NormalCopula,
                         BCS_ConditionalGroupedDensity'
 
-Author:                '[New] Christoph, Schult'
+Author[New]:            Christoph, Schult
 
 Submitted:             '2016-01-28, Christoph Schult'
 

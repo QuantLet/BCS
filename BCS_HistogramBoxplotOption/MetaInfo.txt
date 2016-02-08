@@ -12,13 +12,11 @@ Description: 'The rpanel package employs different graphical user interface (GUI
 
 Keywords: 'rpanel tcltk listbox boxplot histogram'
 
-See also: 'BCS_ControlDensityEstimate BCS_rp.tkrplot BCS_UnivariateRegression
-           BCS_BivariateRegression BCS_NormalDensityFit'
+See also: 'BCS_ControlDensityEstimate, BCS_rp.tkrplot, BCS_UnivariateRegression,
+           BCS_BivariateRegression, BCS_NormalDensityFit'
 
-Author: 'Polina Marchenko'
+Author: Polina Marchenko
 
 Submitted: '2016-01-28, Christoph Schult'
-
-Input: ''
 
 Output: 'Listbox control panel for choosing a histogram or boxplot'

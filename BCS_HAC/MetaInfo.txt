@@ -16,9 +16,7 @@ Description: 'The HAC package is used to create a random sample. The
 Keywords: 'multivariate,copula,archimedean,uniform,gumbel,HAC,normal,
            student,distribution,pdf,cdf'
 
-See also: ''
-
-Author: 'Ostap Okhrin'
+Author: Ostap Okhrin
 
 Submitted: '2016-01-28, Christoph Schult'
 

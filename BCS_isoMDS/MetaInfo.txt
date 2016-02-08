@@ -9,7 +9,7 @@ Description: 'Example of non-metric Multidimensional Scaling (MDS) on the
 
 Keywords: 'non-metric, multidimensional, scaling, plot, HSAUR2, eigenvalues, ordinal data'
 
-Author[New]: 'Anastasija Tetereva'
+Author[New]: Anastasija Tetereva
 
 Submitted: '2016-01-28, Christoph Schult'
 

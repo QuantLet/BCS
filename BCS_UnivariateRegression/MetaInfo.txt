@@ -9,12 +9,9 @@ Description: 'Interactive scatterplot for a univariate regression of
               regression line and residuals.'
 
 Keywords: 'rgl,regression,univariate regression,plot,continuous,
-           time series,plot,scatterplot
-           '
+           time series,plot,scatterplot'
 
-See also: ''
-
-Author: 'Polina Marchenko'
+Author: Polina Marchenko
 
 Submitted: '2016-01-28, Christoph Schult'
 

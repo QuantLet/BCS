@@ -10,6 +10,6 @@ Keywords: 'datasets, class, grDevice, lattice, stabledist, fBasics, rgl, diagram
 
 Description: 'This Q installs all necessary packages in the book Basic Computational Statistics.'
 
-Author: '[New] Christoph Schult'
+Author[New]: Christoph Schult
 
 Submitted: '2016-02-08, Christoph Schult'

@@ -11,9 +11,9 @@ Description:            'Two plots of the probability functions of the hypergeom
 
 Keywords:               'approximation, binomial, distribution, plot, visualization'
 
-See also:               'BCS_Bincdf, BCS_Binhist, BCS_Binompdf'
+See also:               BCS_Bincdf, BCS_Binhist, BCS_Binompdf
 
-Author:                 '[New] Johannes Haupt'
+Author[New]:            Johannes Haupt
 
 Submitted:              '2016-01-28, Christoph Schult'
 

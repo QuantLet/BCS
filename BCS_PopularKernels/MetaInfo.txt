@@ -12,9 +12,7 @@ Description: 'A function is implemented to use all four different kernel
 Keywords: 'kernel,bandwidth,weights,density estimation,plot,nonparametric,
            kernel density estimation'
 
-See also: ''
-
-Author: '[New] Christoph Schult'
+Author[New]: Christoph Schult
 
 Submitted: '2016-01-28, Christoph Schult'
 

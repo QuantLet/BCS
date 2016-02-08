@@ -13,7 +13,7 @@ See also: 'SFEClayGumbGauss, SFEclaytonMC, SFEclaytonSIM2pvt, SFEdynCop,
            SFEestGARCH, SFEfrechet, SFEgausscop, SFEgumbelSIM2ptv,
            SFEplotCop, SFEresDens, SFEstaticCop, SFEtcop, SFEtMC'
 
-Author: 'Ostap Okhrin'
+Author: Ostap Okhrin
 
 Submitted: '2016-01-28, Christoph Schult'
 

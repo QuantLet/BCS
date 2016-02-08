@@ -13,9 +13,9 @@ Keywords: 'splines,regression,DAX,FTSE,log-returns,estimation,plot,
            nonparametric,univariate nonparametric regression,
            lambda,different lambdas'
 
-See also: 'BCS_Splines'
+See also: BCS_Splines
 
-Author: '[New] Christoph Schult'
+Author[New]: Christoph Schult
 
 Submitted: '2016-01-28, Christoph Schult'
 

@@ -14,7 +14,7 @@ Description:              'A 3d plot for the function:
 Keywords:                 'root finding,3D,plot,multivariate,root,bivariate,numerical,
                            methods,BFGS'
 
-Author:                   '[New] Christoph, Schult'
+Author[New]:              Christoph, Schult
 
 Submitted:                '2016-01-28, Christoph Schult'
 

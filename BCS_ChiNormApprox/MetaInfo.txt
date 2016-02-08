@@ -12,8 +12,7 @@ Description: 'A chi-squared distributed random variable is the sum of
 Keywords: 'distribution,chisquare,pdf,approximation,univariate,normal,
            asymptotic,standard,continuous,histogram'
 
-See also: 'BCS_tQQplots, BCS_ChiPdfCdf, BCS_tPdfCdf
-           '
+See also: BCS_tQQplots, BCS_ChiPdfCdf, BCS_tPdfCdf
 
 Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
 

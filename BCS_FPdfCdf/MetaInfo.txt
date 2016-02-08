@@ -12,8 +12,7 @@ Description: 'The F-distribution, also called the Fisher-Snedecor
               ordinate at 1 and monotically decreases. Only if n>=3 the pdf
               is assymetrically bell shaped.'
 
-Keywords: 'univariate,distribution,f,pdf,cdf,continuous,analysis,variance
-           ,scale,chisquare,regression'
+Keywords: 'univariate,distribution,f,pdf,cdf,continuous,analysis,variance,scale,chisquare,regression'
 
 See also: 'BCS_StablePdfCdf, BCS_ChiPdfCdf,
            BCS_StablePdfCdfSpecial, BCS_CauchyPdfCdf,

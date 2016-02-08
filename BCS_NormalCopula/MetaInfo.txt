@@ -15,11 +15,8 @@ Description: 'A bivariate normal distribution is created by the function
 Keywords: 'multivariate,distribution,copula,gaussian,normal,density,
            correlation,pdf,cdf,contour,scatterplot'
 
-See also: ''
-
-Author: 'Ostap Okhrin'
+Author: Ostap Okhrin
 
 Submitted: '2016-01-28, Christoph Schult'
-
 
 Output: 'Five plots for a binormal distribution constructed by normalCopula.'

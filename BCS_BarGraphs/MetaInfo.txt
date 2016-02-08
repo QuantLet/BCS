@@ -10,9 +10,9 @@ Description:           'Bar diagram and plot of relative frequencies of the R da
   
 Keywords:              'data visualization, distribution, graphical representation, plot, visualization'
      
-See also:              'BCS_Barp, BCS_Boxplot, BCS_Boxplot2, BCS_ECDF, BCS_Hist1, BCS_Hist2'
+See also:              'BCS_BarGraphs, BCS_Boxplot, BCS_Boxplot2, BCS_ecdf, BCS_hist1, BCS_hist2'
 
-Author:                '[New] Gunawan'
+Author[New]:           Gunawan
 
 Submitted:             '2016-01-28, Christoph Schult'
      

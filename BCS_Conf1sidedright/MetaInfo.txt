@@ -9,9 +9,9 @@ Description: 'Graphic of a normal distribution N(0,1) with a left-tailed
 Keywords: 'normal distribution, visualization, testing,
             confidence interval, plot'
 
-See also: 'BCSnorm1.r, BCSnorm2.r'
+See also: BCS_Conf1Sidedleft, BCS_Conf2Sided
 
-Author: '[New] Gunawan'
+Author[New]: Gunawan
 
 Submitted: '2016-01-28, Christoph Schult'
 

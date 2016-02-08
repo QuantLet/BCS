@@ -8,7 +8,9 @@ Description: 'Graphic of a normal distribution N(0,1) with a right-tailed
 
 Keywords: 'normal distribution, visualization, testing, confidence interval, plot'
 
-Author: '[New] Gunawan'
+See also: BCS_Conf1Sidedright, BCS_Conf2Sided
+
+Author[New]: Gunawan
 
 Submitted: '2016-01-28, Christoph Schult'
 

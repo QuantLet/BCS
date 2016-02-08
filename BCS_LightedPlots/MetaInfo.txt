@@ -8,12 +8,9 @@ Description: 'Different lighted plots for three dimensional data. The data
               sources are then alternated for the different plots to show the
               effect on the appearance of the plot.'
 
-Keywords: 'rgl,lighted,plot,random normal,normal,3D,marbles
-           '
+Keywords: 'rgl,lighted,plot,random normal,normal,3D,marbles'
 
-See also: ''
-
-Author: 'Polina Marchenko'
+Author: Polina Marchenko
 
 Submitted: '2016-01-28, Christoph Schult'
 

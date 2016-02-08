@@ -9,9 +9,7 @@ Description: 'The regression curve and data for a simulated model. The
 Keywords: 'regression,curve,regression curve,log-returns,estimation,plot,
            nonparametric,univariate nonparametric regression'
 
-See also: ''
-
-Author: '[New] Christoph Schult'
+Author[New]: Christoph Schult
 
 Submitted: '2016-01-28, Christoph Schult'
 

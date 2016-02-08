@@ -8,9 +8,9 @@ Description: 'Plot of the Empirical Cumulative Distribution Function of the R ex
 
 Keywords: 'empirical, cdf, distribution, visualization, plot'
 
-See also: 'BCS_barp, BCS_bard, BCS_pie, BCS_hist1, BCS_hist2, BCS_boxplot2'
+See also: BCS_BarGraphs, BCS_pie, BCS_hist1, BCS_hist2, BCS_Boxplot2
 
-Author: '[New] Gunawan'
+Author[New]: Gunawan
 
 Submitted: '2016-01-28, Christoph Schult'
 

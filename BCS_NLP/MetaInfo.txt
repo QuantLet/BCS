@@ -12,7 +12,7 @@ Keywords:                 'Numerical optimization,optimization,3D,plot,multivari
                            costrained optimization'
 
 
-Author:                   '[New] Christoph, Schult'
+Author[New]:               Christoph, Schult
 
 Submitted:                '2016-01-28, Christoph Schult'
 

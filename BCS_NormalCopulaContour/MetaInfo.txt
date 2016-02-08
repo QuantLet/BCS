@@ -12,9 +12,7 @@ Description: 'The trivariate normal distribution is produced by random sampling.
 Keywords: 'multivariate,copula,contour,correlation,bivariate,density,
            normal,matrix,distribution,pdf,cdf,scatterplot'
 
-See also: ''
-
-Author: 'Okhrin, Ostap'
+Author: Okhrin, Ostap
 
 Submitted: '2016-01-28, Christoph Schult'
 

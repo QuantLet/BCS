@@ -14,8 +14,7 @@ Description: 'QQ plots compare empirical quantiles of a distribution with
 Keywords: 'univariate,distribution,Student,plot,continuous,quantile,
            normal,chisquare,t-distribution,test,QQ,asymptotic,student'
 
-See also: 'BCS_ChiNormApprox
-           BCS_NormPdfCdf, BCS_ChiPdfCdf, BCS_tPdfCdf'
+See also: BCS_ChiNormApprox, BCS_NormPdfCdf, BCS_ChiPdfCdf, BCS_tPdfCdf
 
 Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
 

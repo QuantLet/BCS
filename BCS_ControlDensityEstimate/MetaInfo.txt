@@ -13,10 +13,8 @@ Keywords: 'rpanel,tcltk,slider,double,button,plot,density,bandwidth,three dimens
 See also: 'BCS_HistogramBoxplotOption BCS_rp.tkrplot BCS_UnivariateRegression
            BCS_BivariateRegression BCS_NormalDensityFit'
 
-Author: 'Polina Marchenko'
+Author: Polina Marchenko
 
 Submitted: '2016-01-28, Christoph Schult'
-
-Input: 'None'
 
 Output: 'Density plot and control panel for altering the bandwidth'

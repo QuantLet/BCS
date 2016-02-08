@@ -10,7 +10,7 @@ Description: 'The Chi-squared distribution has two special pdfs. If the
 
 Keywords: 'distribution,chisquare,pdf,continuous,univariate,cauchy'
 
-See also: 'BCS_ChiPdfCdf, BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf'
+See also: BCS_ChiPdfCdf, BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf
 
 Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
 

@@ -8,7 +8,7 @@ Description: 'This plot shows how to use R to create your own diagrams.
 
 Keywords: 'samples, order, permutation, combinatorics, plot, diagram'
 
-Author: '[New] Christoph Schult'
+Author[New]: Christoph Schult
 
 Submitted: '2016-02-06, Christoph Schult'
 

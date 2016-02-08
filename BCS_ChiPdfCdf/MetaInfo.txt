@@ -16,7 +16,7 @@ See also: 'BCS_ExpPdfCdf, BCS_StablePdfCdf,BCS_StablePdfCdfSpecial,
            BCS_CauchyPdfCdf, BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf,
            BCS_ChiPdf'
 
-Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
+Author: Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
 Submitted: '2016-01-28, Christoph Schult'
 

@@ -14,9 +14,7 @@ Description: 'The code creates two graphics. One graphic is a scatterplot of
 Keywords: 'multivariate,distribution,normal,density,pdf,multivariate,contour,
            eigenvalues,standard,gaussian,copula,gaussian'
 
-See also: ''
-
-Author: 'Ostap Okhrin'
+Author: Ostap Okhrin
 
 Submitted: '2016-01-28, Christoph Schult'
 

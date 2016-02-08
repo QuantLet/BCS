@@ -11,6 +11,6 @@ Keywords: 'linear, discriminant, analysis, linear discrimination, prediction, ra
 
 Submitted: '2016-01-28, Christoph Schult'
 
-Author[New]: 'Johannes Haupt'
+Author[New]: Johannes Haupt
 
 Output: 'Plot of observations and discrimination borders.'

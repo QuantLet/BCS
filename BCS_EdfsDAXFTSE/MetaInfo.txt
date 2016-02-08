@@ -14,9 +14,7 @@ Keywords: 'edf,empirical cumulative distribution function,DAX,FTSE,
            returns,standardisation,scatterplot,density estimation,plot,
            nonparametric'
 
-See also: ''
-
-Author: '[New] Christoph Schult'
+Author[New]: Christoph Schult
 
 Submitted: '2016-01-28, Christoph Schult'
 

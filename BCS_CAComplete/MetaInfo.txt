@@ -7,9 +7,9 @@ Description: 'Performs a cluster anlalysis on the data "agriculture" from
               package "cluster" using the Ward algorithm. The result is depicted in a
               dendrogram with the optimal clusters highlighted by red boxes.'
 
-Keywords: 'BCS_CAmethods'
+Keywords: 'cluster, analysis, agriculture, dendogram, cluster anylsis, plot'
 
-Author: '[New] Anastasija Tetereva'
+Author[New]: Anastasija Tetereva
 
 Submitted: '2016-01-28, Christoph Schult'
 

@@ -11,9 +11,9 @@ Description:               'The binomial distribution is plotted for sample size
 Keywords:                  'approximation, binomial, distribution, graphical representation,
                             pdf, visualization'
 
-See also:                  'BCS_Bincdf, BCS_Binhist, BCS_Binompdf'
+See also:                  BCS_Bincdf, BCS_Binhist, BCS_Binompdf
 
-Author:                    '[New] Johannes Haupt'
+Author[New]:               Johannes Haupt
 
 Submitted:                 '2016-01-28, Christoph Schult'
 

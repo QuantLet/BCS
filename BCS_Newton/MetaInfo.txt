@@ -14,7 +14,7 @@ Keywords:                'numerical methods,BCS,approximation,root,Newton,univar
                           scatterplot'
 
 
-Author:                  'Yafei, Xu'
+Author:                  Yafei, Xu
 
 Submitted:               '2016-01-28, Christoph Schult'
 

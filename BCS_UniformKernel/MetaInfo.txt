@@ -13,9 +13,9 @@ Keywords: 'kernel,regression,DAX,FTSE,log-returns,estimation,plot,
            nonparametric,univariate nonparametric regression,uniform
            bandwidth,different bandwidths'
 
-See also: 'BCS_KernelSmoother'
+See also: BCS_KernelSmoother
 
-Author: '[New] Christoph Schult'
+Author[New]: Christoph Schult
 
 Submitted: '2016-01-28, Christoph Schult'
 

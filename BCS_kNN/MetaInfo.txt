@@ -13,9 +13,9 @@ Keywords: 'kNN,regression,DAX,FTSE,log-returns,estimation,plot,
            nonparametric,univariate nonparametric regression,uniform,
            nearest neighbours,different number of nearest neighbours'
 
-See also: 'BCS_UniformKernel,BCS_GaussianKernel'
+See also: BCS_UniformKernel,BCS_GaussianKernel
 
-Author: '[New] Christoph Schult'
+Author[New]: Christoph Schult
 
 Submitted: '2016-01-28, Christoph Schult'
 

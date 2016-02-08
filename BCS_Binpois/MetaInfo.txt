@@ -10,9 +10,9 @@ Description:             'Graphic of the probability mass function of the poissi
 
 Keywords:                'approximation, binomial, distribution, plot, poisson, visualization'
 
-See also:                'BCS_Binhist, BCS_Binnorm, BCS_Binompdf, BCS_Poispdf'
+See also:                BCS_Binhist, BCS_Binnorm, BCS_Binompdf, BCS_Poispdf
 
-Author:                  '[New] Johannes Haupt'
+Author[New]:             Johannes Haupt
   
 Submitted:               '2016-01-28, Christoph Schult'
 

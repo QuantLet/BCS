@@ -8,11 +8,8 @@ Description: 'A world map as an illustrative example how powerful R is.
 
 Keywords: 'plot, worldmap, data, colorsheme, Hello World'
 
-See also: ' '
-
-Author: '[New] Johannes, Haupt'
+Author[New]: Johannes, Haupt
 
 Submitted: '2016-01-28, Christoph Schult'
-
 
 Output: 'A world map in R.'

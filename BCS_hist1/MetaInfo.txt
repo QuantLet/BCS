@@ -1,6 +1,6 @@
 
 Name of Quantlet: 'BCS_hist1'
-Published in:         'Basic Elements of Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'Histogram with default choice of grids based on R example data
               nhtemp. Histograms are commonly used to visualize data frequencies of
@@ -8,7 +8,7 @@ Description: 'Histogram with default choice of grids based on R example data
 
 Keywords:    'histogram, graphical, visualization, frequencies, data, grid'
 
-Author: '[New] Gunawan'
+Author[New]: Gunawan
 
 Submitted: '2016-01-28, Christoph Schult'
 
