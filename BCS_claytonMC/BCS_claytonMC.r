@@ -21,6 +21,6 @@ plot(uniclay, xlab = "", ylab = "", pch = 19, main = "Uniform")
 # variables standard normally distributed:
 normclayMVD = mvdc(claytonCopula(theta), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1), list(mean = 0, 
     sd = 1)))
-normclay <- rMvdc(normclayMVD, n = 10000)
+normclay = rMvdc(normclayMVD, n = 10000)
 
 plot(normclay, xlab = "", ylab = "", pch = 19, main = "Normal")

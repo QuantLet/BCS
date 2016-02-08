@@ -45,7 +45,7 @@ frankMVD = mvdc(frankCopula(2), margins = c("norm", "norm"), paramMargins = list
 contour(frankMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), nlevels = 10, cex.axis = 1.5, labcex = 1.5, lwd = 3)
 
 # Frank Copula for t6 marginal distributions
-frankMVD <- mvdc(frankCopula(2), margins = c("t", "t"), paramMargins = list(list(df = 6), list(df = 6)))
+frankMVD = mvdc(frankCopula(2), margins = c("t", "t"), paramMargins = list(list(df = 6), list(df = 6)))
 
 # Contour Plot: Frank Copula for t6 marginal distributions
 contour(frankMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), nlevels = 10, cex.axis = 1.5, labcex = 1.5, lwd = 3)
