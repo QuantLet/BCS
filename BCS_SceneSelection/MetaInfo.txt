@@ -8,7 +8,7 @@ Description: 'Three dimensional interactive plot for five spheres with
               possible to interactively select different scenes of the plot.'
 
 Keywords: 'rgl,three dimensional,plot,three dimensional plot,scene selection,
-           selcetion, interactive'
+           selection, interactive'
 
 See also: ''
 
