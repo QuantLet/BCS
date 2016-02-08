@@ -18,7 +18,7 @@ Linestrips = rgl.linestrips(x = rnorm(100), y = rnorm(100), z = rnorm(100), col 
 
 # Triangles
 
-M <- matrix(rnorm(99), 3, 33)
+M = matrix(rnorm(99), 3, 33)
 Triangles = triangles3d(M, col = "grey", alpha = 1, color = "red3")
 aspect3d(1, 1, 1)
 
