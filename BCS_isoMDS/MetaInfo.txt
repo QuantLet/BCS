@@ -14,7 +14,3 @@ Author: '[New] Anastasija Tetereva'
 Submitted: '2016-01-28, Christoph Schult'
 
 Output: 'Plot of MDS with column-names added.'
-
-Description: 'Example of non-metric Multidimensional Scaling (MDS) on the
-              data "voting" from package "HSAUR2". This approach is useful for a number
-              of negative eigenvalues and ordinal data.'
