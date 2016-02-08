@@ -15,7 +15,7 @@ Keywords: 'kNN,regression,DAX,FTSE,log-returns,estimation,plot,
 
 See also: 'BCS_UniformKernel,BCS_GaussianKernel'
 
-Author: '[New] Christoph Schult'
+Author[New]: 'Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

@@ -9,9 +9,7 @@ Description: 'MSE for k-NN regression using the Leave-one-out cross validation
 Keywords: 'prediction accuracy, mean squared error,scatterplot,plot,
            nonparametric'
 
-See also: ''
-
-Author: '[New] Christoph Schult'
+Author[New]: 'Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

@@ -12,7 +12,7 @@ Keywords:              'data visualization, distribution, graphical representati
      
 See also:              'BCS_Barp, BCS_Boxplot, BCS_Boxplot2, BCS_ECDF, BCS_Hist1, BCS_Hist2'
 
-Author:                '[New] Gunawan'
+Author[New]:           'Gunawan'
 
 Submitted:             '2016-01-28, Christoph Schult'
      

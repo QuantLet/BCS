@@ -9,7 +9,7 @@ Description: 'Performs a cluster anlalysis on the data "agriculture" from
 
 Keywords: 'BCS_CAmethods'
 
-Author: '[New] Anastasija Tetereva'
+Author[New]: 'Anastasija Tetereva'
 
 Submitted: '2016-01-28, Christoph Schult'
 

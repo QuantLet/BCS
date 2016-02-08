@@ -13,7 +13,7 @@ Keywords:               'approximation, binomial, distribution, plot, visualizat
 
 See also:               'BCS_Bincdf, BCS_Binhist, BCS_Binompdf'
 
-Author:                 '[New] Johannes Haupt'
+Author[New]:            'Johannes Haupt'
 
 Submitted:              '2016-01-28, Christoph Schult'
 

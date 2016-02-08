@@ -11,15 +11,11 @@ Description: 'The code creates two graphics. One graphic is a scatterplot of
               the specific value of the joint pdf.'
 
 Keywords: 'multivariate,distribution,normal,probability,cdf,contour,
-           eigenvalues,standard,gaussian,copula,gaussian
-           '
-
-See also: ''
+           eigenvalues,standard,gaussian,copula,gaussian'
 
 Author: 'Ostap Okhrin'
 
 Submitted: '2016-01-28, Christoph Schult'
 
 
-Output: '3D-scatterplot for bivariate normal distribution and contour plot.
-         '
+Output: '3D-scatterplot for bivariate normal distribution and contour plot.'

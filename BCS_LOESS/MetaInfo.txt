@@ -15,7 +15,7 @@ Keywords: 'splines,regression,DAX,FTSE,log-returns,estimation,plot,
 
 See also: 'BCS_Splines'
 
-Author: '[New] Christoph Schult'
+Author[New]: 'Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

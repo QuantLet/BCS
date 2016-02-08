@@ -14,8 +14,6 @@ Keywords: 'trellis,lattice,time,time series,plot,multivariate,continuous,
            default,Cut-and-stack time series plot,
            Default time series plot'
 
-See also: ''
-
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'

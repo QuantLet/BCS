@@ -11,9 +11,7 @@ Description: 'A simple density estimation with the epanechnikov kernel for
 Keywords: 'kernel,bandwidth,weights,density estimation,plot,nonparametric,
            kernel density estimation,DAX,log-returns,epanechnikov'
 
-See also: ''
-
-Author: '[New] Christoph Schult'
+Author[New]: 'Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

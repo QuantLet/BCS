@@ -8,9 +8,7 @@ Description: 'Plot of two variables from the R example dataset longley
 
 Keywords: 'plot, visualization, regression, linear, univariate'
 
-See also: ''
-
-Author: '[New] Benjamin'
+Author[New]: 'Benjamin'
 
 Submitted: '2016-01-28, Christoph Schult'
 

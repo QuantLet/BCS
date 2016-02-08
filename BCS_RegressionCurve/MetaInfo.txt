@@ -5,13 +5,14 @@ Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'The regression curve and data for a simulated model. The
               variable Yis depends on Xis and a standard normally distrbuted
+              random variable epsilon: Yis = sin(2 * pi * Xis) - Xis^2.
+              The simulated data is used to illustrate different 
+              nonparameteric techniques.'
 
 Keywords: 'regression,curve,regression curve,log-returns,estimation,plot,
            nonparametric,univariate nonparametric regression'
 
-See also: ''
-
-Author: '[New] Christoph Schult'
+Author[New]: 'Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

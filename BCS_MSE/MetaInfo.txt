@@ -10,9 +10,7 @@ Description: 'The bias, variance and mean squared error of an estimator for a hi
 Keywords: 'mse, mean squared error, bias, variance, nonparametric, plot,
            prediction accuracy, prediction'
 
-See also: ''
-
-Author: '[New] Christoph Schult'
+Author[New]: 'Christoph Schult'
 
 Submitted: '2016-01-28, Christoph Schult'
 

@@ -18,6 +18,4 @@ Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'
 
-Input: 'None'
-
 Output: 'Density plot with bandwidth control widget'

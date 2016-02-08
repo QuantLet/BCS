@@ -10,8 +10,6 @@ Description: 'Three dimensional interactive plot for five spheres with
 Keywords: 'rgl,three dimensional,plot,three dimensional plot,scene selection,
            selcetion, interactive'
 
-See also: ''
-
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'

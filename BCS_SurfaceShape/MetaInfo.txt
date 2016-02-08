@@ -8,10 +8,7 @@ Description: 'Three dimensional interactive surface plot with different front
               The front is drawn by a solid colour and the back with lines.'
 
 Keywords: 'rgl,surface,plot,multivariate,continuous,
-           3D plot,scatterplot, hyperplane
-           '
-
-See also: ''
+           3D plot,scatterplot, hyperplane'
 
 Author: 'Polina Marchenko'
 

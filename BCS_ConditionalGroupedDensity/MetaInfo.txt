@@ -15,8 +15,6 @@ Description: 'The plots for the density of a conditional or grouped variable
 Keywords: 'lattice,grouped,conditional,panel,plot,variable,multivariate,
            data,plot,density'
 
-See also: ''
-
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'

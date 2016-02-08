@@ -11,15 +11,11 @@ Description: 'The datset barley contains yield data from Minnesota. Average
               illustrated in one graph (yield, time, variety, site).'
 
 Keywords: 'trellis,lattice,rgl,four dimensional,plot,conditional,variable,
-           conditional variable,4D plot,factor,variable
-           '
-
-See also: ''
+           conditional variable,4D plot,factor,variable'
 
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'
-
 
 Output: 'One plot for the dataset barley with time, variety and site as
          conditioning variables.'

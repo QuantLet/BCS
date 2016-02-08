@@ -14,8 +14,6 @@ Description: 'The plots for a conditional or grouped variable differ, even if
 Keywords: 'trellis,grouped,conditional,panel,plot,variable,multivariate,
            data,panels,lattice'
 
-See also: ''
-
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'

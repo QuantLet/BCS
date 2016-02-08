@@ -19,6 +19,4 @@ Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'
 
-Input: ''
-
 Output: 'Listbox control panel for choosing a histogram or boxplot'

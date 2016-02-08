@@ -11,14 +11,10 @@ Description: 'Three dimensional interactive scatterplot for unemployment
               GNP is associated wih higher unemployment this is odd.'
 
 Keywords: 'rgl,regression,bivariate regression,plot,multivariate,continuous,
-           time series, 3D plot, plot, scatterplot, hyperplane
-           '
-
-See also: ''
+           time series, 3D plot, plot, scatterplot, hyperplane'
 
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'
-
 
 Output: 'An interactive time series plot for the longley dataset.'

@@ -13,8 +13,6 @@ Description: 'The distribution of solar radiation and average ozone
 Keywords: 'trellis,lattice,conditional,panel,plot,panels,multivariate,
            data,continuous,shingle,conditional continuous variable'
 
-See also: ''
-
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'

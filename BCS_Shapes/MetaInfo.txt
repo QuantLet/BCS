@@ -11,8 +11,6 @@ Description: 'This code shows how to create different shapes with random
 Keywords: 'points,lines,linestrips,triangles,plot,quads,spheres,random,
            normal,random numbers,3D,trellis,lattice,rgl'
 
-See also: ''
-
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'

@@ -9,8 +9,6 @@ Description: 'Histogram for the height of trees from the trees package.
 
 Keywords: 'rpanel,density estimation,histogram,density,plot'
 
-See also: ''
-
 Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'

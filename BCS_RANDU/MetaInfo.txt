@@ -11,10 +11,8 @@ Description: 'Implementation of the RANDU random number generator developed
 
 Keywords: 'IBM, random number, generation, linear congruential generator, starting'
 
-Author: '[New] Martin Schelisch'
+Author[New]: 'Martin Schelisch'
 
 Submitted: '2016-01-28, Christoph Schult'
-
-Input: 'none'
 
 Output: 'A vector of random numbers with less than ideal random characteristics'

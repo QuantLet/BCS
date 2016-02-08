@@ -11,7 +11,7 @@ Description: 'Implementation of the Lagged Fibonacci Generator (LFG) for
 
 Keywords: 'Fibonacci, lagged, generator, random, plot'
 
-Author: '[New] Martin Schelisch'
+Author[New]: 'Martin Schelisch'
 
 Submitted: '2016-01-28, Christoph Schult'
 

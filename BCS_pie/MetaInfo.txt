@@ -12,7 +12,7 @@ Keywords: 'plot, visualization, pie, chart, graphical visualization'
 
 See also: 'BCS_pie, BCS_hist2, BCS_hist1, BCS_boxplot, BCS_boxplot2'
 
-Author: '[New] Gunawan'
+Author[New]: 'Gunawan'
 
 Submitted: '2016-01-28, Christoph Schult'
 
