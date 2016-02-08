@@ -27,7 +27,6 @@ for(iCounterQEs in 1:iNbQEs){
     iPosStartRequire = iPosStartRequire[which(iPosStartRequire != -1)] + nchar('require(')
     iNbRequire = length(iPosStartRequire)
     
-    if( is.numeric(iPosStartRequire))
       for(iCounterRequire in 1:iNbRequire){
         iPosStart = iPosStartRequire[iCounterRequire]
         listPosEnd   = regexpr(')', QBody[lIndRequire], fixed = T)
@@ -46,16 +45,24 @@ for(iCounterQEs in 1:iNbQEs){
       iPosStartLibrary = iPosStartLibrary[which(iPosStartLibrary != -1)] + nchar('library(')
       iNbLibrary = length(iPosStartLibrary)
       
-      if( is.numeric(iPosStartLibrary))
         for(iCounterLibrary in 1:iNbLibrary){
           iPosStart = iPosStartLibrary[iCounterLibrary]
           listPosEnd   = regexpr(')', QBody[lIndLibrary], fixed = T)
           iPosEnd = listPosEnd[min(which(listPosEnd > iPosStart))] - 1
           
           packageshelp = c(substring(QBody[lIndLibrary], iPosStart, iPosEnd), packageshelp)
+          
         }
     }
   }
   
   close(file(sFile))
 }
+
+packages = sub(')', '', packageshelp)
+packages = sub('\"', '', packages)
+packages = sub('\"', '', packages)
+packages = unique(packages)
+file.create(paste(sPathRoot, "AllPackages.r", sep = "/"))
+file(paste(sPathRoot, "AllPackages.r", sep = "/"))
+writeLines(packages, paste(sPathRoot, "AllPackages.r", sep = "/"))
