@@ -15,12 +15,12 @@ if (interactive()) {
         plot(density(panel$y, panel$sp), col = "red", main = "")  # define color and title of plot
         panel
     }
-    redraw <- function(panel) {
+    redraw = function(panel) {
         # specify a function to be called if double button widget is used
         rp.tkrreplot(panel, density)  # replot the plot called 'density' in the window 'panel'
         panel
     }
-    rpplot <- rp.control(title = "Demonstration of rp.tkrplot", y = Height, sp = r/8)  # variables controlled by control panel
+    rpplot = rp.control(title = "Demonstration of rp.tkrplot", y = Height, sp = r/8)  # variables controlled by control panel
     
     rp.tkrplot(rpplot, density, draw)  # specify the function to be called to draw the plot
     
