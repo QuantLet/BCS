@@ -5,7 +5,7 @@ rownames(Cars93) = Cars93[, ncol(Cars93)]  # name the row after the car  model
 mydata = Cars93[which(Cars93$DriveTrain == "Rear" & Cars93$MPG.city <= 18), ]  #  choose cars having rear drive train and mpg<=18
 
 mydata = mydata[, c(5, 7, 8, 11:15, 17:19, 20:25)]  # choose only relevant (numerical) variables
-mydata <- na.omit(mydata)  # omit observations with missing values
+mydata = na.omit(mydata)  # omit observations with missing values
 d = dist(mydata, method = "euclidean")  # calculate euclidean distance matrix
 fit = cmdscale(d)  # fit mds model
 dev.new()
