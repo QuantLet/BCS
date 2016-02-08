@@ -1,7 +1,7 @@
 graphics.off()
 require(diagram)
 par(mar = c(1, 1, 1, 1), family = "serif")
-fromto <- matrix(ncol = 2, byrow = TRUE, data = c(1, 2, 1, 3, 2, 4, 3, 5, 3, 6, 4, 7, 4, 8, 5, 9, 5, 10, 6, 11, 6, 12))
+fromto = matrix(ncol = 2, byrow = TRUE, data = c(1, 2, 1, 3, 2, 4, 3, 5, 3, 6, 4, 7, 4, 8, 5, 9, 5, 10, 6, 11, 6, 12))
 
 elpos = coordinates(c(1, 2, 3, 6), relsize = 1)
 texts = c("Combinatorics", "Arrangement", "Selection", "Permutation", "Variation", "Combination", expression(paste(n, 
