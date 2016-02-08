@@ -10,11 +10,10 @@ Description: 'Perform multiple linear regression (MLR) on the dataset
               The third plot is a QQ plot to check the deviation from the theoretical distribution
               of the errors. The fourth plot shows each points leverage.'
               
-Author: '[New] Johannes Haupt'
+Author[New]: 'Johannes Haupt'
 
-Keywords: 'regression, linear, multiple, diagnostic, residual, skewness, QQ plot'           '
+Keywords: 'regression, linear, multiple, diagnostic, residual, skewness, QQ plot'
 
 Submitted: '2016-01-28, Christoph Schult'
-
 
 Output: 'Four combined MLR diagnostic plots.'
