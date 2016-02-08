@@ -21,7 +21,7 @@ Y13 = cbind(Y[, 1], rep(-3, length(Y)), Y[, 3])
 Y23 = cbind(Y[, 1], Y[, 3], rep(-3, length(Y)))
 
 # plots the trivariate distribution
-graph <- scatterplot3d(Y, xlim = c(-3, 3), ylim = c(-3, 3), zlim = c(-3, 3), pch = 20, color = rgb(1, 0.1, 0.2), xlab = "", 
+graph = scatterplot3d(Y, xlim = c(-3, 3), ylim = c(-3, 3), zlim = c(-3, 3), pch = 20, color = rgb(1, 0.1, 0.2), xlab = "", 
     ylab = "", zlab = "")  # no labels for the axes
 
 # plots the bivariate distribution of y1 and y2
