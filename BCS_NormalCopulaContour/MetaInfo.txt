@@ -9,7 +9,7 @@ Description: 'The trivariate normal distribution is produced by random sampling.
               for all three variables is also needed. The bivariate marginal
               distributions are estimated by copulae.'
 
-Keywords: 'multivariate,copula,contour,correlation,,bivariate,density,
+Keywords: 'multivariate,copula,contour,correlation,bivariate,density,
            normal,matrix,distribution,pdf,cdf,scatterplot'
 
 See also: ''
