@@ -5,25 +5,28 @@
 
 ```yaml
 
-Name of Quantlet : BCS_ArchimedeanContour
+Name of Quantlet: 'BCS_ArchimedeanContour'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Nine Plots are created for three different archimedean copulae with the same
-dependency parameter (theta=2). The figures in the left column are created based on normal marginal
-distributions. In the right column all copulae are based on a t-distribution with six degrees of
-freedom. The rows depict the Gumbel, Clayton and Frank copulae in descending order.'
+Description: 'Nine Plots are created for three different archimedean
+              copulae with the same dependency parameter (theta=2). The figures
+              in the left column are created based on normal marginal
+              distributions. In the right column all copulae are based on a
+              t-distribution with six degrees of freedom.
+              The rows depict the Gumbel, Clayton and Frank copulae in
+              descending order.'
 
-Keywords : multivariate,copula,archimedean,frank,gumbel,clayton,normal, student,distribution
+Keywords: 'multivariate,copula,archimedean,frank,gumbel,clayton,normal,
+           student,distribution'
 
-See also :
+Author: 'Ostap Okhrin'
 
-Author : Ostap Okhrin
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
 
-Output : Nine contour plots for different bivariate archimedean copulae and marginal distributions.
-
+Output: 'Nine contour plots for different bivariate archimedean copulae and
+         marginal distributions.'
 ```
 
 ![Picture1](BCS_ArchimedeanContour.png)
@@ -39,7 +42,7 @@ par(pty = "s", mar = c(2.1, 2.5, 2.1, 2.5))  # graphical parameters see ?par()
 # Gumbel Copulae with theta=2
 
 # Gumbel Copula for normal marginal distributions
-gumMVD <- mvdc(gumbelCopula(2), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1.2), list(mean = 0, 
+gumMVD = mvdc(gumbelCopula(2), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1.2), list(mean = 0, 
     sd = 1.2)))  # marginal distribution parameters
 
 # Contour Plot: Gumbel Copula based on normal marginal distributions
@@ -47,7 +50,7 @@ contour(gumMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), cex.axis = 1.5,
 
 
 # Gumbel Copula for t6 marginal distributions
-gumMVD <- mvdc(gumbelCopula(2), margins = c("t", "t"), paramMargins = list(list(df = 6), list(df = 6)))  # marginal distribution parameter
+gumMVD = mvdc(gumbelCopula(2), margins = c("t", "t"), paramMargins = list(list(df = 6), list(df = 6)))  # marginal distribution parameter
 
 # Contour Plot: Gumbel Copula based on t6 marginal distributions
 contour(gumMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), cex.axis = 1.5, labcex = 1.5, lwd = 3)
@@ -55,14 +58,14 @@ contour(gumMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), cex.axis = 1.5,
 # Clayton Copulae theta=2
 
 # Clayton Copula for normal marginal distributions
-clayMVD <- mvdc(claytonCopula(2), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1.2), list(mean = 0, 
+clayMVD = mvdc(claytonCopula(2), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1.2), list(mean = 0, 
     sd = 1.2)))
 
 # Contour Plot: Clayton Copula for normal marginal distributions
 contour(clayMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), cex.axis = 1.5, labcex = 1.5, lwd = 3)
 
 # Clayton Copula for t6 marginal distributions
-clayMVD <- mvdc(claytonCopula(2), margins = c("t", "t"), paramMargins = list(list(df = 6), list(df = 6)))
+clayMVD = mvdc(claytonCopula(2), margins = c("t", "t"), paramMargins = list(list(df = 6), list(df = 6)))
 
 # Contour Plot: Clayton Copula for t6 marginal distributions
 contour(clayMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), cex.axis = 1.5, labcex = 1.5, lwd = 3)
@@ -70,14 +73,14 @@ contour(clayMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), cex.axis = 1.5
 # Frank Copulae theta=2
 
 # Frank Copula for normal marginal distributions
-frankMVD <- mvdc(frankCopula(2), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1.2), list(mean = 0, 
+frankMVD = mvdc(frankCopula(2), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1.2), list(mean = 0, 
     sd = 1.2)))
 
 # Contour Plot: Frank Copula for normal marginal distributions
 contour(frankMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), nlevels = 10, cex.axis = 1.5, labcex = 1.5, lwd = 3)
 
 # Frank Copula for t6 marginal distributions
-frankMVD <- mvdc(frankCopula(2), margins = c("t", "t"), paramMargins = list(list(df = 6), list(df = 6)))
+frankMVD = mvdc(frankCopula(2), margins = c("t", "t"), paramMargins = list(list(df = 6), list(df = 6)))
 
 # Contour Plot: Frank Copula for t6 marginal distributions
 contour(frankMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), nlevels = 10, cex.axis = 1.5, labcex = 1.5, lwd = 3)
