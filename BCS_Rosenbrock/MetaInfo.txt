@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_Rosenbrock'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'A 3d plot for the Rosenbrock function:
               z = 100*(y - x^2)^2 + (1 - y)^2.

@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_StablePdfCdfSpecial'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'The code below plots the pdfs and cdfs for three special cases
               of the stable distribution for which the pdf and cdf have a

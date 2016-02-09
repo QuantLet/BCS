@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_NormPdfCdf'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'The normal distribution is very often applied in statisitics.
               It is a stable distribution, which is symmetric around its

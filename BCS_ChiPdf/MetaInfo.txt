@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_ChiPdf'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'The Chi-squared distribution has two special pdfs. If the
               degrees of freedom are equal to one, the mean is undefined

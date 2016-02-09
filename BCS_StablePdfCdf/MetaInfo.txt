@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_StablePdfCdf'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'A stable distribution can be linearly transformed and stays
               a stable distribtuion. The location and scale parameter for

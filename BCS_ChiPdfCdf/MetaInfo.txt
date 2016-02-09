@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_ChiPdfCdf'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'The chi-square distribution describes the sum of independent
               squared standard normal random variables. Most commonly used

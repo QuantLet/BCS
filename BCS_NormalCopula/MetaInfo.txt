@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_NormalCopula'
 
-Published in: 'Basic Basic Elements of Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'A bivariate normal distribution is created by the function
               normalCopula.The normalCopula function creates copula objects

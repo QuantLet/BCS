@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_FPdfCdf'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'The F-distribution, also called the Fisher-Snedecor
               distribution, is the ratio of two independent chisquared

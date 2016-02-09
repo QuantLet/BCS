@@ -1,7 +1,7 @@
 
 Name of Quantlet:        'BCS_Newton'
 
-Published in:            'Basic Computational Statistics'
+Published in:            'Basic Elements of Computational Statistics'
  
 Description:             'The code produces an inteactive plot for the illustration of
                           the Newton-Raphson method. In the example the univariate

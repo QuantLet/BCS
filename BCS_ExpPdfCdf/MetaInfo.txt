@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_ExpPdfCdf'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'The exponential distribution only works for positive random
               variables. The normal and logisitc distribution are special

@@ -1,7 +1,7 @@
 
 Name of Quantlet: 'BCS_tQQplots'
 
-Published in: 'Basic Computational Statistics'
+Published in: 'Basic Elements of Computational Statistics'
 
 Description: 'QQ plots compare empirical quantiles of a distribution with
               theoretical quantiles of the standard normal distribution. If

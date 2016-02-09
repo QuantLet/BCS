@@ -3,9 +3,10 @@ Name of Quantlet: 'BCS_CauchyPdfCdf'
 
 Published in: 'Basic Computational Statistics'
 
-Description: 'The Cauchy distribution has no mean and no variance. Its
-              location and form are defined by the parameters mu and sigma.
-              Mu defines the position of the peak (mode) and the median.'
+Description: 'The Cauchy distribution has no mean and no variance. 
+              Its location and form are defined by the parameters 
+              mu and sigma. Mu defines the position of the peak 
+              (mode) and the median.'
 
 Keywords: 'cauchy,poisson,kernel,univariate,continuous,distribution,
            lorenz,pdf,cdf,standard,student,t-distribution,stable'
