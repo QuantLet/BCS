@@ -1,5 +1,5 @@
 
-Name of Quantlet: 'BCS_NormalDensity'
+Name of Quantlet: 'BCS_BinormalDensity'
 
 Published in: 'Basic Elements of Computational Statistics'
 
