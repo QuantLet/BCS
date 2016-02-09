@@ -1,5 +1,5 @@
 
-Name of Quantlet: 'BCS_Conf2Sided'
+Name of Quantlet: 'BCS_Conf2sided'
 
 Published in: 'Basic Elements of Computational Statistics'
 
