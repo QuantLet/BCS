@@ -1,15 +1,18 @@
 
 Name of Quantlet: 'BCS_HelloWorld'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in: 'Basic Computational Statistics'
 
 Description: 'A world map as an illustrative example how powerful R is. 
 	     This plot is supposed to show new users an interesting application of R.'
 
 Keywords: 'plot, worldmap, data, colorsheme, Hello World'
 
-Author[New]: Johannes, Haupt
+See also: ' '
+
+Author: 'Johannes, Haupt'
 
 Submitted: '2016-01-28, Christoph Schult'
+
 
 Output: 'A world map in R.'
