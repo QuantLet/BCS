@@ -37,8 +37,6 @@ Output : Five plots for a binormal distribution constructed by normalCopula.
 
 ![Picture5](BCS_NormalCopula5.png)
 
-![Picture6](Rplot.png)
-
 
 ```r
 graphics.off()
