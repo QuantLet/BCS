@@ -1,22 +1,22 @@
 
-Name of Quantlet: 'BCS_BinormalDensity'
+Name of Quantlet:      'BCS_BinormalDensity'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:          'Basic Elements of Computational Statistics'
 
-Description: 'The code creates two graphics. One graphic is a scatterplot of
-              the bivariate normal distribution. Contours are plotted to
-              illustrate for which combinations of the two variables the
-              density function is the same. You can call them also isolines.
-              The other plot is a 3 dimensional scatterplot, which shows
-              the specific value of the joint pdf. It looks like a
-              mountain. The highest point is the expectation.'
+Description:           'The code creates two graphics. One graphic is a scatterplot of
+                        the bivariate normal distribution. Contours are plotted to
+                        illustrate for which combinations of the two variables the
+                        density function is the same. You can call them also isolines.
+                        The other plot is a 3 dimensional scatterplot, which shows
+                        the specific value of the joint pdf. It looks like a
+                        mountain. The highest point is the expectation.'
 
-Keywords: 'multivariate,distribution,normal,density,pdf,multivariate,contour,
-           eigenvalues,standard,gaussian,copula,gaussian'
+Keywords:              'multivariate,distribution,normal,density,pdf,multivariate,contour,
+                        eigenvalues,standard,gaussian,copula,gaussian'
 
-Author: Ostap Okhrin
+Author:                 Ostap Okhrin
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted:             '2016-01-28, Christoph Schult'
 
 
-Output: '3D-scatterplot for bivariate normal distribution and contour plot.'
+Output:                '3D-scatterplot for bivariate normal distribution and contour plot.'
