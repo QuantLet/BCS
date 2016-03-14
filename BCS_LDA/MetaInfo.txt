@@ -1,16 +1,16 @@
-Name of Quantlet: 'BCS_LDA'
+Name of Quantlet:          'BCS_LDA'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:              'Basic Elements of Computational Statistics'
 
-Description: 'Example of Linear Discriminant analysis using the data
-              "spanish" and "spanishMeta" from package "LanguageR". The data is randomly
-              split into a training and test set beforehand. The observations and discrimiation
-              borders are shown in a plot and the prediction error is calculated.'
+Description:               'Example of Linear Discriminant analysis using the data
+                            "spanish" and "spanishMeta" from package "LanguageR". The data is randomly
+                            split into a training and test set beforehand. The observations and discrimiation
+                            borders are shown in a plot and the prediction error is calculated.'
               
-Keywords: 'linear, discriminant, analysis, linear discrimination, prediction, random'
+Keywords:                  'linear, discriminant, analysis, linear discrimination, prediction, random'
 
-Submitted: '2016-01-28, Christoph Schult'
+Author[New]:                Johannes Haupt
 
-Author[New]: Johannes Haupt
+Submitted:                 '2016-01-28, Christoph Schult'
 
-Output: 'Plot of observations and discrimination borders.'
+Output:                    'Plot of observations and discrimination borders.'
