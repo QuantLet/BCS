@@ -1,15 +1,16 @@
-Name of Quantlet: BCS_PCAvar
+Name of Quantlet:        'BCS_PCAvar'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:            'Basic Elements of Computational Statistics'
 
-Author[New]: Johannes Haupt
+Description:             'Analysis of principal component analysis (PCA) in order 
+                          to identify the efficient number of principal components.
+                          The first three PCs are plotted against each other. 
+                          Another plot shows the cumulative percentage variance against 
+                          the number of components.'
 
-Description: 'Analysis of principal component analysis (PCA) in order 
-              to identify the efficient number of principal components.
-              The first three PCs are plotted against each other. 
-              Another plot shows the cumulative percentage variance against the number of components.'
+Keywords:                'dimension-reduction, pca, plot, principal-components, visualization'
 
-Keywords: 'dimension-reduction, pca, plot, principal-components, visualization'
+Author[New]:              Johannes Haupt
 
-Submitted: '2016.02.06 Christoph Schult'
+Submitted:               '2016.02.06 Christoph Schult'
 
