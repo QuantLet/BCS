@@ -1,25 +1,25 @@
 
-Name of Quantlet: 'BCS_GaussianKernel'
+Name of Quantlet:         'BCS_GaussianKernel'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:             'Basic Elements of Computational Statistics'
 
-Description: 'Multiple Gaussian kernel regressions for DAX log-returns on FTSE
-              log-returns. The bandwidth is alternated to see the effect of
-              the bandwidth for the regression results. The smootheness of
-              the regression line increases with a higher bandwidth. This
-              causes a smaller bias but a higher variance.'
+Description:              'Multiple Gaussian kernel regressions for DAX log-returns on FTSE
+                           log-returns. The bandwidth is alternated to see the effect of
+                           the bandwidth for the regression results. The smootheness of
+                           the regression line increases with a higher bandwidth. This
+                           causes a smaller bias but a higher variance.'
 
-Keywords: 'kernel,regression,DAX,FTSE,log-returns,estimation,plot,
-           nonparametric,univariate nonparametric regression,normal,
-           bandwidth,different bandwidths,Gaussian'
+Keywords:                 'kernel, regression, DAX, FTSE, log-returns, estimation, plot, 
+                           nonparametric, univariate nonparametric regression, normal, 
+                           bandwidth, different bandwidths, Gaussian'
 
-See also: BCS_KernelSmoother
+See also:                 'BCS_KernelSmoother'
 
-Author[New]: Christoph Schult
+Author[New]:               Christoph Schult
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted:                '2016-01-28, Christoph Schult'
 
 
-Output: 'One plot for multiple kernel regressions of the DAX log-returns on FTSE
-         log-returns. Different regression lines correspond to different
-         bandwiths.'
+Output:                   'One plot for multiple kernel regressions of the DAX log-returns on FTSE
+                           log-returns. Different regression lines correspond to different
+                           bandwiths.'
