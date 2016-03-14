@@ -1,29 +1,29 @@
 
-Name of Quantlet: 'BCS_StablePdfCdfSpecial'
+Name of Quantlet:              'BCS_StablePdfCdfSpecial'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:                  'Basic Elements of Computational Statistics'
 
-Description: 'The code below plots the pdfs and cdfs for three special cases
-              of the stable distribution for which the pdf and cdf have a
-              closed form expression. The special cases are the normal,
-              Cauchy and Levy distribution. Normal distributions have a
-              kurtosis of three and zero skewness. The Cauchy distribution
-              is symmetric around its mean but has thicker tails than the
-              normal distribution. Random variables with a Levy distribution
-              have a skewness which tends to one. Only variables which are
-              above the mean will be observed.'
+Description:                   'The code below plots the pdfs and cdfs for three special cases
+                                of the stable distribution for which the pdf and cdf have a
+                                closed form expression. The special cases are the normal,
+                                Cauchy and Levy distribution. Normal distributions have a
+                                kurtosis of three and zero skewness. The Cauchy distribution
+                                is symmetric around its mean but has thicker tails than the
+                                normal distribution. Random variables with a Levy distribution
+                                have a skewness which tends to one. Only variables which are
+                                above the mean will be observed.'
 
-Keywords: 'univariate,distribution,stable,pdf,cdf,continuous,gaussian,
-           gaussian,cauchy,levy,normal,lorenz'
+Keywords:                      'univariate, distribution, stable, pdf, cdf, continuous, gaussian,
+                                gaussian, cauchy, levy, normal, lorenz'
 
-See also: 'BCS_StablePdfCdf, BCSExpPdfCdf,
-           BCS_NormPdfCdf, BCS_ChiPdfCdf,
-           BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_tPdfCdf'
+See also:                      'BCS_StablePdfCdf, BCSExpPdfCdf,
+                                BCS_NormPdfCdf, BCS_ChiPdfCdf,
+                                BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_tPdfCdf'
 
-Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
+Author:                         Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted:                     '2016-01-28, Christoph Schult'
 
 
-Output: 'Plots pdfs and cdfs for special stable distribution with different
-         parameters.'
+Output:                        'Plots pdfs and cdfs for special stable distribution with different
+                                parameters.'
