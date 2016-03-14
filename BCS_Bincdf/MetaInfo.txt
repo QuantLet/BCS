@@ -11,7 +11,7 @@ Keywords:                'binomial, cdf, distribution, plot, visualization'
 
 See also:                BCS_Binhist, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf
 
-Author[New]:             Johannes Haupt
+Author:             Johannes Haupt
          
 
 Submitted:               '2016-01-28, Christoph Schult'
