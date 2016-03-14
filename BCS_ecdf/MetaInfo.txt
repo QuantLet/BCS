@@ -1,17 +1,17 @@
 
-Name of Quantlet: 'BCS_ecdf'
+Name of Quantlet:                'BCS_ecdf'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:                    'Basic Elements of Computational Statistics'
 
-Description: 'Plot of the Empirical Cumulative Distribution Function of the R example
-              dataset Formaldehyde, specifically Formaldehyde$car.'
+Description:                     'Plot of the Empirical Cumulative Distribution Function of the R example
+                                  dataset Formaldehyde, specifically Formaldehyde$car.'
 
-Keywords: 'empirical, cdf, distribution, visualization, plot'
+Keywords:                        'empirical, cdf, distribution, visualization, plot'
 
-See also: BCS_BarGraphs, BCS_pie, BCS_hist1, BCS_hist2, BCS_Boxplot2
+See also:                        'BCS_BarGraphs, BCS_pie, BCS_hist1, BCS_hist2, BCS_Boxplot2'
 
-Author[New]: Gunawan
+Author[New]:                      Gunawan
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted:                       '2016-01-28, Christoph Schult'
 
-Output: 'Plot of ECDF of Formaldehyde in .pdf format'
+Output:                          'Plot of ECDF of Formaldehyde in .pdf format.'
