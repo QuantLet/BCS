@@ -1,15 +1,15 @@
 
-Name of Quantlet: 'BCS_FAsummary'
+Name of Quantlet:         'BCS_FAsummary'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:             'Basic Elements of Computational Statistics'
+ 
+Description:              'Performs a factor analysis on a subset of the data "decathlon" from package
+                          "FactoMineR" for three factors. The result is depicted in a correlation plot.'
 
-Description: 'Performs a factor analysis on a subset of the data "decathlon" from package
-              "FactoMineR" for three factors. The result is depicted in a correlation plot.'
+Keywords:                 'factor, analysis, plot, decathlon, FactoMineR, plot'
 
-Keywords: 'factor, analysis, plot, decathlon, FactoMineR, plot'
+Author:                    Anastasija Tetereva
 
-Author: Anastasija Tetereva
+Submitted:                '2016-01-28, Christoph Schult'
 
-Submitted: '2016-01-28, Christoph Schult'
-
-Output: 'A scatterplot showing the relationship between principal components and actual data.'
+Output:                   'A scatterplot showing the relationship between principal components and actual data.'
