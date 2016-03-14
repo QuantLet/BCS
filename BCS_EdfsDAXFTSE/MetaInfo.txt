@@ -1,24 +1,24 @@
 
-Name of Quantlet: 'BCS_EdfsDAXFTSE'
+Name of Quantlet:             'BCS_EdfsDAXFTSE'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:                 'Basic Elements of Computational Statistics'
 
-Description: 'Two plots for the empirical cumulative distribution function
-              standardised and not standardised log-returns for the DAX and
-              FTSE indeces. The edf for both is close enough for the
-              Kolmogorov-Smirnov test to not reject the null hypothesis of
-              different distributions. This is not  true for non standardised
-              log-returns.'
+Description:                  'Two plots for the empirical cumulative distribution function
+                               standardised and not standardised log-returns for the DAX and
+                               FTSE indeces. The edf for both is close enough for the
+                               Kolmogorov-Smirnov test to not reject the null hypothesis of
+                               different distributions. This is not  true for non standardised
+                               log-returns.'
 
-Keywords: 'edf,empirical cumulative distribution function,DAX,FTSE,
-           returns,standardisation,scatterplot,density estimation,plot,
-           nonparametric'
+Keywords:                     'edf, empirical cumulative distribution function, DAX, FTSE,
+                               returns, standardisation, scatterplot, density estimation, plot,
+                               nonparametric'
 
-Author[New]: Christoph Schult
+Author[New]:                   Christoph Schult
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted:                    '2016-01-28, Christoph Schult'
 
 
-Output: 'Two scatter plots for the edfs of standardised and non standardised
-         log-retunrs of the DAX and FTSE indeces. Log-retuns for the DAX
-         index are depicted in black and the FTSE index log-retunrs in blue.'
+Output:                       'Two scatter plots for the edfs of standardised and non standardised
+                               log-retunrs of the DAX and FTSE indeces. Log-retuns for the DAX
+                               index are depicted in black and the FTSE index log-retunrs in blue.'
