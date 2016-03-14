@@ -11,7 +11,7 @@ Keywords:             'binomial, discrete, distribution, plot, visualization'
 See also:             'BCS_Bincdf, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf, 
                        BCS_Binpois'
 
-Author[New]:          ' Johannes Haupt'
+Author:               'Johannes Haupt'
 
 Submitted:            '2016-01-28, Christoph Schult'
 
