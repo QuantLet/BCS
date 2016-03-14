@@ -1,18 +1,18 @@
 
-Name of Quantlet: 'BCS_MSE'
+Name of Quantlet:              'BCS_MSE'
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in:                  'Basic Elements of Computational Statistics'
 
-Description: 'The bias, variance and mean squared error of an estimator for a histogram with
-              origin x 0 = 0 evaluated at x = 0.001 and X ??? N(0,1) is depicted in the plot. The binwidth minimizing
-              the MSE h MSE is depicted by a black point.'
+Description:                   'The bias, variance and mean squared error of an estimator for a histogram with
+                                origin x0 = 0 evaluated at x = 0.001 and X ~ N(0,1) is depicted in the plot. 
+                                The binwidth minimizing  the MSE h MSE is depicted by a black point.'
 
-Keywords: 'mse, mean squared error, bias, variance, nonparametric, plot,
-           prediction accuracy, prediction'
+Keywords:                      'mse, mean squared error, bias, variance, nonparametric, plot,
+                                prediction accuracy, prediction'
 
-Author[New]: Christoph Schult
+Author[New]:                    Christoph Schult
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted:                     '2016-01-28, Christoph Schult'
 
-Output: 'One scatter plot for the MSE BIAS and Variance of an histogramm
-         estimator for the denisty of a standard normal distribution.'
+Output:                        'One scatter plot for the MSE BIAS and Variance of an histogramm
+                                estimator for the denisty of a standard normal distribution.'
