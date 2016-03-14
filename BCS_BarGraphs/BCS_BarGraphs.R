@@ -11,4 +11,4 @@ abline(h = 0)
 par(cex.axis = 1.7, mai = c(b = 0.5, l = 0.95, t = 0.01, r = 0.01), fin = c(w = 5, h = 3), mgp = c(2.8, 0.8, 0), las = 2)
 
 # Bar Diagram with axis label size=2
-plot(table(chickwts$feed), ylab = expression(n(a[j])), xlab = "", cex.lab = 2)
+plot(table(chickwts$feed), ylab = expression(h(a[j])), xlab = "", cex.lab = 2)
