@@ -14,10 +14,10 @@ Keywords:                'numerical methods,BCS,approximation,root,Newton,univar
                           scatterplot'
 
 
-Author:                  Yafei, Xu
+Author:                   Yafei, Xu
 
 Submitted:               '2016-01-28, Christoph Schult'
 
 
-Output:                 'A scatterplot illustrating the Newton-Ramphsey method for the
-                         function f(x) = x^2 - 4.'
+Output:                  'A scatterplot illustrating the Newton-Ramphsey method for the
+                          function f(x) = x^2 - 4.'
