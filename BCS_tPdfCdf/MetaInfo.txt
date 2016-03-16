@@ -1,9 +1,9 @@
 
-Name of Quantlet:              'BCS_tPdfCdf'
+Name of Quantlet:              BCS_tPdfCdf
 
 Published in:                  'Basic Elements of Computational Statistics'
 
-Description:                   'Stundent's t-distribution is the ratio of a normal
+Description:                   'Stundent''s t-distribution is the ratio of a normal
                                 distribution and a chisquare distribution. The t-distribution
                                 is used for several statisitcal tests. The degrees of freedom
                                 specify the moments of the distribution.'
