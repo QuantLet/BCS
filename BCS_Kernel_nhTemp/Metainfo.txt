@@ -1,0 +1,11 @@
+Name of Quantlet: BCS_Kernel_nhTemp
+
+Published in: 	  Basic Elements of Computational Statistics
+
+Description:      'PLot the kernel density of New Haven average yearly temperatures.'
+
+Keywords:         kernel, density
+
+Author:           Ostap Okhrin
+
+Submitted:        Ya Qian
