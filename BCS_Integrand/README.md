@@ -49,4 +49,4 @@ wireframe(z ~ x * y, shade = F, aspect = 1, scales = list(col = "black", arrows 
     cex = 1.2))
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
