@@ -1,34 +1,36 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_SurfaceShape** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_SurfaceShape
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:            'BCS_SurfaceShape'
 
-Description : 'Three dimensional interactive surface plot with different front and back drawing for
-the multivariate function z = 0.1 * (x^2 - y^2). The front is drawn by a solid colour and the back
-with lines.'
+Published in:                'Basic Elements of Computational Statistics'
 
-Keywords : rgl, surface, plot, multivariate, continuous, 3D plot, scatterplot, hyperplane
+Description:                 'Three dimensional interactive surface plot with different front
+                              and back drawing for the multivariate function z = 0.1 * (x^2 - y^2).
+                              The front is drawn by a solid colour and the back with lines.'
 
-Author : Polina Marchenko
+Keywords:                    'rgl, surface, plot, multivariate, continuous,
+                              3D plot, scatterplot, hyperplane'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                       Polina Marchenko
 
-Output : 'An interactive surface plot with different drawings for the back and front for the
-multivariate function z = 0.1 * (x^2 - y^2).'
+Submitted:                   '2016-01-28, Christoph Schult'
+
+
+Output:                      'An interactive surface plot with different drawings for the back
+                              and front for the multivariate function z = 0.1 * (x^2 - y^2).'
 
 ```
 
 ![Picture1](BCS_SurfaceShape.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # surface3d
 x = y = seq(-9, 9)  # define coordinates for the x and y axes
 f = function(x, y) (x^2 - y^2)/10  # defines the function to compute the z values depending on x and y
@@ -36,3 +38,5 @@ z = outer(x, y, f)  # compute the z values for the grid of x and y
 open3d()  # open 3D device
 surface3d(x, y, z, back = "lines", col = rainbow(1000), alpha = 0.9)  # define color and transparency level
 ```
+
+automatically created on 2023-03-27
