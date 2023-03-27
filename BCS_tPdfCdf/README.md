@@ -1,37 +1,41 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_tPdfCdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_tPdfCdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:              BCS_tPdfCdf
 
-Description : 'Stundent's t-distribution is the ratio of a normal distribution and a chisquare
-distribution. The t-distribution is used for several statisitcal tests. The degrees of freedom
-specify the moments of the distribution.'
+Published in:                  'Basic Elements of Computational Statistics'
 
-Keywords : 'statistics, continuous, square, normal, chisquare, root, test, univariate,
-distribution, t-distribution, pdf, cdf, student'
+Description:                   'Stundent''s t-distribution is the ratio of a normal
+                                distribution and a chisquare distribution. The t-distribution
+                                is used for several statisitcal tests. The degrees of freedom
+                                specify the moments of the distribution.'
 
-See also : 'BCS_StablePdfCdfSpecial, BCSExpPdfCdf, BCS_tPdfCdf, BCS_NormPdfCdf, BCS_ChiPdfCdf,
-BCS_tQQplots BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_StablePdfCdf'
+Keywords:                      'statistics, continuous, square, normal, chisquare, root, test,
+                                univariate, distribution, t-distribution, pdf, cdf, student'
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+See also:                      'BCS_StablePdfCdfSpecial, BCSExpPdfCdf, BCS_tPdfCdf,
+                                BCS_NormPdfCdf, BCS_ChiPdfCdf, BCS_tQQplots
+                                BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_StablePdfCdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                         Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Output : Plots pdfs and cdfs for the t-distribution with different degrees of freedom.
+Submitted:                     '2016-01-28, Christoph Schult'
+
+
+Output:                        'Plots pdfs and cdfs for the t-distribution with different
+                                degrees of freedom.'
 
 ```
 
 ![Picture1](BCS_tPdfCdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 par(mfrow = c(1, 2))
 # t distributed variable
 t = seq(-5, 5, length = 300)
@@ -55,3 +59,5 @@ lines(t, pt(t, df[1]), col = "red")
 lines(t, pt(t, df[2]), col = "green")
 lines(t, pt(t, df[3]), col = "blue")
 ```
+
+automatically created on 2023-03-27
