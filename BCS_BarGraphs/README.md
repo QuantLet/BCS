@@ -51,4 +51,4 @@ plot(table(chickwts$feed), ylab = expression(h(a[j])), xlab = "", cex.lab = 2)
 
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
