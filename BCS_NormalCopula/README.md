@@ -1,29 +1,31 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_NormalCopula** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_NormalCopula
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:          'BCS_NormalCopula'
 
-Description : 'A bivariate normal distribution is created by the function normalCopula.The
-normalCopula function creates copula objects and also computes joint densities and probabilities.
-Both rv have a correlation of 0.7. The first plot is a standard scatterplot of the two variables. A
-contour and three dimensional scatterplot illustrate the cdf of the two variables. The last two
-plots depict the density functions for the rvs. One can observe the elliptical shape of the contour
-lines.'
+Published in:              'Basic Elements of Computational Statistics'
 
-Keywords : 'multivariate, distribution, copula, gaussian, normal, density, correlation, pdf, cdf,
-contour, scatterplot'
+Description:               'A bivariate normal distribution is created by the function
+                            normalCopula.The normalCopula function creates copula objects
+                            and also computes joint densities and probabilities. Both rv
+                            have a correlation of 0.7. The first plot is a standard
+                            scatterplot of the two variables. A contour and three dimensional
+                            scatterplot illustrate the cdf of the two variables. The last
+                            two plots depict the density functions for the rvs.
+                            One can observe the elliptical shape of the contour lines.'
 
-Author : Ostap Okhrin
+Keywords:                  'multivariate, distribution, copula, gaussian, normal, density, 
+                            correlation, pdf, cdf, contour, scatterplot'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                     Ostap Okhrin
 
-Output : Five plots for a binormal distribution constructed by normalCopula.
+Submitted:                 '2016-01-28, Christoph Schult'
+
+Output:                    'Five plots for a binormal distribution constructed by normalCopula.'
 
 ```
 
@@ -37,9 +39,9 @@ Output : Five plots for a binormal distribution constructed by normalCopula.
 
 ![Picture5](BCS_NormalCopula5.png)
 
-
-### R Code:
+### R Code
 ```r
+
 graphics.off()
 library(copula)
 layout(matrix(c(1, 1, 2, 3, 4, 5), 3, 2, byrow = T), TRUE)
@@ -63,3 +65,5 @@ persp(norm.2d.cop, dCopula, xlab = "x", ylab = "y", zlab = "f(x,y)")
 contour(norm.2d.cop, dCopula, cex.axis = 1.5, cex.lab = 1.5, xlab = "x", ylab = "y")
 
 ```
+
+automatically created on 2023-03-27
