@@ -56,4 +56,4 @@ text(-1.8, 0.03, expression(frac(alpha, 2)), cex = 1.1)
 text(1.8, 0.03, expression(frac(alpha, 2)), cex = 1.1)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
