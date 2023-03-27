@@ -1,32 +1,32 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_linreg** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_linreg
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:              'BCS_linreg'
 
-Description : 'Plot of two variables from the R example dataset longley (GNP, employed) including a
-regression line (OLS) and grid.'
+Published in:                  'Basic Elements of Computational Statistics'
 
-Keywords : plot, visualization, regression, linear, univariate
+Description:                   'Plot of two variables from the R example dataset longley
+                                (GNP, employed) including a regression line (OLS) and grid.'
 
-Author[New] : Benjamin
+Keywords:                      'plot, visualization, regression, linear, univariate'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                    Benjamin
 
-Output : Plot of regression in .pdf format.
+Submitted:                     '2016-01-28, Christoph Schult'
+
+Output:                        'Plot of regression in .pdf format.'
 
 ```
 
 ![Picture1](BCS_linreg.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # In order to use the variable of the 'longley' data (available data set in R) directly use attach()
 attach(longley)
 
@@ -40,3 +40,5 @@ abline(lm(GNP ~ Employed), col = "blue")
 # using a grid ; specifying strength of grid with 'lwd= '
 grid(lwd = 2)
 ```
+
+automatically created on 2023-03-27
