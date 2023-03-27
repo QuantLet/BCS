@@ -69,4 +69,4 @@ plot(normclay, xlab = "", ylab = "", pch = 19, main = "Normal")
 
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
