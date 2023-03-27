@@ -1,34 +1,35 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Boxplot** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Boxplot
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:    'BCS_Boxplot'
 
-Description : 'Box-Plot of the dataset nhtemp. The notation on the axes is calculated manually,
-giving a nice example of the calcuation of a five number summary, on which the box-plot is based.
-Note that R by default draws the whiskers to the highest/lowest value in the sample which is still
-in the upper-/lower fence.'
+Published in:        'Basic Elements of Computational Statistics'
 
-Keywords : whiskers, outlier detection, graphical representation, histogram, boxplot
+Description:         'Box-Plot of the dataset nhtemp. The notation on the axes is
+                      calculated manually, giving a nice example of the calcuation of a five
+                      number summary, on which the box-plot is based. Note that R by default
+                      draws the whiskers to the highest/lowest value in the sample which is
+                      still in the upper-/lower fence.'
 
-Author[New] : Gunawan
+Keywords:            'whiskers, outlier detection, graphical representation, histogram, boxplot'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:          Gunawan
 
-Output : Box-plot of nhtemp in .pdf format.
+Submitted:           '2016-01-28, Christoph Schult'
+
+Output:              'Box-plot of nhtemp in .pdf format.'
 
 ```
 
 ![Picture1](BCS_Boxplot.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # margins (bottom, left, top, right)
 par(mai = c(b = 0.01, l = 1e-04, t = 0.01, r = 0.1))
 # Box-plot located at x=0.8 without frame, with default 1.5 range and outliers
@@ -54,3 +55,5 @@ text(1.2, uppq, expression("upper quartile: x"[0.75]), font = 2)
 text(1.2, upperwhisker, "upper whisker", font = 1)
 text(1.2, lowerwhisker, "lower whisker", font = 1)
 ```
+
+automatically created on 2023-03-27
