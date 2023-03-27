@@ -1,32 +1,32 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_HistBinSizes** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_HistBinSizes
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:          'BCS_HistBinSizes'
 
-Description : 'This Quantlet produces plots to show the effect of the bin size on the smoothness of
-an histogram.'
+Published in:              'Basic Elements of Computational Statistics'
 
-Keywords : histogram, bins, size, bin size, smoothness
+Description:               'This Quantlet produces plots to show the effect of the bin
+                            size on the smoothness of an histogram.'
 
-Author[New] : Christoph Schult
+Keywords:                  'histogram, bins, size, bin size, smoothness'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                Christoph Schult
 
-Output : Multiple plots with different bin sizes are produced.
+Submitted:                 '2016-01-28, Christoph Schult'
+
+Output:                    'Multiple plots with different bin sizes are produced.'
 
 ```
 
 ![Picture1](BCS_HistBinSizes.png)
 
-
-### R Code:
+### R Code
 ```r
+
 graphics.off()
 require(datasets)
 
@@ -47,3 +47,5 @@ hist(r.dax, breaks = 5, main = NULL, xlab = NULL)
 hist(r.dax, breaks = 20, main = NULL, xlab = NULL)
 hist(r.dax, breaks = 100, main = NULL, xlab = xlabels)
 ```
+
+automatically created on 2023-03-27
