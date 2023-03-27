@@ -1,35 +1,37 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Binpdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Binpdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:          'BCS_Binpdf'
 
-Description : 'The binomial distribution is plotted for sample sizes 5, 10 and 100 and
-probabilities 0.1, 0.5 and 0.9. The plots show nicely the shape of the pdf for the different values
-and show when it can likely be approximated by the normal distribution.'
+Published in:              'Basic Elements of Computational Statistics'
 
-Keywords : approximation, binomial, distribution, graphical representation, pdf, visualization
+Description:               'The binomial distribution is plotted for sample sizes 5, 10
+                            and 100 and probabilities 0.1, 0.5 and 0.9. The plots show nicely the shape
+                            of the pdf for the different values and show when it can likely be
+                            approximated by the normal distribution.'
+  
+Keywords:                  'approximation, binomial, distribution, graphical representation,
+                            pdf, visualization'
 
-See also : BCS_Bincdf, BCS_Binhist, BCS_Binompdf
+See also:                  BCS_Bincdf, BCS_Binhist, BCS_Binompdf
 
-Author[New] : Johannes Haupt
+Author[New]:               Johannes Haupt
 
-Submitted : 2016-01-28, Christoph Schult
+Submitted:                 '2016-01-28, Christoph Schult'
 
-Output : BCS_Bincdf, BCS_Binhist, BCS_Binompdf
+Output:                    'BCS_Bincdf, BCS_Binhist, BCS_Binompdf'
 
 ```
 
 ![Picture1](BCS_Binpdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # setting up the axis label size and margin (bottom, left, top, right)
 par(cex.lab = 1.7, mar = c(5.5, 4.8, 3, 2) + 0.1, mgp = c(3, 1, 0), mfrow = c(2, 2), cex.main = (2), cex.axis = 1.4, 
     mfrow = c(3, 3))
@@ -98,3 +100,5 @@ plot(s, f, type = "h", main = "n=100   p=0.9", xlab = "x", ylab = "Prob.")
 norm = dnorm(x = s, 90, 3)
 lines(x = s, norm, col = "dark red")
 ```
+
+automatically created on 2023-03-27
