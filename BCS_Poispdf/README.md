@@ -65,4 +65,4 @@ prob = dpois(x, lambda)
 plot(x, prob, type = "h", main = expression(paste(lambda, " = 25")))
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
