@@ -61,4 +61,4 @@ lines(z, pchisq(z, df[3]), col = "green")
 lines(z, pchisq(z, df[4]), col = "blue")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
