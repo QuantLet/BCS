@@ -1,36 +1,41 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_ConditionalGroupedDensity** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_ConditionalGroupedDensity
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:        'BCS_ConditionalGroupedDensity'
 
-Description : 'The plots for the density of a conditional or grouped variable are for the used data
-the same. In this case it is preferable to use the same variable as a group variable. R produces
-one panel with the densities for the different groups, which are drawn with different lines.
-Therefore a direct comparison of the different groups is possible. In this example the dependency
-of weight and the food of chickens is illustrated.'
+Published in:            'Basic Elements of Computational Statistics'
 
-Keywords : lattice,grouped,conditional,panel,plot,variable,multivariate, data,plot,density
+Description:             'The plots for the density of a conditional or grouped variable
+                          are for the used data the same. In this case it is preferable
+                          to use the same variable as a group variable. R
+                          produces one panel with the densities for the different
+                          groups, which are drawn with different lines. Therefore a
+                          direct comparison of the different groups is possible. In this
+                          example the dependency of weight and the food of chickens is
+                          illustrated.'
 
-Author : Polina Marchenko
+Keywords:                'lattice,grouped,conditional,panel,plot,variable,multivariate,
+                          data,plot,density'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                   Polina Marchenko
 
-Output : 'Two plots for the densities of the weight of chickens with Feed as conditioning (left)
-and grouping (right) variable.'
+Submitted:               '2016-01-28, Christoph Schult'
+
+
+Output:                  'Two plots for the densities of the weight of chickens with Feed as
+                          conditioning (left) and grouping (right) variable.'
 
 ```
 
 ![Picture1](BCS_ConditionalGroupedDensity.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # make sure the package is installed install.packages('lattice')
 require(lattice)
 
@@ -52,3 +57,5 @@ print(denweight2, position = c(0, 0, 1, 1), split = c(2, 1, 2, 1), more = TRUE) 
 detach("package:lattice", unload = TRUE)
 require(lattice)
 ```
+
+automatically created on 2023-03-27
