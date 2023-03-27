@@ -1,31 +1,33 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_PCAvar** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_PCAvar
+Name of Quantlet:        'BCS_PCAvar'
 
-Published in : Basic Elements of Computational Statistics
+Published in:            'Basic Elements of Computational Statistics'
 
-Description : 'Analysis of principal component analysis (PCA) in order to identify the efficient
-number of principal components. The first three PCs are plotted against each other. Another plot
-shows the cumulative percentage variance against the number of components.'
+Description:             'Analysis of principal component analysis (PCA) in order 
+                          to identify the efficient number of principal components.
+                          The first three PCs are plotted against each other. 
+                          Another plot shows the cumulative percentage variance against 
+                          the number of components.'
 
-Keywords : dimension-reduction, pca, plot, principal-components, visualization
+Keywords:                'dimension-reduction, pca, plot, principal-components, visualization'
 
-Author[New] : Johannes Haupt
+Author[New]:              Johannes Haupt
 
-Submitted : 2016.02.06 Christoph Schult
+Submitted:               '2016.02.06 Christoph Schult'
+
 
 ```
 
 ![Picture1](BCS_PCAvar.png)
 
-
-### R Code:
+### R Code
 ```r
+
 data(banknote, package = "mclust")  # load the data
 mydata = banknote[, -ncol(banknote)] # remove the last column indicating genuine/not genuine
 fit = princomp(mydata)  # fit PCA model
@@ -40,3 +42,5 @@ plot(fit$scores[, 2:3], col = group, pch = 19, ylab = "PC3", xlab = "PC2", main 
 plot(cumsum(fit$sdev^2)/sum(fit$sdev^2), xlab = "Number of components", ylab = "Cumulative percentage variance", pch = 19)
 # plot cumlulative explained variance vs number of PC
 ```
+
+automatically created on 2023-03-27
