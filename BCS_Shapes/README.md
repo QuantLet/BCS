@@ -1,26 +1,28 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Shapes** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Shapes
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:           'BCS_Shapes'
 
-Description : 'This code shows how to create different shapes with random numbers in R. Six
-different objects are created with six different functions. Each function uses variables as
-coordinates for the shapes created.'
+Published in:               'Basic Elements of Computational Statistics'
 
-Keywords : 'points, lines, linestrips, triangles, plot, quads, spheres, random, normal, random
-numbers, 3D, trellis, lattice, rgl'
+Description:                'This code shows how to create different shapes with random
+                             numbers in R. Six different objects are created with six
+                             different functions. Each function uses variables as
+                             coordinates for the shapes created.'
 
-Author : Polina Marchenko
+Keywords:                   'points, lines, linestrips, triangles, plot, quads, spheres, random,
+                             normal, random numbers, 3D, trellis, lattice, rgl'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                      Polina Marchenko
 
-Output : Six plots for random variables creating specific geometric shapes.
+Submitted:                  '2016-01-28, Christoph Schult'
+
+
+Output:                     'Six plots for random variables creating specific geometric shapes.'
 
 ```
 
@@ -36,9 +38,9 @@ Output : Six plots for random variables creating specific geometric shapes.
 
 ![Picture6](Triangles3D.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # make sure the package is installed install.packages('lattice') install.packages('rgl')
 library(lattice)
 library(rgl)
@@ -76,3 +78,5 @@ aspect3d(1, 1, 1)
 Spheres = rgl.spheres(x = 1, y = 3, z = 3, radius = 1, col = "red3", smooth = T)
 
 ```
+
+automatically created on 2023-03-27
