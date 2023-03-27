@@ -60,4 +60,4 @@ par(cex.lab = 1.3, mai = c(b = 1.2, l = 1.2, t = 0.7, r = 0.5))
 create.binomial.cdf(c(10, 10), c(0.2, 0.6), c("red", "black"))
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
