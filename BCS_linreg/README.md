@@ -41,4 +41,4 @@ abline(lm(GNP ~ Employed), col = "blue")
 grid(lwd = 2)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
