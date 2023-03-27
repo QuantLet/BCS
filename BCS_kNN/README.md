@@ -68,4 +68,4 @@ plot(knn.reg.k2, add = TRUE, col = "green", xlim = c(-0.06, 0.06), ylim = c(-0.0
 plot(knn.reg.k3, add = TRUE, col = "blue", xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), type = "l", lwd = 2)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
