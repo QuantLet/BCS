@@ -46,4 +46,4 @@ levelplot(yield ~ site * variety | year, data = barley, scales = list(alternatin
     between = list(x = 1), aspect = "iso", colorkey = list(space = "top"))
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
