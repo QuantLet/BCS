@@ -1,38 +1,40 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_kNN** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_kNN
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:                'BCS_kNN'
 
-Description : 'Multiple kNN regressions for DAX log-returns on FTSE log-returns. The selection of
-nearest neighbours k is alternated to see the effect of k for the regression curves. The smoothness
-of regression line is less smooth with a smaller k. This causes a smaller bias but a higher
-variance.'
+Published in:                    'Basic Elements of Computational Statistics'
 
-Keywords : 'kNN, regression, DAX, FTSE, log-returns, estimation, plot, nonparametric, univariate
-nonparametric regression, uniform, nearest neighbours, different number of nearest neighbours'
+Description:                     'Multiple kNN regressions for DAX log-returns on FTSE
+                                  log-returns. The selection of nearest neighbours k is
+                                  alternated to see the effect of k for the regression curves.
+                                  The smoothness of regression line is less smooth with a smaller k.
+                                  This causes a smaller bias but a higher variance.'
 
-See also : BCS_UniformKernel, BCS_GaussianKernel
+Keywords:                        'kNN, regression, DAX, FTSE, log-returns, estimation, plot,
+                                  nonparametric, univariate nonparametric regression, uniform,
+                                  nearest neighbours, different number of nearest neighbours'
 
-Author[New] : Christoph Schult
+See also:                        'BCS_UniformKernel, BCS_GaussianKernel'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                      Christoph Schult
 
-Output : 'One plot for multiple kNN regressions of the DAX log-returns on FTSE log-returns.
-Different regression lines correspond to different k.'
+Submitted:                       '2016-01-28, Christoph Schult'
+
+Output:                          'One plot for multiple kNN regressions of the DAX log-returns on FTSE
+                                  log-returns. Different regression lines correspond to different k.'
 
 ```
 
 ![Picture1](BCS_kNN.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # load required packages
 require(datasets)
 require(class)
@@ -65,3 +67,5 @@ plot(knn.reg.k1, add = TRUE, col = "red", xlim = c(-0.06, 0.06), ylim = c(-0.06,
 plot(knn.reg.k2, add = TRUE, col = "green", xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), type = "l", lwd = 2)
 plot(knn.reg.k3, add = TRUE, col = "blue", xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), type = "l", lwd = 2)
 ```
+
+automatically created on 2023-03-27
