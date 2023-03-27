@@ -61,4 +61,4 @@ hist(x, breaks = 70, col = "blue", angle = 45, main = "", xlab = "z", xlim = c(d
 hist(norm, breaks = 70, col = "white", add = TRUE)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
