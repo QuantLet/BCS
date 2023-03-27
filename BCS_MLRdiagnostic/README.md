@@ -41,4 +41,4 @@ layout(matrix(c(1, 2, 3, 4), 2.1, 2))  # display 4 graphics in one plot
 plot(fit)  # display diagnostic plots 
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
