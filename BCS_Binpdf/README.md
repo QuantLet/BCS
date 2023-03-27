@@ -101,4 +101,4 @@ norm = dnorm(x = s, 90, 3)
 lines(x = s, norm, col = "dark red")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
