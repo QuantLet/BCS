@@ -1,31 +1,35 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_LeaveOneOut** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_LeaveOneOut
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:         'BCS_LeaveOneOut'
 
-Description : MSE for k-NN regression using the Leave-one-out cross validation method.
+Published in:             'Basic Elements of Computational Statistics'
 
-Keywords : prediction accuracy, mean squared error, scatterplot, plot, nonparametric
+Description:              'MSE for k-NN regression using the Leave-one-out cross validation
+                           method.'
 
-Author[New] : Christoph Schult
+Keywords:                 'prediction accuracy, mean squared error, scatterplot, plot, 
+                           nonparametric'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:               Christoph Schult
 
-Output : One scatterplot to show the MSE depending on the number of nearest neighbours.
+Submitted:                '2016-01-28, Christoph Schult'
+
+
+Output:                   'One scatterplot to show the MSE depending on the number of nearest
+                           neighbours.'
 
 ```
 
 ![Picture1](BCS_LeaveOneOut.png)
 
-
-### R Code:
+### R Code
 ```r
+
 require(datasets)
 require(class)
 require(grDevices)
@@ -75,3 +79,5 @@ k = 1:49
 par(cex.axis = 1.5, cex.lab = 1.5, pch = 19, cex = 1)
 plot(k, MSEkNN, type = "l", xlab = "k", ylab = "Mean Squared Error", col = rgb(0.1, 0.8, 0.9, alpha = 0.7), lwd = 2)
 ```
+
+automatically created on 2023-03-27
