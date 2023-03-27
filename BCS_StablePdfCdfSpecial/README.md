@@ -1,40 +1,46 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_StablePdfCdfSpecial** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_StablePdfCdfSpecial
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:              'BCS_StablePdfCdfSpecial'
 
-Description : 'The code below plots the pdfs and cdfs for three special cases of the stable
-distribution for which the pdf and cdf have a closed form expression. The special cases are the
-normal, Cauchy and Levy distribution. Normal distributions have a kurtosis of three and zero
-skewness. The Cauchy distribution is symmetric around its mean but has thicker tails than the
-normal distribution. Random variables with a Levy distribution have a skewness which tends to one.
-Only variables which are above the mean will be observed.'
+Published in:                  'Basic Elements of Computational Statistics'
 
-Keywords : 'univariate, distribution, stable, pdf, cdf, continuous, gaussian, gaussian, cauchy,
-levy, normal, lorenz'
+Description:                   'The code below plots the pdfs and cdfs for three special cases
+                                of the stable distribution for which the pdf and cdf have a
+                                closed form expression. The special cases are the normal,
+                                Cauchy and Levy distribution. Normal distributions have a
+                                kurtosis of three and zero skewness. The Cauchy distribution
+                                is symmetric around its mean but has thicker tails than the
+                                normal distribution. Random variables with a Levy distribution
+                                have a skewness which tends to one. Only variables which are
+                                above the mean will be observed.'
 
-See also : 'BCS_StablePdfCdf, BCSExpPdfCdf, BCS_NormPdfCdf, BCS_ChiPdfCdf, BCS_FPdfCdf,
-BCS_CauchyPdfCdf, BCS_tPdfCdf'
+Keywords:                      'univariate, distribution, stable, pdf, cdf, continuous, gaussian,
+                                gaussian, cauchy, levy, normal, lorenz'
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+See also:                      'BCS_StablePdfCdf, BCSExpPdfCdf,
+                                BCS_NormPdfCdf, BCS_ChiPdfCdf,
+                                BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_tPdfCdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                         Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Output : Plots pdfs and cdfs for special stable distribution with different parameters.
+Submitted:                     '2016-01-28, Christoph Schult'
+
+
+Output:                        'Plots pdfs and cdfs for special stable distribution with different
+                                parameters.'
 
 ```
 
 ![Picture1](BCS_StablePdfCdfSpecial.png)
 
-
-### R Code:
+### R Code
 ```r
+
 require(stabledist)
 par(mfrow = c(1, 2))
 
@@ -63,3 +69,5 @@ lines(z, pstable(z, ch[1], ch[2], ch[3], ch[4], 1), col = "green")
 # Levy cdf
 lines(z, pstable(z, l[1], l[2], l[3], l[4], 1), col = "blue") 
 ```
+
+automatically created on 2023-03-27
