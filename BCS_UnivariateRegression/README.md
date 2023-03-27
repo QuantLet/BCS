@@ -37,4 +37,4 @@ attach(longley)  # attach the longley dataset
 rp.regression(GNP, Unemployed, line.showing = T, panel.plot = F)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
