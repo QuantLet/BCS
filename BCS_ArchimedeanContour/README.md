@@ -1,34 +1,40 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_ArchimedeanContour** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_ArchimedeanContour
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:         'BCS_ArchimedeanContour'
 
-Description : 'Nine Plots are created for three different archimedean copulae with the same
-dependency parameter (theta=2). The figures in the left column are created based on normal marginal
-distributions. In the right column all copulae are based on a t-distribution with six degrees of
-freedom. The rows depict the Gumbel, Clayton and Frank copulae in descending order.'
+Published in:             'Basic Elements of Computational Statistics'
 
-Keywords : multivariate,copula,archimedean,frank,gumbel,clayton,normal, student,distribution
+Description:              'Nine Plots are created for three different archimedean
+                           copulae with the same dependency parameter (theta=2). The figures
+                           in the left column are created based on normal marginal
+                           distributions. In the right column all copulae are based on a
+                           t-distribution with six degrees of freedom.
+                           The rows depict the Gumbel, Clayton and Frank copulae in
+                           descending order.'
 
-Author : Ostap Okhrin
+Keywords:                 'multivariate,copula,archimedean,frank,gumbel,clayton,normal,
+                           student,distribution'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                   'Ostap Okhrin'
 
-Output : Nine contour plots for different bivariate archimedean copulae and marginal distributions.
+Submitted:                '2016-01-28, Christoph Schult'
+
+
+Output:                   'Nine contour plots for different bivariate archimedean copulae and
+                           marginal distributions.'
 
 ```
 
 ![Picture1](BCS_ArchimedeanContour.png)
 
-
-### R Code:
+### R Code
 ```r
+
 library(copula)
 
 graphics.off()
@@ -82,3 +88,5 @@ frankMVD = mvdc(frankCopula(2), margins = c("t", "t"), paramMargins = list(list(
 contour(frankMVD, dMvdc, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), nlevels = 10, cex.axis = 1.5, labcex = 1.5, lwd = 3)
 
 ```
+
+automatically created on 2023-03-27
