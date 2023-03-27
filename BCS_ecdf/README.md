@@ -45,4 +45,4 @@ abline(v = 0.5, lty = 2, lwd = 2)
 text(0.71, 0.51, expression(hat(F)(0.5)), cex = 1.2)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
