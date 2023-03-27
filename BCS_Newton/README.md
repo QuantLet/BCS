@@ -1,34 +1,40 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Newton** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Newton
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:        'BCS_Newton'
 
-Description : 'The code produces an inteactive plot for the illustration of the Newton-Raphson
-method. In the example the univariate function f(x) = x^2 - 4 is optimized. An optimum is found, if
-the first derivative of the function at this point is equal to zero. Therefore the method looks for
-the root of the first derivative.'
+Published in:            'Basic Elements of Computational Statistics'
+ 
+Description:             'The code produces an inteactive plot for the illustration of
+                          the Newton-Raphson method. In the example the univariate
+                          function f(x) = x^2 - 4 is optimized. An optimum is found, if
+                          the first derivative of the function at this point is equal
+                          to zero. Therefore the method looks for the root of the
+                          first derivative.'
 
-Keywords : numerical methods,BCS,approximation,root,Newton,univariate, scatterplot
+Keywords:                'numerical methods,BCS,approximation,root,Newton,univariate,
+                          scatterplot'
 
-Author : Yafei, Xu
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                   Yafei, Xu
 
-Output : A scatterplot illustrating the Newton-Ramphsey method for the function f(x) = x^2 - 4.
+Submitted:               '2016-01-28, Christoph Schult'
+
+
+Output:                  'A scatterplot illustrating the Newton-Ramphsey method for the
+                          function f(x) = x^2 - 4.'
 
 ```
 
 ![Picture1](BCS_Newton.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # install.packages('animation')
 require(animation)  # package for illustration of newton procedure
 
@@ -39,3 +45,5 @@ newt = newton.method(FUN = function(x) x^2 - 4, init = 10, rg = c(-1, 10), tol =
 newt$root  # root
 newt$value  # function value at the root
 ```
+
+automatically created on 2023-03-27
