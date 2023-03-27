@@ -51,4 +51,4 @@ polygon(x = c(-1.5, a[1:151]), y = c(0, 0, b[2:151]), col = "gray94")
 text(-1.8, 0.03, expression(alpha), cex = 1.2)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
