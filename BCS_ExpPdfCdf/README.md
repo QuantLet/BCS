@@ -1,36 +1,41 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_ExpPdfCdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_ExpPdfCdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:      'BCS_ExpPdfCdf'
 
-Description : 'The exponential distribution only works for positive random variables. The normal
-and logisitc distribution are special cases of the exponential distribution. Lambda defines the
-steepness of the pdfs.'
+Published in:          'Basic Elements of Computational Statistics'
 
-Keywords : continuous, logit, univariate, distribution, exponential, pdf, cdf, normal, poisson
+Description:           'The exponential distribution only works for positive random
+                        variables. The normal and logisitc distribution are special
+                        cases of the exponential distribution. Lambda defines the
+                        steepness of the pdfs.'
 
-See also : 'BCS_StablePdfCdf, BCS_ChiPdfCdf, BCS_StablePdfCdfSpecial, BCS_CauchyPdfCdf,
-BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf'
+Keywords:              'continuous, logit, univariate, distribution, exponential, pdf, 
+                        cdf, normal, poisson'
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+See also:              'BCS_StablePdfCdf, BCS_ChiPdfCdf,
+                        BCS_StablePdfCdfSpecial, BCS_CauchyPdfCdf,
+                        BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                 Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Output : Plots pdfs and cdfs for the exponential distribution with different lambdas.
+Submitted:             '2016-01-28, Christoph Schult'
+
+
+Output:                'Plots pdfs and cdfs for the exponential distribution with different
+                        lambdas.'
 
 ```
 
 ![Picture1](BCS_ExpPdfCdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 par(mfrow = c(1, 2))
 z = seq(0, 5, length = 300)
 
@@ -52,3 +57,5 @@ lines(z, pexp(z, lambda[2]), col = "red")
 lines(z, pexp(z, lambda[3]), col = "green")
 lines(z, pexp(z, lambda[4]), col = "blue")
 ```
+
+automatically created on 2023-03-27
