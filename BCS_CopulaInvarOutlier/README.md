@@ -1,36 +1,39 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_CopulaInvarOutlier** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_CopulaInvarOutlier
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:          'BCS_CopulaInvarOutlier'
 
-Description : 'Two random variables are created. One is normally distributed and one is uniformly
-distributed. Their correlations are calculated with different methods. Kendall and Spearman's
-methods are superior to Pearson's correlation measure. Both are less variant due to monotone
-increasing transformations and outliers.'
+Published in:              'Basic Elements of Computational Statistics'
 
-Keywords : 'distribution, correlation, extreme, value, multivariate, linear, approximation,
-uniform, transformation, normal, polynomial'
+Description:               'Two random variables are created. One is normally distributed
+                            and one is uniformly distributed. Their correlations are
+                            calculated with different methods. Kendall and Spearman''s
+                            methods are superior to Pearson''s correlation measure. Both
+                            are less variant due to monotone increasing transformations
+                            and outliers.'
 
-Author : Ostap Okhrin
+Keywords:                  'distribution, correlation, extreme, value, multivariate, linear, 
+                            approximation, uniform, transformation, normal, polynomial'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                     Ostap Okhrin
 
-Output : 'Two plots for the approximation of a uniformly distributed rv by a normally distributed
-rv. One with no outlier and one with outlier.'
+Submitted:                 '2016-01-28, Christoph Schult'
+
+
+Output:                    'Two plots for the approximation of a uniformly distributed  rv by
+                            a normally distributed rv. One with no outlier and one with outlier.'
 
 ```
 
 ![Picture1](BCS_CopulaInvarOutlier.png)
 
-
-### R Code:
+### R Code
 ```r
+
 graphics.off()
 par(mfrow = c(1, 2))
 # sample size
@@ -77,3 +80,5 @@ print(cor(x, y))
 print(cor(x, y, method = "kendall"))
 print(cor(x, y, method = "spearman"))
 ```
+
+automatically created on 2023-03-27
