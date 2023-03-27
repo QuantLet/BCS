@@ -1,30 +1,30 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_FuzzyMultiSets** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_FuzzyMultiSets
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:             'BCS_FuzzyMultiSets'
 
-Description : 'The membership grade of a fuzzy set with elements x, y, z is plotted. The number of
-elements is plotted in a bar diagramm. '
+Published in:                 'Basic Elements of Computational Statistics'
 
-Keywords : fuzzy, multisets, membership, grade, plot, bar plot
+Description:                  'The membership grade of a fuzzy set with elements x, y, z is plotted.
+                               The number of elements is plotted in a bar diagramm. '
 
-Author[New] : Christoph Schult
+Keywords:                     'fuzzy, multisets, membership, grade, plot, bar plot'
 
-Submitted : 2016-02-06, Christoph Schult
+Author[New]:                   Christoph Schult
+
+Submitted:                    '2016-02-06, Christoph Schult'
 
 ```
 
 ![Picture1](BCS_FuzzyMultiSets.png)
 
-
-### R Code:
+### R Code
 ```r
+
 require(sets)
 par(mfrow = c(1, 2))
 
@@ -45,3 +45,5 @@ multi3 = gset(c("x", "y", "z"), membership = c(2, 1, 3))
 gset_cardinality(multi3)
 plot(multi3, col = "lightblue")  # right plot in Figure 3.1
 ```
+
+automatically created on 2023-03-27
