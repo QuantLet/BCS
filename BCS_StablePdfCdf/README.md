@@ -101,4 +101,4 @@ lines(z, pstable(z, alpha, beta[2], sigma, mu, 1), col = "green")
 lines(z, pstable(z, alpha, beta[3], sigma, mu, 1), col = "blue")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
