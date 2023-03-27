@@ -38,4 +38,4 @@ y = Height  # define y as height
 rp.normal(y, panel.plot = T)  # plot interacitve histogram
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
