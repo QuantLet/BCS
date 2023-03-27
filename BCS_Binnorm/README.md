@@ -52,4 +52,4 @@ norm = dnorm(x, mean = 50, sd = 5)
 lines(x, norm, col = "dark red", lwd = 2) 
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
