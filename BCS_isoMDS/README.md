@@ -41,4 +41,4 @@ segments(0, -10, 0, 10, lty = "dotted")  # vertical line
 text(fit$points[, 1], fit$points[, 2], rownames(voting), cex = 0.8)  # add text to the plot
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
