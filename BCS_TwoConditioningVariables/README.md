@@ -1,36 +1,39 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_TwoConditioningVariables** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_TwoConditioningVariables
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:            'BCS_TwoConditioningVariables'
 
-Description : 'The distribution of solar radiation and average ozone concentration depending on
-wind and temperature is depicted in the plot. The two continous conditioning variables are
-transformed into factors. Wind has now just four categories and Temeperature three. There are 12
-possible combination of both factors coinciding with the number of panels.'
+Published in:                'Basic Elements of Computational Statistics'
 
-Keywords : 'trellis, lattice, conditional, panel, plot, panels, multivariate, data, continuous,
-shingle, conditional continuous variable'
+Description:                 'The distribution of solar radiation and average ozone
+                              concentration depending on wind and temperature is depicted in
+                              the plot. The two continous conditioning variables are
+                              transformed into factors. Wind has now just four categories
+                              and Temeperature three. There are 12 possible combination of
+                              both factors coinciding with the number of panels.'
 
-Author : Polina Marchenko
+Keywords:                    'trellis, lattice, conditional, panel, plot, panels, multivariate,
+                              data, continuous, shingle, conditional continuous variable'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                       Polina Marchenko
 
-Output : 'One plot with 12 panels for average ozone concentration and solar radiation conditional
-on temperature and wind.'
+Submitted:                   '2016-01-28, Christoph Schult'
+
+
+Output:                      'One plot with 12 panels for average ozone concentration and solar
+                              radiation conditional on temperature and wind.'
 
 ```
 
 ![Picture1](BCS_TwoConditioningVariables.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # make sure the package is installed install.packages('lattice')
 require("lattice")
 
@@ -45,3 +48,5 @@ Wind = equal.count(environmental$wind, number = 4, overlap = 0)
 xyplot(ozone ~ radiation | Temperature * Wind, data = environmental, as.table = T, par.strip.text = list(cex = 0.75), 
     par.settings = simpleTheme(pch = 20, col = "red3"), xlab = "Solar radiation in langley", ylab = "Average ozone concentration in ppb") 
 ```
+
+automatically created on 2023-03-27
