@@ -1,34 +1,34 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_ecdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_ecdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:                'BCS_ecdf'
 
-Description : 'Plot of the Empirical Cumulative Distribution Function of the R example dataset
-Formaldehyde, specifically Formaldehyde$car.'
+Published in:                    'Basic Elements of Computational Statistics'
 
-Keywords : empirical, cdf, distribution, visualization, plot
+Description:                     'Plot of the Empirical Cumulative Distribution Function of the R example
+                                  dataset Formaldehyde, specifically Formaldehyde$car.'
 
-See also : BCS_BarGraphs, BCS_pie, BCS_hist1, BCS_hist2, BCS_Boxplot2
+Keywords:                        'empirical, cdf, distribution, visualization, plot'
 
-Author[New] : Gunawan
+See also:                        'BCS_BarGraphs, BCS_pie, BCS_hist1, BCS_hist2, BCS_Boxplot2'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                      Gunawan
 
-Output : Plot of ECDF of Formaldehyde in .pdf format.
+Submitted:                       '2016-01-28, Christoph Schult'
+
+Output:                          'Plot of ECDF of Formaldehyde in .pdf format.'
 
 ```
 
 ![Picture1](BCS_ecdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # ecdf of Formaldehyde$car is a step function
 ecdf(Formaldehyde$car)
 
@@ -44,3 +44,5 @@ plot(d, ylab = expression(hat(F)(x)), xlab = "x", main = "")
 abline(v = 0.5, lty = 2, lwd = 2)
 text(0.71, 0.51, expression(hat(F)(0.5)), cex = 1.2)
 ```
+
+automatically created on 2023-03-27
