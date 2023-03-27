@@ -1,32 +1,35 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_NormalDensityFit** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_NormalDensityFit
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:           'BCS_NormalDensityFit'
 
-Description : 'Histogram for the height of trees from the trees package. It is possible to display
-density estimates for the height based on a assumed normal distribuion and estimated density.'
+Published in:               'Basic Elements of Computational Statistics'
 
-Keywords : rpanel, density estimation, histogram, density, plot
+Description:                'Histogram for the height of trees from the trees package.
+                             It is possible to display density estimates for the height
+                             based on a assumed normal distribuion and estimated density.'
 
-Author : Polina Marchenko
+Keywords:                   'rpanel, density estimation, histogram, density, plot'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                      Polina Marchenko
 
-Output : An interactive histogram with denisty estimation for the height of trees.
+Submitted:                  '2016-01-28, Christoph Schult'
+
+
+Output:                     'An interactive histogram with denisty estimation for the height of
+                             trees.'
 
 ```
 
 ![Picture1](BCS_NormalDensityFit.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # Normal density fit
 require(rpanel)  # load required package
 data(trees)  # load required data
@@ -34,3 +37,5 @@ attach(trees)  # attach required data
 y = Height  # define y as height
 rp.normal(y, panel.plot = T)  # plot interacitve histogram
 ```
+
+automatically created on 2023-03-27
