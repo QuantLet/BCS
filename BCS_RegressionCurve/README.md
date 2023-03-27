@@ -49,4 +49,4 @@ plot(Xis, Yis, xlab = "x", ylab = "f(x)", xlim = c(-3, 3), ylim = c(-7, 4), cex 
 plot(RegressionCurve, add = TRUE, col = "red", xlim = c(-3, 3), type = "l", lwd = 2)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
