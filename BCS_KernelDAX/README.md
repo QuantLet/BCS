@@ -41,4 +41,4 @@ y = density(r.dax, kernel = "epanechnikov")  # density estimation for DAX log-re
 plot(y, xlim = c(-0.05, 0.05), col = rgb(0.1, 0.8, 0.9, alpha = 0.7), main = "")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
