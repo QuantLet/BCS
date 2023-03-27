@@ -1,33 +1,35 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_LightedPlots** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_LightedPlots
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:            'BCS_LightedPlots'
 
-Description : 'Different lighted plots for three dimensional data. The data is obtained by
-univariate random normal sampling. Light sources are then alternated for the different plots to
-show the effect on the appearance of the plot.'
+Published in:                'Basic Elements of Computational Statistics'
 
-Keywords : rgl, lighted, plot, random normal, normal, 3D, marbles
+Description:                 'Different lighted plots for three dimensional data. The data
+                              is obtained by univariate random normal sampling. Light
+                              sources are then alternated for the different plots to show the
+                              effect on the appearance of the plot.'
 
-Author : Polina Marchenko
+Keywords:                    'rgl, lighted, plot, random normal, normal, 3D, marbles'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                       Polina Marchenko
 
-Output : Four plots for three dimensional data with different lighting.
+Submitted:                   '2016-01-28, Christoph Schult'
+
+
+Output:                      'Four plots for three dimensional data with different lighting.'
 
 ```
 
 ![Picture1](BCS_LightedPlots.png)
 
-
-### R Code:
+### R Code
 ```r
+
 require(rgl)
 
 # Define variables to plot
@@ -50,3 +52,5 @@ rgl.light(theta = -90, phi = 50, ambient = "white", diffuse = "#dddddd", specula
 rgl.spheres(x, y, z, radius = runif(5), col = "red3", smooth = T)
 rgl.light(theta = 45, phi = 30, ambient = "#dddddd", diffuse = "#dddddd", specular = "white")
 ```
+
+automatically created on 2023-03-27
