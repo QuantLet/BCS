@@ -1,41 +1,45 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_claytonMC** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_claytonMC
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:            'BCS_claytonMC'
 
-Description : 'Plots two pseudo random variables with (1.) uniform distribution and (2.) N(0,1)
-distribution with clayton (theta=0.79) dependence structure.'
+Published in:                'Basic Elements of Computational Statistics'
 
-Keywords : random number generation, uniform, Clayton, copula, uniform distribution, plot
+Description:                 'Plots two pseudo random variables with (1.) uniform distribution
+                              and (2.) N(0,1) distribution with clayton (theta=0.79)
+                              dependence structure.'
 
-See also : 'SFEClayGumbGauss, SFEclaytonMC, SFEclaytonSIM2pvt, SFEdynCop, SFEestGARCH, SFEfrechet,
-SFEgausscop, SFEgumbelSIM2ptv, SFEplotCop, SFEresDens, SFEstaticCop, SFEtcop, SFEtMC'
+Keywords:                    'random number generation, uniform, Clayton, copula, uniform distribution, plot'
 
-Author : Ostap Okhrin
+See also:                    'SFEClayGumbGauss, SFEclaytonMC, SFEclaytonSIM2pvt, SFEdynCop,
+                              SFEestGARCH, SFEfrechet, SFEgausscop, SFEgumbelSIM2ptv,
+                              SFEplotCop, SFEresDens, SFEstaticCop, SFEtcop, SFEtMC'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                       Ostap Okhrin
 
-Inputs : theta - dependence parameter
+Submitted:                   '2016-01-28, Christoph Schult'
 
-Output : 'Monte Carlo sample of 10.000 realizations of pseudo random variable with uniform
-marginals in [0,1] and with standard normal marginals with dependence structure in both cases given
-by Clayton copula.'
+Inputs:                      'theta - dependence parameter'
 
-Example : Example is produced for theta = 0.79 and normal and uniform marginal distributions.
+Output:                      'Monte Carlo sample of 10.000 realizations of pseudo random
+                              variable with uniform marginals in [0,1] and with standard
+                              normal marginals with dependence structure in both cases given
+                              by Clayton copula.'
+
+Example:                     'Example is produced for theta = 0.79 and normal and uniform
+                              marginal distributions.'
 
 ```
 
 ![Picture1](BCS_claytonMC.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # Close windows
 graphics.off()
 
@@ -64,3 +68,5 @@ normclay = rMvdc(normclayMVD, n = 10000)
 plot(normclay, xlab = "", ylab = "", pch = 19, main = "Normal")
 
 ```
+
+automatically created on 2023-03-27
