@@ -57,4 +57,4 @@ lines(z, pcauchy(z, 0, 1.5), col = "green")
 lines(z, pcauchy(z, 0, 2), col = "red")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
