@@ -33,4 +33,4 @@ par(cex.lab = 1.5, mai = c(b = 1, l = 1, t = 0.7, r = 0.5))
 hist(nhtemp, freq = F, main = "", ylab = expression(hat(f)(x)), xlab = expression(x %in% K[i]))
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
