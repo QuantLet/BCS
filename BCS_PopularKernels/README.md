@@ -1,34 +1,37 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_PopularKernels** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_PopularKernels
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:              'BCS_PopularKernels'
 
-Description : 'A function is implemented to use all four different kernel weighting functions to
-compute the respective weight of a point x w.r.t. its distance to the point of evaluation x_0. Four
-plots are created to illustrate each weighting functions and their properties.'
+Published in:                  'Basic Elements of Computational Statistics'
 
-Keywords : 'kernel, bandwidth, weights, density estimation, plot, nonparametric, kernel density
-estimation'
+Description:                   'A function is implemented to use all four different kernel
+                                weighting functions to compute the respective weight of a point
+                                x w.r.t. its distance to the point of evaluation x_0. Four
+                                plots are created to illustrate each weighting functions and
+                                their properties.'
 
-Author[New] : Christoph Schult
+Keywords:                      'kernel, bandwidth, weights, density estimation, plot, nonparametric,
+                                kernel density estimation'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                    Christoph Schult
 
-Output : Four plots for the most popular kernel weighting functions.
+Submitted:                     '2016-01-28, Christoph Schult'
+
+
+Output:                        'Four plots for the most popular kernel weighting functions.'
 
 ```
 
 ![Picture1](BCS_PopularKernels.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # The R function kernel.wfunc implements all different kernel weighting functions in R
 kernel.wfunc = function(x, xzero, kernel) {
     n = length(x)  # number of points to evaluate
@@ -68,3 +71,5 @@ for (i in 1:length(kernel_names)) {
         "kernel"))
 }
 ```
+
+automatically created on 2023-03-27
