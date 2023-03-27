@@ -1,33 +1,34 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_RegressionCurve** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_RegressionCurve
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:            'BCS_RegressionCurve'
 
-Description : 'The regression curve and data for a simulated model. The variable Yis depends on Xis
-and a standard normally distrbuted'
+Published in:                'Basic Elements of Computational Statistics'
 
-Keywords : 'regression, curve, regression curve, log-returns, estimation, plot, nonparametric,
-univariate nonparametric regression'
+Description:                 'The regression curve and data for a simulated model. The
+                              variable Yis depends on Xis and a standard normally distrbuted'
 
-Author[New] : Christoph Schult
+Keywords:                    'regression, curve, regression curve, log-returns, estimation, plot, 
+                              nonparametric, univariate nonparametric regression'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                  Christoph Schult
 
-Output : One plot for the simulated data and the regression curve.
+Submitted:                   '2016-01-28, Christoph Schult'
+
+
+Output:                      'One plot for the simulated data and the regression curve.'
 
 ```
 
 ![Picture1](BCSRegressionCurve.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # load required packages
 require(datasets)
 require(class)
@@ -47,3 +48,5 @@ plot(Xis, Yis, xlab = "x", ylab = "f(x)", xlim = c(-3, 3), ylim = c(-7, 4), cex 
     pch = 19, col = rgb(0.1, 0.8, 0.9, alpha = 0.7))
 plot(RegressionCurve, add = TRUE, col = "red", xlim = c(-3, 3), type = "l", lwd = 2)
 ```
+
+automatically created on 2023-03-27
