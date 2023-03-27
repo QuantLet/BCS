@@ -40,4 +40,4 @@ par(mai = c(b = 0.01, l = 1, t = 0.01, r = 0.9))
 pie(table(chickwts$feed), cex = 1.8)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
