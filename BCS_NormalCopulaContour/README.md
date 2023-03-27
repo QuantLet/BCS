@@ -1,36 +1,39 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_NormalCopulaContour** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_NormalCopulaContour
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:             'BCS_NormalCopulaContour'
 
-Description : 'The trivariate normal distribution is produced by random sampling. In order to
-specify the dependency between the variables, it is necessary to define the covariance matrix. The
-mean vector for all three variables is also needed. The bivariate marginal distributions are
-estimated by copulae.'
+Published in:                 'Basic Elements of Computational Statistics'
 
-Keywords : 'multivariate, copula, contour, correlation, bivariate, density, normal, matrix,
-distribution, pdf, cdf, scatterplot'
+Description:                  'The trivariate normal distribution is produced by random sampling.
+                               In order to specify the dependency between the variables, it
+                               is necessary to define the covariance matrix. The mean vector
+                               for all three variables is also needed. The bivariate marginal
+                               distributions are estimated by copulae.'
 
-Author : Okhrin, Ostap
+Keywords:                     'multivariate, copula, contour, correlation, bivariate, density, 
+                               normal, matrix, distribution, pdf, cdf, scatterplot'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                        Okhrin, Ostap
 
-Output : 'Bivariate marginal distributions are plotted in the upper triangle of the matrix. Contour
-plots for the densities in the lower triangle.'
+Submitted:                    '2016-01-28, Christoph Schult'
+
+
+Output:                       'Bivariate marginal distributions are plotted in the upper
+                               triangle of the matrix. Contour plots for the densities in the
+                               lower triangle.'
 
 ```
 
 ![Picture1](BCS_NormalCopulaContour.png)
 
-
-### R Code:
+### R Code
 ```r
+
 library(mvtnorm)
 library(copula)
 
@@ -107,3 +110,5 @@ contour(copulaX2X3, dMvdc, xlim = c(min(X1, X2), max(X1, X2)), ylim = c(min(X2, 
 plot(0, xaxt = "n", yaxt = "n", pch = "", ylab = "", xlab = "", xlim = c(-1, 1), ylim = c(-1, 1))
 text(0, 0, "X3", cex = 2)
 ```
+
+automatically created on 2023-03-27
