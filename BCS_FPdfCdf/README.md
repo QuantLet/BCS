@@ -66,4 +66,4 @@ lines(z, pf(z, n[3], m[3]), col = "green")
 lines(z, pf(z, n[4], m[4]), col = "blue")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
