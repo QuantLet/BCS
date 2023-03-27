@@ -49,4 +49,4 @@ xyplot(ozone ~ radiation | Temperature * Wind, data = environmental, as.table = 
     par.settings = simpleTheme(pch = 20, col = "red3"), xlab = "Solar radiation in langley", ylab = "Average ozone concentration in ppb") 
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
