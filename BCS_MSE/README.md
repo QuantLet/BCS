@@ -1,35 +1,35 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_MSE** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_MSE
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:              'BCS_MSE'
 
-Description : 'The bias, variance and mean squared error of an estimator for a histogram with
-origin x0 = 0 evaluated at x = 0.001 and X ~ N(0,1) is depicted in the plot. The binwidth
-minimizing the MSE h MSE is depicted by a black point.'
+Published in:                  'Basic Elements of Computational Statistics'
 
-Keywords : 'mse, mean squared error, bias, variance, nonparametric, plot, prediction accuracy,
-prediction'
+Description:                   'The bias, variance and mean squared error of an estimator for a histogram with
+                                origin x0 = 0 evaluated at x = 0.001 and X ~ N(0,1) is depicted in the plot. 
+                                The binwidth minimizing  the MSE h MSE is depicted by a black point.'
 
-Author[New] : Christoph Schult
+Keywords:                      'mse, mean squared error, bias, variance, nonparametric, plot,
+                                prediction accuracy, prediction'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                    Christoph Schult
 
-Output : 'One scatter plot for the MSE BIAS and Variance of an histogramm estimator for the denisty
-of a standard normal distribution.'
+Submitted:                     '2016-01-28, Christoph Schult'
+
+Output:                        'One scatter plot for the MSE BIAS and Variance of an histogramm
+                                estimator for the denisty of a standard normal distribution.'
 
 ```
 
 ![Picture1](BCS_MSE.png)
 
-
-### R Code:
+### R Code
 ```r
+
 n = 10^3  # sample size
 h = seq(0.1, 1, by = 1/n)  # vector of binwidths
 x0 = 0  # starting point for histogram
@@ -55,3 +55,5 @@ legend(x = "topleft", legend = c("MSE", "Bias^2", "Variance", "h_MSE"), col = c(
     lty = c(1, 1, 1, NA), pch = c(NA, NA, NA, 19), bty = "n", merge = F, y.intersp = 1, x.intersp = 0.5, seg.len = 0.5, 
     cex = 1.5)
 ```
+
+automatically created on 2023-03-27
