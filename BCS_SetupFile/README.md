@@ -1,29 +1,32 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_SetupFile** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_SetupFile
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:        'BCS_SetupFile'
 
-Description : This Q installs all necessary packages in the book Basic Computational Statistics.
+Published in:            'Basic Elements of Computational Statistics'
 
-Keywords : 'datasets, class, grDevice, lattice, stabledist, fBasics, rgl, diagram, tkrplot, tcltk,
-rpanel, neldermead, mclust, fMultivar, mvtnorm, copula, animation, optimx, lattice, leaps, car,
-MASS, Rglpk, languageR, klaR, rpanel, rworldmap, HAC, scatterplot3d, sets, FactoMineR, cluster'
+Description:             'This Q installs all necessary packages in the book 
+                          Basic Computational Statistics.'
+                          
+Keywords:                'datasets, class, grDevice, lattice, stabledist, fBasics, rgl, diagram, 
+                          tkrplot, tcltk, rpanel, neldermead, mclust, fMultivar, mvtnorm, copula, 
+                          animation, optimx, lattice, leaps, car, MASS, Rglpk, languageR, klaR, rpanel, 
+                          rworldmap, HAC, scatterplot3d, sets, FactoMineR, cluster'
 
-Author[New] : Christoph Schult
 
-Submitted : 2016-02-08, Christoph Schult
+Author[New]:              Christoph Schult
+
+Submitted:               '2016-02-08, Christoph Schult'
 
 ```
 
-
-### R Code:
+### R Code
 ```r
+
 # Install all packages required for BCS
 install.packages("datasets")
 install.packages("class")
@@ -91,3 +94,5 @@ install.packages("FactoMineR")
 install.packages("cluster")
 
 ```
+
+automatically created on 2023-03-27
