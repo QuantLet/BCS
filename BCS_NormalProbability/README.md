@@ -52,4 +52,4 @@ persp(Z, theta = -15, phi = 25, col = "steelblue")
 contour(Z, xlim = c(-2.5, 2.5), ylim = c(-2.5, 2.5), lwd = 4, col = heat.colors(80), nlevels = 10, cex.axis = 1.5, labcex = 1.7)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
