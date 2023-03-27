@@ -50,4 +50,4 @@ plot(z, dchisq(z, m[1]), type = "l", xlab = "z", ylab = "pdf", xlim = c(0, 10), 
 lines(z, dchisq(z, m[2]), col = "blue")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
