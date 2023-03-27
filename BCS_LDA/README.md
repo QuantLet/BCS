@@ -60,4 +60,4 @@ pred.correct = diag(prop.table(pred.table, 1))  # gives percentage of correct pr
 1 - sum(diag(prop.table(pred.table)))  # gives prediction error for all dataset
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
