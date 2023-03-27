@@ -44,4 +44,4 @@ dev.new()
 subsets(subset, statistic = "rsq")  # display result (R^2) for all regression subsets
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
