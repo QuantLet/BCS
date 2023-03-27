@@ -1,33 +1,33 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_CAComplete** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_CAComplete
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:    'BCS_CAComplete'
 
-Description : 'Performs a cluster anlalysis on the data "agriculture" from package "cluster" using
-the Ward algorithm. The result is depicted in a dendrogram with the optimal clusters highlighted by
-red boxes.'
+Published in:        'Basic Elements of Computational Statistics'
 
-Keywords : cluster, analysis, agriculture, dendogram, cluster anylsis, plot
+Description:         'Performs a cluster anlalysis on the data "agriculture" from
+                      package "cluster" using the Ward algorithm. The result is depicted in a
+                      dendrogram with the optimal clusters highlighted by red boxes.'
 
-Author[New] : Anastasija Tetereva
+Keywords:            'cluster, analysis, agriculture, dendogram, cluster anylsis, plot'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:          Anastasija Tetereva
 
-Output : Plot of a dendrogram
+Submitted:           '2016-01-28, Christoph Schult'
+
+Output:              'Plot of a dendrogram'
 
 ```
 
 ![Picture1](BCS_CAComplete.png)
 
-
-### R Code:
+### R Code
 ```r
+
 
 library("cluster")  # load package for cluster analysis
 data("agriculture", package = "cluster")  # load the data
@@ -41,3 +41,5 @@ plot(fit, main = "", , sub = "", xlab = "", ylab = "Euclidean distance")  # plot
 groups = cutree(fit, k = 5)  # define clusters
 rect.hclust(fit, k = 5, border = "red")  # draw boxes
 ```
+
+automatically created on 2023-03-27
