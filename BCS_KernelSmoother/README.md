@@ -49,4 +49,4 @@ plot(r.ftse, r.dax, xlim = c(-0.06, 0.06), ylim = c(-0.06, 0.06), xlab = "FTSE l
 lines(r.dax.hat, col = "red", lwd = 2)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
