@@ -1,35 +1,36 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Conf2sided** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Conf2sided
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:         'BCS_Conf2sided'
 
-Description : 'Graphic of a normal distribution N(0,1), also called standard normal distribution,
-with a two-tailed (1-alpha)-confidence interval. It is sometimes called Gauss, after the
-mathematician, or Bell curve, after its shape.'
+Published in:             'Basic Elements of Computational Statistics'
 
-Keywords : normal distribution, visualization, testing, confidence interval, plot
+Description:              'Graphic of a normal distribution N(0,1), also called standard
+                           normal distribution, with a two-tailed (1-alpha)-confidence interval.
+                           It is sometimes called Gauss, after the mathematician, or Bell curve, after
+                           its shape.'
 
-See also : BCS_ecdf
+Keywords:                 'normal distribution, visualization, testing, confidence interval, plot'
 
-Author[New] : Gunawan
+See also:                 'BCS_ecdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:               Gunawan
 
-Output : Plot of a normal distribution function in .pdf format.
+Submitted:                '2016-01-28, Christoph Schult'
+
+Output:                   'Plot of a normal distribution function in .pdf format.'
 
 ```
 
 ![Picture1](BCS_Conf2sided.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # creating values a as a sequence from -3 to 3
 a = seq(from = -3, to = 3, by = 0.01)
 # calculating the densities of these values given the default mean=0 sd=1 normal distribution
@@ -54,3 +55,5 @@ polygon(x = c(1.5, rev(a[451:601])), y = c(0, 0, rev(b[452:601])), col = "gray94
 text(-1.8, 0.03, expression(frac(alpha, 2)), cex = 1.1)
 text(1.8, 0.03, expression(frac(alpha, 2)), cex = 1.1)
 ```
+
+automatically created on 2023-03-27
