@@ -61,4 +61,4 @@ plot(ecdf(r.dax_st), xlim = c(-5, 5), main = "", xlab = "standardised log-return
 lines(ecdf(r.ftse_st), col = "blue")  # add edf of FTSE standardised log-returns to plot
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
