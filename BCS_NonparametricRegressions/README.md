@@ -1,34 +1,37 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_NonparametricRegressions** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_NonparametricRegressions
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:           'BCS_NonparametricRegressions'
 
-Description : 'Multiple nonparametric regressions for DAX log-returns on FTSE log-returns. They
-show how different nonparametric regressions predict the same simulated data.'
+Published in:               'Basic Elements of Computational Statistics'
 
-Keywords : 'splines, regression, DAX, FTSE, log-returns, estimation, plot, nonparametric,
-univariate nonparametric regression, lambda, different lambdas'
+Description:                'Multiple nonparametric regressions for DAX log-returns on FTSE
+                             log-returns. They show how different nonparametric regressions
+                             predict the same simulated data.'
 
-Author[New] : Christoph Schult
+Keywords:                   'splines, regression, DAX, FTSE, log-returns, estimation, plot, 
+                             nonparametric, univariate nonparametric regression, lambda, 
+                             different lambdas'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                 Christoph Schult
 
-Output : 'One plot for multiple nonparametric regressions of the DAX log-returns on FTSE
-log-returns.'
+Submitted:                  '2016-01-28, Christoph Schult'
+
+
+Output:                     'One plot for multiple nonparametric regressions of the DAX log-returns
+                             on FTSE log-returns.'
 
 ```
 
 ![Picture1](BCS_NonParametricRegressions.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # load necessary packages
 require(datasets)
 require(class)
@@ -76,3 +79,5 @@ plot(kernel.reg.example, add = TRUE, col = 2, xlim = c(-3, 3))
 plot(kNN.reg.example, add = TRUE, col = 3, xlim = c(-3, 3))
 lines(spline.reg.example, col = 4, xlim = c(-3, 3))
 ```
+
+automatically created on 2023-03-27
