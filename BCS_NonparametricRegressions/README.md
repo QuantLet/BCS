@@ -80,4 +80,4 @@ plot(kNN.reg.example, add = TRUE, col = 3, xlim = c(-3, 3))
 lines(spline.reg.example, col = 4, xlim = c(-3, 3))
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
