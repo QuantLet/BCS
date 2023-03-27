@@ -1,37 +1,42 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_HAC** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_HAC
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:         'BCS_HAC'
 
-Description : 'The HAC package is used to create a random sample. The distribution is created
-iteratively. First the bivariate marginal distribution is created for the variables, which have a
-higher correlation. In the second step the bivariate marginal distribution is stacked together with
-the remaining variable. The actual observations are obtained, by using the quantile function of the
-respective marginal distribution. The trivariate distribution is plotted in a three dimensional
-scatterplot with its bivariate marginal distributions.'
+Published in:             'Basic Elements of Computational Statistics'
 
-Keywords : 'multivariate, copula, archimedean, uniform, gumbel, HAC, normal, student, distribution,
-pdf, cdf'
+Description:              'The HAC package is used to create a random sample. The
+                           distribution is created iteratively. First the bivariate
+                           marginal distribution is created for the variables, which have
+                           a higher correlation. In the second step the bivariate marginal
+                           distribution is stacked together with the remaining variable.
+                           The actual observations are obtained, by using the quantile
+                           function of the respective marginal distribution. The
+                           trivariate distribution is plotted in a three dimensional
+                           scatterplot with its bivariate marginal distributions.'
 
-Author : Ostap Okhrin
+Keywords:                 'multivariate, copula, archimedean, uniform, gumbel, HAC, normal,
+                           student, distribution, pdf, cdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                    Ostap Okhrin
 
-Output : A 3d scatterplot for an HAC object with normally and t distributed margins.
+Submitted:                '2016-01-28, Christoph Schult'
+
+
+Output:                   'A 3d scatterplot for an HAC object with normally and t distributed
+                           margins.'
 
 ```
 
 ![Picture1](BCS_HAC.png)
 
-
-### R Code:
+### R Code
 ```r
+
 graphics.off()
 library(copula)
 library(HAC)
@@ -65,3 +70,5 @@ graph$points3d(Y12, pch = 20, col = rgb(0.3, 0.75, 1))
 graph$points3d(Y23, pch = 20, col = rgb(0.3, 0.75, 1))
 
 ```
+
+automatically created on 2023-03-27
