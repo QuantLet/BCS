@@ -35,4 +35,4 @@ fit = princomp(mydata)  # perform PCA
 plot(cumsum(fit$sdev^2/sum(fit$sdev^2)), xlab = "Number of principal components", ylab = "Cumulative percentage variance")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
