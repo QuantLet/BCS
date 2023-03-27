@@ -1,33 +1,33 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_LDA** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_LDA
+Name of Quantlet:          'BCS_LDA'
 
-Published in : Basic Elements of Computational Statistics
+Published in:              'Basic Elements of Computational Statistics'
 
-Description : 'Example of Linear Discriminant analysis using the data "spanish" and "spanishMeta"
-from package "LanguageR". The data is randomly split into a training and test set beforehand. The
-observations and discrimiation borders are shown in a plot and the prediction error is calculated.'
+Description:               'Example of Linear Discriminant analysis using the data
+                            "spanish" and "spanishMeta" from package "LanguageR". The data is randomly
+                            split into a training and test set beforehand. The observations and discrimiation
+                            borders are shown in a plot and the prediction error is calculated.'
+              
+Keywords:                  'linear, discriminant, analysis, linear discrimination, prediction, random'
 
-Keywords : linear, discriminant, analysis, linear discrimination, prediction, random
+Author[New]:                Johannes Haupt
 
-Author[New] : Johannes Haupt
+Submitted:                 '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
-
-Output : Plot of observations and discrimination borders.
+Output:                    'Plot of observations and discrimination borders.'
 
 ```
 
 ![Picture1](BCS_LDA.png)
 
-
-### R Code:
+### R Code
 ```r
+
 library("languageR")
 data(spanish, package = "languageR")  # load the data
 
@@ -59,3 +59,5 @@ pred.table = table(mydata_test[, 3], pred.class)  # gives table of predicted and
 pred.correct = diag(prop.table(pred.table, 1))  # gives percentage of correct prediction in each group
 1 - sum(diag(prop.table(pred.table)))  # gives prediction error for all dataset
 ```
+
+automatically created on 2023-03-27
