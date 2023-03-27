@@ -1,31 +1,32 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_RANDU** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_RANDU
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:               'BCS_RANDU'
 
-Description : 'Implementation of the RANDU random number generator developed by IBM in the 1960s.
-It is a Linear Congruential Generator procedure. This generator has some cearly non-random
-characteristics, due to badly chosen starting values.'
+Published in:                   'Basic Elements of Computational Statistics'
 
-Keywords : IBM, random number, generation, linear congruential generator, starting
+Description:                    'Implementation of the RANDU random number generator developed
+                                 by IBM in the 1960s. It is a Linear Congruential Generator procedure.
+                                 This generator has some cearly non-random characteristics, due to badly
+                                 chosen starting values.'
 
-Author[New] : Martin Schelisch
+Keywords:                       'IBM, random number, generation, linear congruential generator, starting'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                     Martin Schelisch
 
-Output : A vector of random numbers with less than ideal random characteristics
+Submitted:                      '2016-01-28, Christoph Schult'
+
+Output:                         'A vector of random numbers with less than ideal random characteristics'
 
 ```
 
-
-### R Code:
+### R Code
 ```r
+
 # set a seed here or inside the RANDU function seed = 1
 
 # Implementation of the RANDU generator (with seed=1)
@@ -45,3 +46,5 @@ RANDU = function(n, seed = 1) {
 RANDU(4)
 
 ```
+
+automatically created on 2023-03-27
