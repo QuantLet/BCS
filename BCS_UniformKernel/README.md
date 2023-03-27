@@ -1,38 +1,42 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_UniformKernel** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_UniformKernel
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:             'BCS_UniformKernel'
 
-Description : 'Multiple unform kernel regressions for DAX log-returns on FTSE log-returns. The
-bandwidth is alternated to see the effect of the bandwidth for the regression results. The
-smootheness of the regression line increases with a higher bandwidth. This causes a smaller bias
-but a higher variance.'
+Published in:                 'Basic Elements of Computational Statistics'
 
-Keywords : 'kernel, regression, DAX, FTSE, log-returns, estimation, plot, nonparametric, univariate
-nonparametric regression, uniform bandwidth, different bandwidths'
+Description:                  'Multiple unform kernel regressions for DAX log-returns on FTSE
+                               log-returns. The bandwidth is alternated to see the effect of
+                               the bandwidth for the regression results. The smootheness of
+                               the regression line increases with a higher bandwidth. This
+                               causes a smaller bias but a higher variance.'
 
-See also : BCS_KernelSmoother
+Keywords:                     'kernel, regression, DAX, FTSE, log-returns, estimation, plot,
+                               nonparametric, univariate nonparametric regression, uniform
+                               bandwidth, different bandwidths'
 
-Author[New] : Christoph Schult
+See also:                     'BCS_KernelSmoother'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                   Christoph Schult
 
-Output : 'One plot for multiple kernel regressions of the DAX log-returns on FTSE log-returns.
-Different regression lines correspond to different bandwiths.'
+Submitted:                    '2016-01-28, Christoph Schult'
+
+
+Output:                       'One plot for multiple kernel regressions of the DAX log-returns on FTSE
+                               log-returns. Different regression lines correspond to different
+                               bandwiths.'
 
 ```
 
 ![Picture1](BCS_UniformKernel.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # load necessary packages
 require(datasets)
 require(class)
@@ -56,3 +60,5 @@ lines(np.reg.b1, col = "red", lwd = 2)  # regression line with h = 0.1
 lines(np.reg.b2, col = "green", lwd = 2)  # regression line with h = 1/n
 lines(np.reg.b3, col = "blue", lwd = 2)  # regression line with h = 1/n^0.5
 ```
+
+automatically created on 2023-03-27
