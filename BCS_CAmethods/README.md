@@ -43,4 +43,4 @@ plot(hclust(d, method = "complete"), main = "Complete linkage", sub = "", xlab =
 plot(hclust(d, method = "average"), main = "Average linkage", sub = "", xlab = "", ylab = "Euclidean distance")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
