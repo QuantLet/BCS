@@ -1,32 +1,32 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_SamplesDiagram** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_SamplesDiagram
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:            'BCS_SamplesDiagram'
 
-Description : 'This plot shows how to use R to create your own diagrams. As an illustration the
-different sample types are displayed in a diagram.'
+Published in:                'Basic Elements of Computational Statistics'
 
-Keywords : samples, order, permutation, combinatorics, plot, diagram
+Description:                 'This plot shows how to use R to create your own diagrams.
+	                      As an illustration the different sample types are displayed in a diagram.'
 
-Author[New] : Christoph Schult
+Keywords:                    'samples, order, permutation, combinatorics, plot, diagram'
 
-Submitted : 2016-02-06, Christoph Schult
+Author[New]:                  Christoph Schult
 
-Output : Diagram for all sample categories.
+Submitted:                   '2016-02-06, Christoph Schult'
+
+Output:                      'Diagram for all sample categories.'
 
 ```
 
 ![Picture1](BCS_SamplesDiagram.png)
 
-
-### R Code:
+### R Code
 ```r
+
 graphics.off()
 require(diagram)
 par(mar = c(1, 1, 1, 1), family = "serif")
@@ -55,3 +55,5 @@ for (i in 1:nr) {
 }
 
 ```
+
+automatically created on 2023-03-27
