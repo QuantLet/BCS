@@ -54,4 +54,4 @@ plot(0:6, dhyper(0:6, 10, 190, 6), type = "h", lwd = 2, xlab = "x", ylab = "Prob
 points(0:6, dbinom(0:6, 6, 0.05), pch = 16, cex = 1.5, col = "black")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
