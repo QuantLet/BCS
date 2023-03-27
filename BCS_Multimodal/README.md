@@ -1,35 +1,41 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Multimodal** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Multimodal
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:         'BCS_Multimodal'
+ 
+Published in:             'Basic Elements of Computational Statistics'
+ 
+Description:              'A 3d plot for the function: 
+                           z = 0.03*sin(x)*sin(y) - 0.05*sin(2*x)*sin(y)
+                           + 0.01*sin(x)*sin(2*y) + 0.09*sin(2*x)*sin(2*xy).
+                           All maxima are depicted by blue points and all minima by red
+                           points. The function is used to illstrate algotithms in R to
+                           find roots of multivariate functions. Here the BFGS method is
+                           used to find the optima.'
 
-Description : 'A 3d plot for the function: z = 0.03*sin(x)*sin(y) - 0.05*sin(2*x)*sin(y) +
-0.01*sin(x)*sin(2*y) + 0.09*sin(2*x)*sin(2*xy). All maxima are depicted by blue points and all
-minima by red points. The function is used to illstrate algotithms in R to find roots of
-multivariate functions. Here the BFGS method is used to find the optima.'
+Keywords:                 'root finding,3D,plot,multivariate,root,bivariate,numerical,
+                           methods,BFGS'
 
-Keywords : root finding,3D,plot,multivariate,root,bivariate,numerical, methods,BFGS
+Author[New]:              Christoph, Schult
 
-Author[New] : Christoph, Schult
+Submitted:                '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
-
-Output : 'A 3d surface plot of the function: z = 0.03*sin(x)*sin(y) - 0.05*sin(2*x)*sin(y) +
-0.01*sin(x)*sin(2*y) + 0.09*sin(2*x)*sin(2*xy) and its extrema.'
+Output:                   'A 3d surface plot of the function: 
+                           z = 0.03*sin(x)*sin(y) - 0.05*sin(2*x)*sin(y) + 0.01*sin(x)*sin(2*y)
+                           + 0.09*sin(2*x)*sin(2*xy)
+                           and its extrema.'
 
 ```
 
 ![Picture1](BCS_Multimodal.png)
 
-
-### R Code:
+### R Code
 ```r
+
 ng   = 33                     # number of grid
 x    = seq(0,5,length.out=ng) # function argument x
 y    = seq(0,5,length.out=ng) # function argument y
@@ -146,3 +152,5 @@ wireframe(mygrid$z ~ mygrid$x*mygrid$y, pts = pts, aspect = 1,
                           col = "red", cex = 2, .scale=TRUE, ...)
           })
 ```
+
+automatically created on 2023-03-27
