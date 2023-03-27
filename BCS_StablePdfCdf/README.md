@@ -1,40 +1,48 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_StablePdfCdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_StablePdfCdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:              'BCS_StablePdfCdf'
 
-Description : 'A stable distribution can be linearly transformed and stays a stable distribtuion.
-The location and scale parameter for the plots are identical. Only the skewness and kurtosis varies
-among the graphs. If beta, the skewness parameter, is smaller than zero, the distribuion is skewed
-to the left. Therefore smaller values of the rv are more likely. If beta is greater than zero, the
-opposite is true. Alpha determines the kurtosis of the distribution. Higher values lead to thicker
-tails and therefore values far from the mean are more likely.'
+Published in:                  'Basic Elements of Computational Statistics'
 
-Keywords : 'univariate, distribution, stable, pdf, continuous, skewness, tail, kurtosis, two,
-random, variable, transformation, linear, parameter, characteristic, function'
+Description:                   'A stable distribution can be linearly transformed and stays
+                                a stable distribtuion. The location and scale parameter for
+                                the plots are identical. Only the skewness and kurtosis
+                                varies among the graphs. If beta, the skewness parameter, is
+                                smaller than zero, the distribuion is skewed to the left.
+                                Therefore smaller values of the rv are more likely. If beta is
+                                greater than zero, the opposite is true. Alpha determines the
+                                kurtosis of the distribution. Higher values lead
+                                to thicker tails and therefore values far from the mean
+                                are more likely.'
 
-See also : 'BCS_StablePdfCdfSpecial, BCS_ExpPdfCdf, BCS_NormPdfCdf, BCS_ChiPdfCdf, BCS_FPdfCdf,
-BCS_CauchyPdfCdf, BCS_tPdfCdf'
+Keywords:                      'univariate, distribution, stable, pdf, continuous, skewness, tail,
+                                kurtosis, two, random, variable, transformation, linear, parameter,
+                                characteristic, function'
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+See also:                      'BCS_StablePdfCdfSpecial, BCS_ExpPdfCdf,
+                                BCS_NormPdfCdf, BCS_ChiPdfCdf,
+                                BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_tPdfCdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                         Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Output : Plots pdfs and cdfs for a stable distribution with different parameters.
+Submitted:                     '2016-01-28, Christoph Schult'
+
+
+Output:                        'Plots pdfs and cdfs for a stable distribution with different
+                                parameters.'
 
 ```
 
 ![Picture1](BCS_StablePdfCdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # make sure both packages are installed
 
 library(stabledist)
@@ -92,3 +100,5 @@ plot(z, pstable(z, alpha, beta[1], sigma, mu, 1), col = "red", type = "l", xlim 
 lines(z, pstable(z, alpha, beta[2], sigma, mu, 1), col = "green")
 lines(z, pstable(z, alpha, beta[3], sigma, mu, 1), col = "blue")
 ```
+
+automatically created on 2023-03-27
