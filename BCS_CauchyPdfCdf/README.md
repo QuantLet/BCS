@@ -1,36 +1,41 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_CauchyPdfCdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_CauchyPdfCdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:       'BCS_CauchyPdfCdf'
 
-Description : 'The Cauchy distribution has no mean and no variance. Its location and form are
-defined by the parameters mu and sigma. Mu defines the position of the peak (mode) and the median.'
+Published in:           'Basic Elements of Computational Statistics'
 
-Keywords : 'cauchy,poisson,kernel,univariate,continuous,distribution, lorenz, pdf, cdf,standard,
-student, t-distribution, stable'
+Description:            'The Cauchy distribution has no mean and no variance. 
+                         Its location and form are defined by the parameters 
+                         mu and sigma. Mu defines the position of the peak 
+                         (mode) and the median.'
 
-See also : 'BCS_StablePdfCdf, BCS_ExpPdfCdf, BCS_StablePdfCdfSpecial, BCS_ChiPdfCdf, BCS_FPdfCdf,
-BCS_NormPdfCdf, BCS_tPdfCdf'
+Keywords:               'cauchy,poisson,kernel,univariate,continuous,distribution,
+                         lorenz, pdf, cdf,standard, student, t-distribution, stable'
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+See also:               'BCS_StablePdfCdf, BCS_ExpPdfCdf,
+                         BCS_StablePdfCdfSpecial, BCS_ChiPdfCdf,
+                         BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                  Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Output : Plots pdfs and cdfs for cauchy distribution with different moments
+Submitted:              '2016-01-28, Christoph Schult'
+
+
+Output:                 'Plots pdfs and cdfs for cauchy distribution with different
+                         moments'
 
 ```
 
 ![Picture1](BCS_CauchyPdfCdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 graphics.off()  # close all windows
 par(mfrow = c(1, 2))
 
@@ -51,3 +56,5 @@ lines(z, pcauchy(z, -2, 1), col = "violet")
 lines(z, pcauchy(z, 0, 1.5), col = "green")
 lines(z, pcauchy(z, 0, 2), col = "red")
 ```
+
+automatically created on 2023-03-27
