@@ -1,39 +1,45 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_FPdfCdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_FPdfCdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:       'BCS_FPdfCdf'
 
-Description : 'The F-distribution, also called the Fisher-Snedecor distribution, is the ratio of
-two independent chisquared distributed random variables. The degrees of freedom of the numerator
-and denominatoer determine how the pdf and cdf behave. If n=1 the pdf is monotonically decreasing
-and the ordinate is the asymptote. For n=2 the pdf intersects the ordinate at 1 and monotically
-decreases. Only if n>=3 the pdf is assymetrically bell shaped.'
+Published in:           'Basic Elements of Computational Statistics'
 
-Keywords : 'univariate, distribution, f, pdf, cdf, continuous, analysis, variance, scale,
-chisquare, regression'
+Description:            'The F-distribution, also called the Fisher-Snedecor
+                         distribution, is the ratio of two independent chisquared
+                         distributed random variables. The degrees of freedom of the
+                         numerator and denominatoer determine how the pdf and cdf
+                         behave. If n=1 the pdf is monotonically decreasing and the
+                         ordinate is the asymptote. For n=2 the pdf intersects the
+                         ordinate at 1 and monotically decreases. Only if n>=3 the pdf
+                         is assymetrically bell shaped.'
 
-See also : 'BCS_StablePdfCdf, BCS_ChiPdfCdf, BCS_StablePdfCdfSpecial, BCS_CauchyPdfCdf,
-BCS_ExpPdfCdf, BCS_Norm_PdfCdf, BCS_tPdfCdf'
+Keywords:               'univariate, distribution, f, pdf, cdf, continuous, analysis, variance, 
+                         scale, chisquare, regression'
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+See also:               'BCS_StablePdfCdf, BCS_ChiPdfCdf,
+                         BCS_StablePdfCdfSpecial, BCS_CauchyPdfCdf,
+                         BCS_ExpPdfCdf, BCS_Norm_PdfCdf, BCS_tPdfCdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                  Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Output : Plots pdfs and cdfs for F-distribution with different degrees of freedom.
+Submitted:              '2016-01-28, Christoph Schult'
+
+
+Output:                 'Plots pdfs and cdfs for F-distribution with different
+                         degrees of freedom.'
 
 ```
 
 ![Picture1](BCS_FPdfCdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 par(mfrow = c(1, 2))
 
 # F-distributed variable
@@ -59,3 +65,5 @@ lines(z, pf(z, n[2], m[2]), col = "red")
 lines(z, pf(z, n[3], m[3]), col = "green")
 lines(z, pf(z, n[4], m[4]), col = "blue")
 ```
+
+automatically created on 2023-03-27
