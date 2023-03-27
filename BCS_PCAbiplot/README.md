@@ -46,4 +46,4 @@ text(cor(mydata, fit$scores), label, cex = 0.8)
 text(cor(mydata, fit$scores), label, cex = 0.8)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
