@@ -1,37 +1,41 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_EdfsDAXFTSE** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_EdfsDAXFTSE
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:             'BCS_EdfsDAXFTSE'
 
-Description : 'Two plots for the empirical cumulative distribution function standardised and not
-standardised log-returns for the DAX and FTSE indeces. The edf for both is close enough for the
-Kolmogorov-Smirnov test to not reject the null hypothesis of different distributions. This is not
-true for non standardised log-returns.'
+Published in:                 'Basic Elements of Computational Statistics'
 
-Keywords : 'edf, empirical cumulative distribution function, DAX, FTSE, returns, standardisation,
-scatterplot, density estimation, plot, nonparametric'
+Description:                  'Two plots for the empirical cumulative distribution function
+                               standardised and not standardised log-returns for the DAX and
+                               FTSE indeces. The edf for both is close enough for the
+                               Kolmogorov-Smirnov test to not reject the null hypothesis of
+                               different distributions. This is not  true for non standardised
+                               log-returns.'
 
-Author[New] : Christoph Schult
+Keywords:                     'edf, empirical cumulative distribution function, DAX, FTSE,
+                               returns, standardisation, scatterplot, density estimation, plot,
+                               nonparametric'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:                   Christoph Schult
 
-Output : 'Two scatter plots for the edfs of standardised and non standardised log-retunrs of the
-DAX and FTSE indeces. Log-retuns for the DAX index are depicted in black and the FTSE index
-log-retunrs in blue.'
+Submitted:                    '2016-01-28, Christoph Schult'
+
+
+Output:                       'Two scatter plots for the edfs of standardised and non standardised
+                               log-retunrs of the DAX and FTSE indeces. Log-retuns for the DAX
+                               index are depicted in black and the FTSE index log-retunrs in blue.'
 
 ```
 
 ![Picture1](BCS_EdfsDAXFTSE.png)
 
-
-### R Code:
+### R Code
 ```r
+
 require(datasets)  # load necessary package for DAX index data
 
 dax = EuStockMarkets[, 1]  # DAX index
@@ -56,3 +60,5 @@ lines(ecdf(r.ftse), col = "blue")  # add edf of FTSE log-returns to plot
 plot(ecdf(r.dax_st), xlim = c(-5, 5), main = "", xlab = "standardised log-returns", ylab = "edf of standardised log-returns")
 lines(ecdf(r.ftse_st), col = "blue")  # add edf of FTSE standardised log-returns to plot
 ```
+
+automatically created on 2023-03-27
