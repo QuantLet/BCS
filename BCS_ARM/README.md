@@ -48,4 +48,4 @@ text(80, 0.07, "Acceptance Region")
 text(40, 0.45, "Rejection Region")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
