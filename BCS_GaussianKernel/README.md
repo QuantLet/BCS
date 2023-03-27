@@ -61,4 +61,4 @@ lines(np.reg.b2, col = "green", lwd = 2)  # regression line with h = 1/n
 lines(np.reg.b3, col = "blue", lwd = 2)  # regression line with h = 1/n^0.5
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
