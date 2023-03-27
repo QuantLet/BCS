@@ -1,36 +1,36 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Binpois** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Binpois
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:        'BCS_Binpois'
 
-Description : 'Graphic of the probability mass function of the poission distribution vs. binomial
-distribution. The binomial is given by bars, while the binomial distr. is plotted as dots. It can
-be seen that the poisson as well as the binomial distribution closely approache the binomial
-distribution for the specified values.'
+Published in:            'Basic Elements of Computational Statistics'
 
-Keywords : approximation, binomial, distribution, plot, poisson, visualization
+Description:             'Graphic of the probability mass function of the poission distribution vs.
+                          binomial distribution. The binomial is given by bars, while the binomial distr.
+                          is plotted as dots. It can be seen that the poisson as well as the binomial
+                          distribution closely approache the binomial distribution for the specified values.'
 
-See also : BCS_Binhist, BCS_Binnorm, BCS_Binompdf, BCS_Poispdf
+Keywords:                'approximation, binomial, distribution, plot, poisson, visualization'
 
-Author[New] : Johannes Haupt
+See also:                BCS_Binhist, BCS_Binnorm, BCS_Binompdf, BCS_Poispdf
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:             Johannes Haupt
+  
+Submitted:               '2016-01-28, Christoph Schult'
 
-Output : Graphic of a binomial and a poisson distribution that approach the normal distribution
+Output:                  'Graphic of a binomial and a poisson distribution that approach the normal distribution'
 
 ```
 
 ![Picture1](BCS_Binpois.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # setting up the axis label size and margin (bottom, left, top, right)
 par(cex.lab = 1.2, cex.main = 1.1, mar = c(4, 4.5, 3, 2) + 0.1, mgp = c(2.9, 1, 0))
 
@@ -50,3 +50,5 @@ plot(x, prob, type = "h", main = "Pois(10) vs. B(100, 0.1)", ylab = "Probability
 points(0:100, f, pch = 16, cex = 1.5, col = "black")
 
 ```
+
+automatically created on 2023-03-27
