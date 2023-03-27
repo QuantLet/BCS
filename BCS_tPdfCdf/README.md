@@ -60,4 +60,4 @@ lines(t, pt(t, df[2]), col = "green")
 lines(t, pt(t, df[3]), col = "blue")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
