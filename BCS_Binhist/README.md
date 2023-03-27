@@ -44,4 +44,4 @@ hist.binom = function(n, p, color = 0) {
 hist.binom(10, 0.2)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
