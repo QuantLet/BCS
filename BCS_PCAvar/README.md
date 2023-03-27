@@ -43,4 +43,4 @@ plot(cumsum(fit$sdev^2)/sum(fit$sdev^2), xlab = "Number of components", ylab = "
 # plot cumlulative explained variance vs number of PC
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
