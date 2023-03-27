@@ -59,4 +59,4 @@ rp.slider(density.panel, sp, from = r/40, to = r/2, action = density.draw, title
 rp.doublebutton(density.panel, sp, step = 1.03, log = T, range = c(r/50, NA), title = "Bandwidth", action = density.draw)  # call the function density.draw
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
