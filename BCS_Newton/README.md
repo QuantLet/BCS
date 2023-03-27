@@ -46,4 +46,4 @@ newt$root  # root
 newt$value  # function value at the root
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
