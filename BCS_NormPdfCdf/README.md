@@ -1,38 +1,42 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_NormPdfCdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_NormPdfCdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:        'BCS_NormPdfCdf'
 
-Description : 'The normal distribution is very often applied in statisitics. It is a stable
-distribution, which is symmetric around its mean. The standard normal distribution has an
-expectaion of zero and variance equals one. Higher variance leads to flatter pdfs and cdfs.'
+Published in:            'Basic Elements of Computational Statistics'
 
-Keywords : 'continuous, standard, univariate, distribution, normal, pdf, cdf, stable, gauss, CLT,
-gaussian'
+Description:             'The normal distribution is very often applied in statisitics.
+                          It is a stable distribution, which is symmetric around its
+                          mean. The standard normal distribution has an expectaion of
+                          zero and variance equals one. Higher variance leads to flatter
+                          pdfs and cdfs.'
 
-See also : 'BCS_StablePdfCdf, BCS_ExpPdfCdf, BCS_StablePdfCdfSpecial, BCS_ChiPdfCdf, BCS_FPdfCdf,
-BCS_CauchyPdfCdf, BCS_tPdfCdf'
+Keywords:                'continuous, standard, univariate, distribution, normal, pdf, cdf, 
+                          stable, gauss, CLT, gaussian'
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+See also:                'BCS_StablePdfCdf, BCS_ExpPdfCdf,
+                          BCS_StablePdfCdfSpecial, BCS_ChiPdfCdf,
+                          BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_tPdfCdf'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                   Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Output : 'Plots pdfs and cdfs for normal distribution with different standard deviations and zero
-expectation.'
+Submitted:               '2016-01-28, Christoph Schult'
+
+
+Output:                  'Plots pdfs and cdfs for normal distribution with different
+                          standard deviations and zero expectation.'
 
 ```
 
 ![Picture1](BCS_NormPdfCdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 par(mfrow = c(1, 2))
 # creates the rv
 z = seq(-15, 15, length = 400)
@@ -51,3 +55,5 @@ plot(z, pnorm(z, 0, 1), xlab = "z", ylab = "cdf", type = "l", lwd = 2, col = "re
 lines(z, pnorm(z, 0, s[2]), col = "green")
 lines(z, pnorm(z, 0, s[3]), col = "blue")
 ```
+
+automatically created on 2023-03-27
