@@ -1,33 +1,37 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_NLP** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_NLP
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:         'BCS_NLP'
 
-Description : 'A 3d plot for a nonlinear progamming problem. The black hyperplane depicts the
-function to be optimized. A red hyperplane depicts the constraint of the function.'
+Published in:             'Basic Elements of Computational Statistics'
 
-Keywords : 'Numerical optimization,optimization,3D,plot,multivariate, bivariate,BCS,numerical
-methods,nonlinear programming, costrained optimization'
+Description:              'A 3d plot for a nonlinear progamming problem. The black
+                           hyperplane depicts the function to be optimized. A red
+                           hyperplane depicts the constraint of the function.'
 
-Author[New] : Christoph, Schult
+Keywords:                 'Numerical optimization,optimization,3D,plot,multivariate,
+                           bivariate,BCS,numerical methods,nonlinear programming,
+                           costrained optimization'
 
-Submitted : 2016-01-28, Christoph Schult
 
-Output : A 3d plot of a nonlinear programming problem.
+Author[New]:               Christoph, Schult
+
+Submitted:                '2016-01-28, Christoph Schult'
+
+
+Output:                   'A 3d plot of a nonlinear programming problem.'
 
 ```
 
 ![Picture1](BCS_NLP.png)
 
-
-### R Code:
+### R Code
 ```r
+
 
 x = matrix(rep(seq(0, 5, length.out = 50), 50), 50)
 y = t(matrix(rep(seq(0, 5, length.out = 50), 50), 50))
@@ -74,3 +78,5 @@ wireframe(z ~ x * y, pts = pts, shade = F, aspect = 1, scales = list(col = "blac
             type = "p", pch = 19, col = "blue", cex = 2, .scale = TRUE, ...)
     })
 ```
+
+automatically created on 2023-03-27
