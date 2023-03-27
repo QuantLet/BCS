@@ -56,4 +56,4 @@ legend(x = "topleft", legend = c("MSE", "Bias^2", "Variance", "h_MSE"), col = c(
     cex = 1.5)
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
