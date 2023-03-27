@@ -39,4 +39,4 @@ attach(longley)  # attach dataset longley
 rp.regression(cbind(GNP, Armed.Forces), Unemployed, panel.plot = F)  # regression 3D plot
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
