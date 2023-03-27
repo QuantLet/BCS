@@ -59,4 +59,4 @@ rp.listbox(panel, plot.type, c("histogram", "boxplot"), action = data.plotfn, ti
 
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
