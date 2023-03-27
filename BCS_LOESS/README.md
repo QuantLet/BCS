@@ -64,4 +64,4 @@ lines(loess.predict.a2, col = "blue", lwd = 2)  # regression line with lambda = 
 lines(loess.predict.a3, col = "green", lwd = 2)  # regression line with lambda = 2
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
