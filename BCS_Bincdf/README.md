@@ -1,34 +1,36 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Bincdf** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Bincdf
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:        'BCS_Bincdf'
 
-Description : 'Graphic of the binomial cumulative distribution function with observations n = 10
-and two different probabilities for the event, p = 0.2 (black) and p = 0.6 (red).'
+Published in:            'Basic Elements of Computational Statistics'
+   
+Description:             'Graphic of the binomial cumulative distribution function
+                          with observations n = 10 and two different probabilities for the event,
+                          p = 0.2 (black) and p = 0.6 (red).'
+ 
+Keywords:                'binomial, cdf, distribution, plot, visualization'
 
-Keywords : binomial, cdf, distribution, plot, visualization
+See also:                 BCS_Binhist, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf
 
-See also : BCS_Binhist, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf
+Author:                   Johannes Haupt
+         
 
-Author : Johannes Haupt
+Submitted:               '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
-
-Output : Graphic of the binomial cdf with n = 10, p = 0.2 (black) and p = 0.6 (red)
+Output:                  'Graphic of the binomial cdf with n = 10, p = 0.2 (black) and p = 0.6 (red)'
 
 ```
 
 ![Picture1](BCS_Bincdf.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # create a function to draw a binomial cdf
 
 create.binomial.cdf = function(N, p, colour = "black", pch = 16) {
@@ -57,3 +59,5 @@ par(cex.lab = 1.3, mai = c(b = 1.2, l = 1.2, t = 0.7, r = 0.5))
 # run the function
 create.binomial.cdf(c(10, 10), c(0.2, 0.6), c("red", "black"))
 ```
+
+automatically created on 2023-03-27
