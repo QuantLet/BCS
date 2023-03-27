@@ -56,4 +56,4 @@ lines(z, pnorm(z, 0, s[2]), col = "green")
 lines(z, pnorm(z, 0, s[3]), col = "blue")
 ```
 
-automatically created on 2023-03-27
+automatically created on 2023-03-28
