@@ -1,33 +1,35 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Rosenbrock** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_Rosenbrock
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet: 'BCS_Rosenbrock'
 
-Description : 'A 3d plot for the Rosenbrock function: z = 100*(y - x^2)^2 + (1 - y)^2. The minimum
-(1, 1) is found by the Nelder Mead method.'
+Published in: 'Basic Elements of Computational Statistics'
 
-Keywords : 'Numerical optimization,optimization,3D,plot,multivariate, bivariate,BCS,numerical
-methods,Rosenbrock,Nelder Mead method'
+Description: 'A 3d plot for the Rosenbrock function:
+              z = 100*(y - x^2)^2 + (1 - y)^2.
+              The minimum (1, 1) is found by the Nelder Mead method.'
 
-Author[New] : Christoph, Schult
+Keywords: 'Numerical optimization,optimization,3D,plot,multivariate,
+           bivariate,BCS,numerical methods,Rosenbrock,Nelder Mead method'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]: Christoph, Schult
 
-Output : A 3d plot of the Rosenbrock function.
+Submitted: '2016-01-28, Christoph Schult'
+
+
+Output: 'A 3d plot of the Rosenbrock function.'
 
 ```
 
 ![Picture1](BCS_Rosenbrock.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # load required packages
 require(lattice)
 require(neldermead)
@@ -71,3 +73,5 @@ wireframe(mygrid$z ~ mygrid$x * mygrid$y, pts = pts, aspect = 1, scales = list(c
             ...)
     })
 ```
+
+automatically created on 2023-03-27
