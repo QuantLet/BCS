@@ -1,37 +1,39 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_rp.tkrplot** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_rp.tkrplot
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:            'BCS_rp.tkrplot'
 
-Description : 'The rpanel package employs different graphical user interface (GUI) controls to
-enable the immediate communication with the graphical output and provides dynamic graphics. The
-rp.tkrplot function uses the tkrplot package and enables to place a plot and its control panel in a
-single window. In this example a density plot with a control for altering the bandwidth is drawn.'
+Published in:                'Basic Elements of Computational Statistics'
 
-Keywords : rpanel, tkrplot, density, plot, bandwidth
+Description:                 'The rpanel package employs different graphical user interface (GUI) controls
+                              to enable the immediate communication with the graphical output and provides
+                              dynamic graphics. The rp.tkrplot function uses the tkrplot package and
+                              enables to place a plot and its control panel in a single window. In this
+                              example a density plot with a control for altering the bandwidth is drawn.'
 
-See also : 'BCS_ControlDensityEstimate, BCS_HistogramBoxplotOption, BCS_UnivariateRegression,
-BCS_BivariateRegression, BCS_NormalDensityFit'
+Keywords:                    'rpanel, tkrplot, density, plot, bandwidth'
 
-Author : Polina Marchenko
+See also:                    'BCS_ControlDensityEstimate, BCS_HistogramBoxplotOption,
+                              BCS_UnivariateRegression, BCS_BivariateRegression,
+                              BCS_NormalDensityFit'
 
-Submitted : 2016-01-28, Christoph Schult
+Author:                       Polina Marchenko
 
-Output : Density plot with bandwidth control widget.
+Submitted:                   '2016-01-28, Christoph Schult'
+
+Output:                      'Density plot with bandwidth control widget.'
 
 ```
 
 ![Picture1](BCS_rp.tkrplot.png)
 
-
-### R Code:
+### R Code
 ```r
+
 # Load tkrplot, tcltk and rpanel packages (have to be installed)
 require(tkrplot)
 require(tcltk)
@@ -62,3 +64,5 @@ if (interactive()) {
 }
 
 ```
+
+automatically created on 2023-03-27
