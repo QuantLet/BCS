@@ -1,33 +1,34 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_CAmethods** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BCS_CAmethods
 
-Published in : Basic Elements of Computational Statistics
+Name of Quantlet:   'BCS_CAmethods'
 
-Description : 'Perform a cluster analysis using single, complete and average linkage algorithms on
-the data set "agriculture" from the package "cluster". The three resulting dendrograms are plotted
-to show the divergence in the results.'
+Published in:       'Basic Elements of Computational Statistics'
 
-Keywords : plot, cluster, analysis, average linkage, dendrograms
+Description:        'Perform a cluster analysis using single, complete and average linkage
+                     algorithms on the data set "agriculture" from the package "cluster". 
+                     The three resulting dendrograms are plotted to show the divergence in the results.'
 
-Author[New] : Anastasija Tetereva
+Keywords:           'plot, cluster, analysis, average linkage, dendrograms'
 
-Submitted : 2016-01-28, Christoph Schult
+Author[New]:         Anastasija Tetereva
+ 
+Submitted:          '2016-01-28, Christoph Schult'
 
-Output : Combined plot of three dendrograms of different clustering methods
+
+Output:             'Combined plot of three dendrograms of different clustering methods'
 
 ```
 
 ![Picture1](BCS_CAmethods.png)
 
-
-### R Code:
+### R Code
 ```r
+
 
 library("cluster")  # install package for cluster analysis
 data("agriculture", package = "cluster")  # load the data
@@ -41,3 +42,5 @@ plot(hclust(d, method = "single"), main = "Single linkage", sub = "", xlab = "",
 plot(hclust(d, method = "complete"), main = "Complete linkage", sub = "", xlab = "", ylab = "Euclidean distance")
 plot(hclust(d, method = "average"), main = "Average linkage", sub = "", xlab = "", ylab = "Euclidean distance")
 ```
+
+automatically created on 2023-03-27
