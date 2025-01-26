@@ -1,0 +1,26 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of Quantlet: BCS_LP
+
+Published in: Basic Elements of Computational Statistics
+
+Description: A 3d plot for a simple linear progamming problem. The black
+
+Keywords: Numerical optimization,optimization,3D,plot,multivariate,
+
+Author[New]: Christoph, Schult
+
+Submitted: 2016-01-28, Christoph Schult
+
+Output: A 3d plot of a simple linear programming problem.
+
+```
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/BCS/master/BCS_LP/BCS_LP.png" alt="Image" />
+</div>
+
