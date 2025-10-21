@@ -8,4 +8,5 @@ Keywords:         kernel, density
 
 Author:           Ostap Okhrin
 
-Submitted:        Ya Qian
+Submitted:        25.07.2015
+
