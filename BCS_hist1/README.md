@@ -9,7 +9,7 @@ Name of Quantlet: BCS_hist1
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Histogram with default choice of grids based on R example data
+Description: Histogram with default choice of grids based on R example data nhtemp. Histograms are commonly used to visualize data frequencies of continous variables.
 
 Keywords: histogram, graphical, visualization, frequencies, data, grid
 
