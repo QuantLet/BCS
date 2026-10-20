@@ -9,15 +9,15 @@ Name of Quantlet: BCS_KernelSmoother
 
 Published in: Basic Elements of Computational Statistics
 
-Description: A unform kernel regression for DAX log-returns on FTSE
+Description: A unform kernel regression for DAX log-returns on FTSE log-returns. Higher log-retunrs of the FTSE predict higher log-returns of the DAX. This comovement seems reasonable considering the close relationship between both indices.
 
-Keywords: kernel, regression, DAX, FTSE, log-returns, estimation, plot,
+Keywords: kernel, regression, DAX, FTSE, log-returns, estimation, plot, nonparametric, univariate nonparametric regression, uniform, bandwidth
 
 Author[New]: Christoph Schult
 
 Submitted: 2016-01-28, Christoph Schult
 
-Output: One plot for a kernel regression of the DAX log-returns on FTSE
+Output: One plot for a kernel regression of the DAX log-returns on FTSE log-returns.
 
 ```
 <div align="center">
