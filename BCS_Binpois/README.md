@@ -9,7 +9,7 @@ Name of Quantlet: BCS_Binpois
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Graphic of the probability mass function of the poission distribution vs.
+Description: Graphic of the probability mass function of the poission distribution vs. binomial distribution. The binomial is given by bars, while the binomial distr. is plotted as dots. It can be seen that the poisson as well as the binomial distribution closely approache the binomial distribution for the specified values.
 
 Keywords: approximation, binomial, distribution, plot, poisson, visualization
 
