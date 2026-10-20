@@ -9,7 +9,7 @@ Name of Quantlet: BCS_BarGraphs
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Bar diagram and plot of relative frequencies of the R data subset
+Description: Bar diagram and plot of relative frequencies of the R data subset "chickwts$feed". It is an efficient way of plotting the frequencies of discreet variables, particularly useful to illustrate the behaviour (variation) over time.
 
 Keywords: data visualization, distribution, graphical representation, plot, visualization
 
