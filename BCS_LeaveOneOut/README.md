@@ -9,15 +9,15 @@ Name of Quantlet: BCS_LeaveOneOut
 
 Published in: Basic Elements of Computational Statistics
 
-Description: MSE for k-NN regression using the Leave-one-out cross validation
+Description: MSE for k-NN regression using the Leave-one-out cross validation method.
 
-Keywords: prediction accuracy, mean squared error, scatterplot, plot,
+Keywords: prediction accuracy, mean squared error, scatterplot, plot, nonparametric
 
 Author[New]: Christoph Schult
 
 Submitted: 2016-01-28, Christoph Schult
 
-Output: One scatterplot to show the MSE depending on the number of nearest
+Output: One scatterplot to show the MSE depending on the number of nearest neighbours.
 
 ```
 <div align="center">
