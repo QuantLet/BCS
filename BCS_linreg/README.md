@@ -9,7 +9,7 @@ Name of Quantlet: BCS_linreg
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Plot of two variables from the R example dataset longley
+Description: Plot of two variables from the R example dataset longley (GNP, employed) including a regression line (OLS) and grid.
 
 Keywords: plot, visualization, regression, linear, univariate
 
