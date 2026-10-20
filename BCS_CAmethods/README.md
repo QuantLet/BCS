@@ -9,7 +9,7 @@ Name of Quantlet: BCS_CAmethods
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Perform a cluster analysis using single, complete and average linkage
+Description: Perform a cluster analysis using single, complete and average linkage algorithms on the data set "agriculture" from the package "cluster". The three resulting dendrograms are plotted to show the divergence in the results.
 
 Keywords: plot, cluster, analysis, average linkage, dendrograms
 
