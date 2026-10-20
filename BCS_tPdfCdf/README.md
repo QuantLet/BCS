@@ -9,17 +9,17 @@ Name of Quantlet: BCS_tPdfCdf
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Stundent''s t-distribution is the ratio of a normal
+Description: Stundent''s t-distribution is the ratio of a normal distribution and a chisquare distribution. The t-distribution is used for several statisitcal tests. The degrees of freedom specify the moments of the distribution.
 
-Keywords: statistics, continuous, square, normal, chisquare, root, test,
+Keywords: statistics, continuous, square, normal, chisquare, root, test, univariate, distribution, t-distribution, pdf, cdf, student
 
-See also: BCS_StablePdfCdfSpecial, BCSExpPdfCdf, BCS_tPdfCdf,
+See also: BCS_StablePdfCdfSpecial, BCSExpPdfCdf, BCS_tPdfCdf, BCS_NormPdfCdf, BCS_ChiPdfCdf, BCS_tQQplots BCS_FPdfCdf, BCS_CauchyPdfCdf, BCS_StablePdfCdf
 
 Author: Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
 Submitted: 2016-01-28, Christoph Schult
 
-Output: Plots pdfs and cdfs for the t-distribution with different
+Output: Plots pdfs and cdfs for the t-distribution with different degrees of freedom.
 
 ```
 <div align="center">
