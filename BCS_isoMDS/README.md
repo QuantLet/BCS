@@ -9,9 +9,9 @@ Name of Quantlet: BCS_isoMDS
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Example of non-metric Multidimensional Scaling (MDS) on the
+Description: Example of non-metric Multidimensional Scaling (MDS) on the data "voting" from package "HSAUR2". This approach is useful for a number of negative eigenvalues and ordinal data.
 
-Keywords: non-metric, multidimensional, scaling, plot, HSAUR2,
+Keywords: non-metric, multidimensional, scaling, plot, HSAUR2, eigenvalues, ordinal data
 
 Author[New]: Anastasija Tetereva
 
