@@ -9,7 +9,7 @@ Name of Quantlet: BCS_CAComplete
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Performs a cluster anlalysis on the data "agriculture" from
+Description: Performs a cluster anlalysis on the data "agriculture" from package "cluster" using the Ward algorithm. The result is depicted in a dendrogram with the optimal clusters highlighted by red boxes.
 
 Keywords: cluster, analysis, agriculture, dendogram, cluster anylsis, plot
 
