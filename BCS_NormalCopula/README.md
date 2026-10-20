@@ -9,9 +9,9 @@ Name of Quantlet: BCS_NormalCopula
 
 Published in: Basic Elements of Computational Statistics
 
-Description: A bivariate normal distribution is created by the function
+Description: A bivariate normal distribution is created by the function normalCopula.The normalCopula function creates copula objects and also computes joint densities and probabilities. Both rv have a correlation of 0.7. The first plot is a standard scatterplot of the two variables. A contour and three dimensional scatterplot illustrate the cdf of the two variables. The last two plots depict the density functions for the rvs. One can observe the elliptical shape of the contour lines.
 
-Keywords: multivariate, distribution, copula, gaussian, normal, density,
+Keywords: multivariate, distribution, copula, gaussian, normal, density, correlation, pdf, cdf, contour, scatterplot
 
 Author: Ostap Okhrin
 
