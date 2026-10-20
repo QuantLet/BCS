@@ -9,9 +9,9 @@ Name of Quantlet: BCS_SetupFile
 
 Published in: Basic Elements of Computational Statistics
 
-Description: This Q installs all necessary packages in the book
+Description: This Q installs all necessary packages in the book Basic Computational Statistics.
 
-Keywords: datasets, class, grDevice, lattice, stabledist, fBasics, rgl, diagram,
+Keywords: datasets, class, grDevice, lattice, stabledist, fBasics, rgl, diagram, tkrplot, tcltk, rpanel, neldermead, mclust, fMultivar, mvtnorm, copula, animation, optimx, lattice, leaps, car, MASS, Rglpk, languageR, klaR, rpanel, rworldmap, HAC, scatterplot3d, sets, FactoMineR, cluster
 
 Author[New]: Christoph Schult
 
