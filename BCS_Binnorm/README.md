@@ -9,7 +9,7 @@ Name of Quantlet: BCS_Binnorm
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Graphic of the Probability Mass Function of a binomial distribution vs.
+Description: Graphic of the Probability Mass Function of a binomial distribution vs. normal distribution. The binomial is given by bars, while the normal distr. is plotted as a red line. It can be seen that the binomial closely approaches the normal distribution for the specified values.
 
 Keywords: approximation, binomial, normal, normal approximation, normal-distribution, plot, visualization
 
@@ -19,7 +19,7 @@ Author[New]: Johannes Haupt
 
 Submitted: 2016-01-28, Christoph Schult
 
-Output: Graphic of the Probability Mass Function of binomial distribution vs.
+Output: Graphic of the Probability Mass Function of binomial distribution vs. normal distribution
 
 ```
 <div align="center">
