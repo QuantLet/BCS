@@ -9,7 +9,7 @@ Name of Quantlet: BCS_Boxplot
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Box-Plot of the dataset nhtemp. The notation on the axes is
+Description: Box-Plot of the dataset nhtemp. The notation on the axes is calculated manually, giving a nice example of the calcuation of a five number summary, on which the box-plot is based. Note that R by default draws the whiskers to the highest/lowest value in the sample which is still in the upper-/lower fence.
 
 Keywords: whiskers, outlier detection, graphical representation, histogram, boxplot
 
