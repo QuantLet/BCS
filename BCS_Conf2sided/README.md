@@ -9,7 +9,7 @@ Name of Quantlet: BCS_Conf2sided
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Graphic of a normal distribution N(0,1), also called standard
+Description: Graphic of a normal distribution N(0,1), also called standard normal distribution, with a two-tailed (1-alpha)-confidence interval. It is sometimes called Gauss, after the mathematician, or Bell curve, after its shape.
 
 Keywords: normal distribution, visualization, testing, confidence interval, plot
 
