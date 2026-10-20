@@ -9,7 +9,7 @@ Name of Quantlet: BCS_Bincdf
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Graphic of the binomial cumulative distribution function
+Description: Graphic of the binomial cumulative distribution function with observations n = 10 and two different probabilities for the event, p = 0.2 (black) and p = 0.6 (red).
 
 Keywords: binomial, cdf, distribution, plot, visualization
 
