@@ -9,11 +9,11 @@ Name of Quantlet: BCS_rp.tkrplot
 
 Published in: Basic Elements of Computational Statistics
 
-Description: The rpanel package employs different graphical user interface (GUI) controls
+Description: The rpanel package employs different graphical user interface (GUI) controls to enable the immediate communication with the graphical output and provides dynamic graphics. The rp.tkrplot function uses the tkrplot package and enables to place a plot and its control panel in a single window. In this example a density plot with a control for altering the bandwidth is drawn.
 
 Keywords: rpanel, tkrplot, density, plot, bandwidth
 
-See also: BCS_ControlDensityEstimate, BCS_HistogramBoxplotOption,
+See also: BCS_ControlDensityEstimate, BCS_HistogramBoxplotOption, BCS_UnivariateRegression, BCS_BivariateRegression, BCS_NormalDensityFit
 
 Author: Polina Marchenko
 
