@@ -9,7 +9,7 @@ Name of Quantlet: BCS_FuzzyMultiSets
 
 Published in: Basic Elements of Computational Statistics
 
-Description: The membership grade of a fuzzy set with elements x, y, z is plotted.
+Description: The membership grade of a fuzzy set with elements x, y, z is plotted. The number of elements is plotted in a bar diagramm.
 
 Keywords: fuzzy, multisets, membership, grade, plot, bar plot
 
