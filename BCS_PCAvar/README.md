@@ -9,7 +9,7 @@ Name of Quantlet: BCS_PCAvar
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Analysis of principal component analysis (PCA) in order
+Description: Analysis of principal component analysis (PCA) in order to identify the efficient number of principal components. The first three PCs are plotted against each other. Another plot shows the cumulative percentage variance against the number of components.
 
 Keywords: dimension-reduction, pca, plot, principal-components, visualization
 
