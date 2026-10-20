@@ -9,9 +9,9 @@ Name of Quantlet: BCS_Shapes
 
 Published in: Basic Elements of Computational Statistics
 
-Description: This code shows how to create different shapes with random
+Description: This code shows how to create different shapes with random numbers in R. Six different objects are created with six different functions. Each function uses variables as coordinates for the shapes created.
 
-Keywords: points, lines, linestrips, triangles, plot, quads, spheres, random,
+Keywords: points, lines, linestrips, triangles, plot, quads, spheres, random, normal, random numbers, 3D, trellis, lattice, rgl
 
 Author: Polina Marchenko
 
