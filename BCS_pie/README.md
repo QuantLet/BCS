@@ -9,11 +9,11 @@ Name of Quantlet: BCS_pie
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Pie Chart of chickwts$feed depicting the shares of different
+Description: Pie Chart of chickwts$feed depicting the shares of different feed types. It is a common technique for qualitative or discreet variables. Since the human brain does not distinguish as easily between angles and shapes as it does between lengths, bar diagrams and bar plots are preferred.
 
 Keywords: plot, visualization, pie, chart, graphical visualization
 
-See also: BCS_pie, BCS_hist2, BCS_hist1,
+See also: BCS_pie, BCS_hist2, BCS_hist1, BCS_Boxplot, BCS_Boxplot2
 
 Author[New]: Gunawan
 
