@@ -9,7 +9,7 @@ Name of Quantlet: BCS_LightedPlots
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Different lighted plots for three dimensional data. The data
+Description: Different lighted plots for three dimensional data. The data is obtained by univariate random normal sampling. Light sources are then alternated for the different plots to show the effect on the appearance of the plot.
 
 Keywords: rgl, lighted, plot, random normal, normal, 3D, marbles
 
