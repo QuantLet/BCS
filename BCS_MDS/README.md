@@ -9,7 +9,7 @@ Name of Quantlet: BCS_MDS
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Multidimensional Scaling is performed on a subset of the data "cars93" from
+Description: Multidimensional Scaling is performed on a subset of the data "cars93" from package "MASS". First, the subset is selected, then the MDS model is fitted using Euclidean distance. The result is shown in a plot.
 
 Keywords: multidimensional, MASS, MDS, euclidean distance, plot
 
