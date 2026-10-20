@@ -9,11 +9,11 @@ Name of Quantlet: BCS_hist2
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Histogram of R example data nhtemp with manual choice of grids.
+Description: Histogram of R example data nhtemp with manual choice of grids. A manual choice of grid is necessary, for example, for small samples, since R''s default way of calculation is based on the Sturges formula, which performs poorly for n < 30. Histograms are commonly used to visualize data frequencies of continous variables.
 
 Keywords: histogram, plot, visualization, grid, frequencies, data
 
-See also: BCS_BarGraphs, BCS_pie, BCS_hist1,
+See also: BCS_BarGraphs, BCS_pie, BCS_hist1, BCS_Boxplot, BCS_Boxplot2
 
 Author[New]: Gunawan
 
