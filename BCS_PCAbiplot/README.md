@@ -9,7 +9,7 @@ Name of Quantlet: BCS_PCAbiplot
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Perform normal principal component analysis (PCA) on the data "banknotes
+Description: Perform normal principal component analysis (PCA) on the data "banknotes" from package "ncomplete". Plot that correlation of the NPCs and the originial variable including the unit circle in the plot for reference.
 
 Keywords: normal, principal component analysis, banknotes, correlation, plot
 
