@@ -9,9 +9,9 @@ Name of Quantlet: BCS_UnivariateRegression
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Interactive scatterplot for a univariate regression of
+Description: Interactive scatterplot for a univariate regression of unemployment on GNP. The data comes from the longley dataset and is a time series. It is possible to include and exclude the regression line and residuals.
 
-Keywords: rgl, regression, univariate regression, plot, continuous,
+Keywords: rgl, regression, univariate regression, plot, continuous, time series, plot, scatterplot
 
 Author: Polina Marchenko
 
