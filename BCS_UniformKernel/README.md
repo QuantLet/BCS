@@ -9,9 +9,9 @@ Name of Quantlet: BCS_UniformKernel
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Multiple unform kernel regressions for DAX log-returns on FTSE
+Description: Multiple unform kernel regressions for DAX log-returns on FTSE log-returns. The bandwidth is alternated to see the effect of the bandwidth for the regression results. The smootheness of the regression line increases with a higher bandwidth. This causes a smaller bias but a higher variance.
 
-Keywords: kernel, regression, DAX, FTSE, log-returns, estimation, plot,
+Keywords: kernel, regression, DAX, FTSE, log-returns, estimation, plot, nonparametric, univariate nonparametric regression, uniform bandwidth, different bandwidths
 
 See also: BCS_KernelSmoother
 
@@ -19,7 +19,7 @@ Author[New]: Christoph Schult
 
 Submitted: 2016-01-28, Christoph Schult
 
-Output: One plot for multiple kernel regressions of the DAX log-returns on FTSE
+Output: One plot for multiple kernel regressions of the DAX log-returns on FTSE log-returns. Different regression lines correspond to different bandwiths.
 
 ```
 <div align="center">
