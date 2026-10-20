@@ -9,9 +9,9 @@ Name of Quantlet: BCS_LP
 
 Published in: Basic Elements of Computational Statistics
 
-Description: A 3d plot for a simple linear progamming problem. The black
+Description: A 3d plot for a simple linear progamming problem. The black hyperplane depicts the function to be optimized. A red hyperplane depicts the constraints of the function.
 
-Keywords: Numerical optimization,optimization,3D,plot,multivariate,
+Keywords: Numerical optimization,optimization,3D,plot,multivariate, bivariate,BCS,numerical methods,linear programming, costrained optimization
 
 Author[New]: Christoph, Schult
 
