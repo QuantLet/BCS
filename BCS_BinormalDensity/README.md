@@ -9,9 +9,9 @@ Name of Quantlet: BCS_BinormalDensity
 
 Published in: Basic Elements of Computational Statistics
 
-Description: The code creates two graphics. One graphic is a scatterplot of
+Description: The code creates two graphics. One graphic is a scatterplot of the bivariate normal distribution. Contours are plotted to illustrate for which combinations of the two variables the density function is the same. You can call them also isolines. The other plot is a 3 dimensional scatterplot, which shows the specific value of the joint pdf. It looks like a mountain. The highest point is the expectation.
 
-Keywords: multivariate,distribution,normal,density,pdf,multivariate,contour,
+Keywords: multivariate,distribution,normal,density,pdf,multivariate,contour, eigenvalues,standard,gaussian,copula,gaussian
 
 Author: Ostap Okhrin
 
