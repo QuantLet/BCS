@@ -9,7 +9,7 @@ Name of Quantlet: BCS_FAsummary
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Performs a factor analysis on a subset of the data "decathlon" from package
+Description: Performs a factor analysis on a subset of the data "decathlon" from package "FactoMineR" for three factors. The result is depicted in a correlation plot.
 
 Keywords: factor, analysis, plot, decathlon, FactoMineR, plot
 
