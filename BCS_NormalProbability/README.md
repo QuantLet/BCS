@@ -9,9 +9,9 @@ Name of Quantlet: BCS_NormalProbability
 
 Published in: Basic Elements of Computational Statistics
 
-Description: The code creates two graphics. One graphic is a scatterplot of
+Description: The code creates two graphics. One graphic is a scatterplot of the bivariate normal cumulative distribution. Contours are plotted to illustrate for which combinations of the two variables the probability is the same. You can call them alo isolines. The other plot is a 3 dimensional scatterplot, which shows the specific value of the joint pdf.
 
-Keywords: multivariate, distribution, normal, probability, cdf, contour,
+Keywords: multivariate, distribution, normal, probability, cdf, contour, eigenvalues, standard, gaussian, copula, gaussian
 
 Author: Ostap Okhrin
 
