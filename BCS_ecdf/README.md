@@ -9,7 +9,7 @@ Name of Quantlet: BCS_ecdf
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Plot of the Empirical Cumulative Distribution Function of the R example
+Description: Plot of the Empirical Cumulative Distribution Function of the R example dataset Formaldehyde, specifically Formaldehyde$car.
 
 Keywords: empirical, cdf, distribution, visualization, plot
 
