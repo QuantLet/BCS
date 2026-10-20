@@ -9,15 +9,15 @@ Name of Quantlet: BCS_ConditionalGroupedDensity
 
 Published in: Basic Elements of Computational Statistics
 
-Description: The plots for the density of a conditional or grouped variable
+Description: The plots for the density of a conditional or grouped variable are for the used data the same. In this case it is preferable to use the same variable as a group variable. R produces one panel with the densities for the different groups, which are drawn with different lines. Therefore a direct comparison of the different groups is possible. In this example the dependency of weight and the food of chickens is illustrated.
 
-Keywords: lattice,grouped,conditional,panel,plot,variable,multivariate,
+Keywords: lattice,grouped,conditional,panel,plot,variable,multivariate, data,plot,density
 
 Author: Polina Marchenko
 
 Submitted: 2016-01-28, Christoph Schult
 
-Output: Two plots for the densities of the weight of chickens with Feed as
+Output: Two plots for the densities of the weight of chickens with Feed as conditioning (left) and grouping (right) variable.
 
 ```
 <div align="center">
