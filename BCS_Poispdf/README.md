@@ -9,7 +9,7 @@ Name of Quantlet: BCS_Poispdf
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Plots the probability mass distribution of the Poisson
+Description: Plots the probability mass distribution of the Poisson distribution for different values of the shape parameter lambda. It can be seen that the poisson distribution approaches the normal distribution for higher lambda.
 
 Keywords: distribution, normal approximation, plot, poisson, visualization
 
