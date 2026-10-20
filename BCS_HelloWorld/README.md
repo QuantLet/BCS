@@ -9,7 +9,7 @@ Name of Quantlet: BCS_HelloWorld
 
 Published in: Basic Elements of Computational Statistics
 
-Description: A world map as an illustrative example how powerful R is.
+Description: A world map as an illustrative example how powerful R is. This plot is supposed to show new users an interesting application of R.
 
 Keywords: plot, worldmap, data, colorsheme, Hello World
 
