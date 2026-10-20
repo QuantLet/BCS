@@ -9,9 +9,9 @@ Name of Quantlet: BCS_RegressionCurve
 
 Published in: Basic Elements of Computational Statistics
 
-Description: The regression curve and data for a simulated model. The
+Description: The regression curve and data for a simulated model. The variable Yis depends on Xis and a standard normally distrbuted
 
-Keywords: regression, curve, regression curve, log-returns, estimation, plot,
+Keywords: regression, curve, regression curve, log-returns, estimation, plot, nonparametric, univariate nonparametric regression
 
 Author[New]: Christoph Schult
 
