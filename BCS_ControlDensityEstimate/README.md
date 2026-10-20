@@ -9,11 +9,11 @@ Name of Quantlet: BCS_ControlDensityEstimate
 
 Published in: Basic Elements of Computational Statistics
 
-Description: The rpanel package employs different graphical user interface (GUI) controls
+Description: The rpanel package employs different graphical user interface (GUI) controls to enable the immediate communication with the graphical output and provides dynamic graphics. In this example a control panel with a slider and a double button is created to control the bandwidth of a density plot.
 
 Keywords: rpanel, tcltk, slider, double, button, plot, density, bandwidth, three dimensional plot
 
-See also: BCS_HistogramBoxplotOption, BCS_rp.tkrplot,
+See also: BCS_HistogramBoxplotOption, BCS_rp.tkrplot, BCS_UnivariateRegression, BCS_BivariateRegression, BCS_NormalDensityFit
 
 Author: Polina Marchenko
 
