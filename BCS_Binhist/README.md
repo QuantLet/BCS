@@ -9,11 +9,11 @@ Name of Quantlet: BCS_Binhist
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Probability Mass Function of the binomial distribution with
+Description: Probability Mass Function of the binomial distribution with number of trials n = 10 and probability of success p = 0.2
 
 Keywords: binomial, discrete, distribution, plot, visualization
 
-See also: BCS_Bincdf, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf,
+See also: BCS_Bincdf, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf, BCS_Binpois
 
 Author: Johannes Haupt
 
