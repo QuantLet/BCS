@@ -9,7 +9,7 @@ Name of Quantlet: BCS_HistBinSizes
 
 Published in: Basic Elements of Computational Statistics
 
-Description: This Quantlet produces plots to show the effect of the bin
+Description: This Quantlet produces plots to show the effect of the bin size on the smoothness of an histogram.
 
 Keywords: histogram, bins, size, bin size, smoothness
 
