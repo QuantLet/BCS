@@ -9,9 +9,9 @@ Name of Quantlet: BCS_BivariateRegression
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Three dimensional interactive scatterplot for unemployment
+Description: Three dimensional interactive scatterplot for unemployment regressed on the number of armed forces and the GNP. The data belongs to the longley dataset. A hyperplane for the regression results shows a negative realtionship between umemployment and the number of armed forces. The increase in GNP is associated wih higher unemployment this is odd.
 
-Keywords: rgl,regression,bivariate regression,plot,multivariate,continuous,
+Keywords: rgl,regression,bivariate regression,plot,multivariate,continuous, time series, 3D plot, plot, scatterplot, hyperplane
 
 Author: Polina Marchenko
 
