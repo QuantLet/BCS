@@ -9,7 +9,7 @@ Name of Quantlet: BCS_RANDU
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Implementation of the RANDU random number generator developed
+Description: Implementation of the RANDU random number generator developed by IBM in the 1960s. It is a Linear Congruential Generator procedure. This generator has some cearly non-random characteristics, due to badly chosen starting values.
 
 Keywords: IBM, random number, generation, linear congruential generator, starting
 
