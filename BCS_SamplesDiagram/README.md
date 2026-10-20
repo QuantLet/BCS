@@ -9,7 +9,7 @@ Name of Quantlet: BCS_SamplesDiagram
 
 Published in: Basic Elements of Computational Statistics
 
-Description: This plot shows how to use R to create your own diagrams.
+Description: This plot shows how to use R to create your own diagrams. As an illustration the different sample types are displayed in a diagram.
 
 Keywords: samples, order, permutation, combinatorics, plot, diagram
 
