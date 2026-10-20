@@ -9,7 +9,7 @@ Name of Quantlet: BCS_ARM
 
 Published in: Basic Elements of Computational Statistics
 
-Description: This Quantlet produces a plot showing the acceptance
+Description: This Quantlet produces a plot showing the acceptance rejection method for pseudo genrated random variable. It is used to consider whether an observation belongs to one or another distribution.
 
 Keywords: accepatence region, pseudo generated, random, plot, distribution
 
