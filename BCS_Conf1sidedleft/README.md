@@ -9,11 +9,11 @@ Name of Quantlet: BCS_Conf1sidedleft
 
 Published in: Basic Elements of Computational Statistics
 
-Description: Graphic of a normal distribution N(0,1) with a right-tailed
+Description: Graphic of a normal distribution N(0,1) with a right-tailed (1-alpha)-confidence interval
 
 Keywords: normal distribution, visualization, testing, confidence interval, plot
 
-See also: BCS_Conf1Sidedright,
+See also: BCS_Conf1Sidedright, BCS_Conf2Sided
 
 Author[New]: Gunawan
 
