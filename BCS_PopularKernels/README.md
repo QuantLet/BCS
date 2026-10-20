@@ -9,9 +9,9 @@ Name of Quantlet: BCS_PopularKernels
 
 Published in: Basic Elements of Computational Statistics
 
-Description: A function is implemented to use all four different kernel
+Description: A function is implemented to use all four different kernel weighting functions to compute the respective weight of a point x w.r.t. its distance to the point of evaluation x_0. Four plots are created to illustrate each weighting functions and their properties.
 
-Keywords: kernel, bandwidth, weights, density estimation, plot, nonparametric,
+Keywords: kernel, bandwidth, weights, density estimation, plot, nonparametric, kernel density estimation
 
 Author[New]: Christoph Schult
 
